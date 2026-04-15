@@ -1,0 +1,583 @@
+Primary,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,Licence area,Voltage level,Scenario name,Output parameter
+ACKLAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+AMBERTON ROAD,0,1,2,3,4,6,8,11,15,19,24,28,33,38,43,48,53,58,62,66,69,72,74,76,77,77,78,78,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+ANNFIELD 66/20KV,0,1,2,3,5,7,10,14,19,24,30,35,41,48,54,60,67,73,78,83,87,91,93,95,97,98,98,99,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+ASHINGTON,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+AYCLIFFE FORREST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+AYCLIFFE INDUSTRIAL,0,1,1,2,4,5,8,10,14,18,22,26,30,35,39,44,49,53,57,61,64,66,68,70,71,71,72,72,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARDEN FRIAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BEDALE,0,2,3,6,9,13,18,25,33,42,52,62,72,83,94,105,116,127,136,145,152,158,163,166,169,170,171,172,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BELMONT,0,1,1,2,3,4,5,8,10,13,16,19,22,25,28,32,35,38,41,44,46,48,49,50,51,51,52,52,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BENSHAM,0,1,2,3,4,6,9,12,15,20,24,29,34,39,44,49,54,59,64,68,71,74,76,78,79,80,80,81,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BENTON SQUARE,0,2,3,6,9,13,18,25,33,42,51,61,72,82,93,105,115,126,135,144,151,157,162,165,168,169,170,171,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BENWELL,0,2,3,5,7,11,15,21,28,36,44,52,61,70,80,89,98,107,115,123,129,134,138,141,143,144,145,146,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BILLINGHAM MARSH HOUSE,1,5,9,15,23,34,48,66,87,111,137,163,191,220,249,278,307,335,360,383,402,418,430,440,446,450,453,455,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BILLY MILL,0,2,3,4,7,10,14,19,25,32,40,48,56,64,72,81,89,98,105,111,117,122,125,128,130,131,132,132,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BIRTLEY GROVE 66/11KV,1,7,12,20,31,46,65,90,118,151,185,221,259,297,337,377,416,454,488,519,545,566,583,596,604,610,614,616,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BIRTLEY GROVE 66/20KV,0,1,2,3,5,7,10,14,19,24,29,35,41,47,53,60,66,72,77,82,86,90,92,94,96,97,97,97,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BLAYDON BURN,0,3,5,9,13,20,28,38,51,65,80,95,111,128,145,162,179,195,210,223,234,243,251,256,260,262,264,265,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BLUCHER 33/11KV,0,1,3,4,6,9,13,18,24,31,38,45,53,61,69,77,85,93,100,106,112,116,120,122,124,125,126,126,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BOLDON DOWNHILL,0,1,2,3,4,7,9,13,17,22,27,32,37,43,49,54,60,66,71,75,79,82,84,86,87,88,89,89,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BOROUGHBRIDGE/ROECLIFFE INDUSTRIAL,1,5,10,16,24,36,51,70,93,118,145,173,203,233,264,295,326,355,382,406,427,444,457,466,473,478,481,482,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BOWESFIELD 33/11KV,1,4,7,12,19,28,40,55,73,92,114,136,159,182,207,231,255,278,299,318,334,347,358,365,371,374,376,378,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BOWESFIELD 66/11KV,0,1,1,2,4,5,8,10,14,17,21,26,30,34,39,43,48,52,56,60,63,65,67,69,70,70,71,71,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRANCEPETH,0,0,1,1,2,3,4,6,8,10,12,15,17,20,22,25,28,30,32,34,36,38,39,40,40,41,41,41,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BREAMISH STREET,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRENDA TRADING,1,5,10,15,24,36,51,70,92,118,145,173,202,232,263,295,325,355,381,405,426,442,456,465,472,477,479,481,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CAMPLESHON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CARLEY HILL,0,1,2,3,5,8,11,15,20,25,31,37,43,49,56,63,69,75,81,86,90,94,97,99,100,101,102,102,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CARLIN HOW T3 T4,0,0,0,1,1,2,3,3,5,6,7,9,10,12,13,15,16,18,19,20,21,22,23,23,24,24,24,24,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CARR HILL,0,2,4,6,10,14,20,28,37,47,57,69,80,92,105,117,129,141,152,161,169,176,181,185,188,189,191,191,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CATTERICK CAMP,0,1,1,2,3,4,6,9,12,15,18,22,25,29,33,37,41,44,48,51,53,55,57,58,59,60,60,60,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CLOSE,0,1,1,1,2,3,5,6,9,11,13,16,19,21,24,27,30,33,35,37,39,41,42,43,44,44,44,45,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CONEYTHORPE,0,1,2,3,4,6,9,12,16,20,25,29,34,39,45,50,55,60,65,69,72,75,77,79,80,81,82,82,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CONSETT,0,3,5,8,13,19,27,37,49,62,77,92,107,123,140,156,172,188,202,215,226,234,241,247,250,253,254,255,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CORPORATION STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+COWTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CRAMLINGTON T1 T3,0,1,2,3,5,7,11,15,19,25,30,36,42,49,55,62,68,74,80,85,89,93,96,98,99,100,101,101,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+CRAMLINGTON T2 T4,0,2,4,6,10,15,21,29,38,48,59,70,82,95,107,120,133,144,155,165,173,180,186,190,192,194,195,196,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARLINGTON 132/6KV,0,0,1,1,1,2,3,4,5,6,8,10,11,13,14,16,18,20,21,22,23,24,25,26,26,26,26,26,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARLINGTON 33/11KV,0,1,1,1,2,3,5,6,9,11,13,16,19,21,24,27,30,33,35,37,39,41,42,43,44,44,44,45,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARLINGTON CENTRAL 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARLINGTON EAST,1,5,8,14,21,31,44,61,81,103,126,151,176,203,230,257,284,309,333,354,371,386,397,406,412,416,418,420,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARLINGTON WEST,1,7,12,19,29,44,63,86,114,145,178,213,249,286,324,362,400,436,469,498,524,544,560,572,581,586,590,592,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DENWICK,0,1,2,3,5,8,11,15,20,25,31,37,43,49,56,63,69,75,81,86,90,94,97,99,100,101,102,102,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DUNSTON 66/11KV,0,1,2,3,5,7,11,15,19,25,30,36,42,49,55,62,68,74,80,85,89,93,96,98,99,100,101,101,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DUNSTON 66/20KV,0,0,1,1,1,2,3,4,6,7,9,10,12,14,16,18,20,21,23,24,26,27,27,28,28,29,29,29,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+DURHAM EAST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+EASTFIELD,0,2,4,6,9,13,19,26,35,44,54,65,76,87,99,110,122,133,143,152,160,166,171,174,177,179,180,180,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+EASTGATE CEMENT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+EDUCATIONAL PRECINCT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELVINGTON,0,2,3,4,7,10,15,20,26,34,41,49,58,66,75,84,93,101,109,115,121,126,130,133,135,136,137,137,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FARADAY STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FAWDON T1 & SEATON BURN T1,0,2,4,7,10,15,22,30,40,51,62,74,87,100,113,127,140,152,164,174,183,190,196,200,203,205,206,207,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FISHBURN,0,3,4,7,11,16,24,32,43,54,67,80,94,107,122,136,150,164,176,187,197,205,211,215,218,220,222,223,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FLATWORTH CENTRAL,0,2,4,6,9,13,19,26,34,43,53,64,74,85,97,108,120,130,140,149,156,163,167,171,173,175,176,177,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FOSS ISLANDS,0,2,3,5,7,11,15,21,28,35,43,52,61,70,79,88,98,106,114,122,128,133,137,140,142,143,144,144,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FOSSWAY 33/11KV,0,2,4,6,9,13,19,26,35,44,54,65,76,87,99,110,122,133,143,152,160,166,171,174,177,179,180,180,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FOURSTONES 20KV,0,0,0,1,1,2,3,3,5,6,7,9,10,12,13,15,16,18,19,20,21,22,23,23,24,24,24,24,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+FYLANDS BRIDGE,0,1,2,4,6,9,12,17,23,29,35,42,50,57,65,72,80,87,93,99,104,108,112,114,116,117,117,118,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GALE LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GARWOOD STREET,0,1,2,3,5,7,10,13,18,22,27,33,38,44,50,56,62,67,72,77,81,84,87,88,90,91,91,91,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GATESHEAD CENTRAL,0,2,3,5,8,11,16,22,30,38,46,55,65,74,84,94,104,113,122,130,136,142,146,149,151,153,153,154,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GATESHEAD EAST,0,4,6,10,15,23,33,45,59,75,93,111,129,149,169,189,208,227,244,259,272,283,292,298,302,305,307,308,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GOSFORTH 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GRANGETOWN,2,13,23,37,57,84,120,165,218,278,342,409,478,549,622,696,769,838,901,957,1006,1045,1076,1099,1115,1126,1133,1137,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GREATHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GUISBOROUGH T1 T2,0,0,1,1,2,2,3,5,6,8,9,11,13,15,17,19,21,23,25,26,28,29,30,30,31,31,31,31,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+GUISBOROUGH T3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARLOW GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARMIRE BRIDGE,0,2,4,7,10,15,21,29,39,49,61,73,85,98,111,124,137,149,160,170,179,186,191,195,198,200,201,202,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARRATON,0,2,3,5,7,11,15,21,27,35,43,51,60,69,78,88,97,105,113,121,127,132,136,138,140,142,143,143,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARROGATE 132/11KV,0,2,3,4,7,10,15,20,26,34,41,49,58,66,75,84,93,101,109,115,121,126,130,133,135,136,137,137,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARROGATE WEST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARTMOOR 66/20KV,0,1,1,2,3,4,6,9,12,15,18,22,25,29,33,37,41,44,48,51,53,55,57,58,59,60,60,60,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAWTHORN PIT,0,3,6,9,14,21,29,40,53,68,84,100,117,134,152,170,188,205,220,234,246,255,263,269,273,275,277,278,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAXBY ROAD T2 T3,0,1,1,2,3,5,7,9,12,16,20,23,27,31,36,40,44,48,51,55,57,60,61,63,64,64,65,65,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEBBURN,0,2,3,6,9,13,18,25,33,42,52,62,72,83,94,105,116,127,136,145,152,158,163,166,169,170,171,172,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEBBURN WEST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEDWORTH,0,1,1,2,3,5,7,10,13,16,20,24,28,32,36,41,45,49,52,56,59,61,63,64,65,66,66,66,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEIGHINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEXHAM,0,1,1,2,3,5,7,10,13,16,20,24,28,33,37,41,46,50,53,57,60,62,64,65,66,67,67,67,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HIGH BARMSTON,1,9,16,26,40,59,85,117,154,196,241,288,337,387,439,491,543,591,636,676,710,738,760,776,787,795,800,803,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HIGH FLATTS,0,0,1,1,2,3,4,5,7,9,11,13,15,17,20,22,24,27,29,30,32,33,34,35,35,36,36,36,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOUGHTON,0,2,4,6,9,13,19,26,35,44,55,65,76,88,99,111,123,134,144,153,161,167,172,176,178,180,181,182,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOWDON,0,1,2,4,6,9,12,17,22,29,35,42,49,56,64,71,79,86,92,98,103,107,110,113,114,116,116,117,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HUNTINGTON NEW LANE,0,1,2,3,4,7,10,13,17,22,27,32,38,44,49,55,61,66,72,76,80,83,85,87,89,89,90,90,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+HUSTHWAITE 33/11KV,0,1,2,4,6,9,12,17,22,28,35,42,49,56,63,71,78,85,92,97,102,106,109,112,113,114,115,116,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+JARROW,0,1,1,2,3,4,6,8,11,14,17,20,24,27,31,35,38,42,45,48,50,52,54,55,55,56,56,57,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+KENTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+KIELDER,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+KILLINGWORTH,0,1,3,4,6,9,13,19,24,31,38,46,54,62,70,78,86,94,101,107,113,117,121,123,125,126,127,128,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+KIRBYMOORSIDE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEAM CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+LINTON 66/20KV,0,1,1,2,3,5,6,9,12,15,18,22,26,30,34,38,41,45,49,52,54,56,58,59,60,61,61,61,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+LONGBENTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+LOW SPENNYMOOR,0,1,2,4,6,8,12,16,21,27,34,40,47,54,61,68,76,82,89,94,99,103,106,108,110,111,111,112,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+LYNEMOUTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MADDISON STREET,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MALLEABLE,0,3,5,8,12,18,26,36,47,60,74,89,104,119,135,151,167,182,195,208,218,227,233,238,242,244,246,247,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MALTON,0,2,3,6,9,13,19,26,34,43,53,63,74,85,96,108,119,129,139,148,155,161,166,170,172,174,175,176,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MEADOWFIELD,0,1,1,2,4,5,8,10,14,18,22,26,30,35,39,44,49,53,57,61,64,66,68,70,71,71,72,72,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MELROSEGATE 33/11KV,0,0,0,1,1,2,3,3,5,6,7,9,10,12,13,15,16,18,19,20,21,22,23,23,24,24,24,24,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MILLBANK LANE,0,1,2,4,6,9,13,18,24,30,37,44,52,59,67,75,83,90,97,103,109,113,116,119,120,122,122,123,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MONKSEATON,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MOOR MONKTON PUMPS,0,1,1,2,3,4,6,8,10,13,16,19,23,26,30,33,37,40,43,46,48,50,51,52,53,54,54,54,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MORPETH,0,1,2,4,5,8,12,16,21,27,33,39,46,53,60,67,74,81,87,92,97,101,104,106,107,108,109,109,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+MOUNT ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWBURN HAUGH,0,1,2,3,4,7,9,13,17,21,26,32,37,42,48,54,59,65,70,74,78,81,83,85,86,87,88,88,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWBY,0,0,0,1,1,2,3,3,5,6,7,9,10,12,13,15,16,18,19,20,21,22,23,23,24,24,24,24,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWCASTLE AIRPORT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWTON AYCLIFFE SOUTH,0,0,1,1,2,2,4,5,6,8,10,12,14,16,18,21,23,25,27,28,30,31,32,33,33,33,34,34,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTH STREET,0,0,1,1,2,3,4,6,8,10,13,15,18,20,23,26,28,31,33,35,37,39,40,41,41,42,42,42,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTH TEES T1 T2,1,8,14,23,36,53,76,104,138,175,216,258,301,346,392,439,485,528,568,604,634,659,679,693,703,710,714,717,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTH TEES T3 T4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTHALLERTON,0,1,2,3,4,7,10,13,17,22,27,32,38,44,49,55,61,66,72,76,80,83,85,87,89,89,90,90,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTON 132/11KV,0,0,1,1,1,2,3,4,5,6,8,10,11,13,14,16,18,20,21,22,23,24,25,26,26,26,26,26,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+OATLANDS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+OFFERTON 33/11KV,0,1,1,2,4,5,8,11,14,18,22,26,31,35,40,45,50,54,58,62,65,67,69,71,72,73,73,73,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+PALLION TRADING,0,0,0,1,1,2,3,3,5,6,7,9,10,12,13,15,16,18,19,20,21,22,23,23,24,24,24,24,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+PETERLEE INDUSTRIAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+PETERLEE WEST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+PILGRIM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+POTTER HOUSE T1 T3,0,1,1,2,4,5,8,10,14,18,22,26,30,35,39,44,49,53,57,61,64,66,68,70,71,71,72,72,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+POTTER HOUSE T4 T5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+PRISSICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAVENSCAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWCLIFFE LANE,0,0,1,1,2,3,5,6,8,11,13,16,18,21,24,27,29,32,34,36,38,40,41,42,42,43,43,43,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+REDCAR,1,6,11,18,28,42,60,82,108,138,169,202,237,272,308,345,381,415,446,474,498,518,533,544,552,558,561,563,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RESERVOIR,0,3,6,10,15,22,32,44,58,73,90,108,126,145,165,184,203,222,238,253,266,276,285,291,295,298,300,301,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RICHMOND T1,0,2,4,6,9,13,19,26,34,43,53,64,74,85,97,108,120,130,140,149,156,163,167,171,173,175,176,177,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RICHMOND T2,0,0,0,1,1,1,2,3,3,4,5,6,8,9,10,11,12,13,14,15,16,17,17,17,18,18,18,18,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RIPON,1,4,7,12,18,27,39,53,70,89,110,131,154,177,200,224,247,269,290,308,323,336,346,354,359,362,364,366,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RISE CARR,0,0,1,1,2,3,4,6,8,10,12,15,17,20,22,25,28,30,32,34,36,38,39,40,40,41,41,41,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+ROMANBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+RUDBY,0,1,2,3,5,8,11,15,20,26,31,38,44,51,57,64,71,77,83,88,93,96,99,101,103,104,104,105,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SCARBOROUGH 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SCARBOROUGH 66/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SEAHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SEGHILL,0,0,1,1,1,2,3,4,6,7,9,10,12,14,16,18,20,21,23,24,26,27,27,28,28,29,29,29,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SESSAY BRIDGE_SOWERBY,0,1,2,3,4,7,10,13,17,22,27,32,38,44,49,55,61,66,72,76,80,83,85,87,89,89,90,90,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SEVERUS HILL,0,2,3,5,8,12,17,23,30,38,47,56,66,76,86,96,106,115,124,132,138,144,148,151,153,155,156,156,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHERIFF HUTTON,0,1,2,4,6,9,12,17,22,28,35,42,49,56,63,71,78,85,92,97,102,106,109,112,113,114,115,116,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHOTTON,0,1,2,2,4,6,8,11,15,19,23,27,32,37,41,46,51,56,60,64,67,70,72,73,74,75,76,76,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SIMONSIDE,0,2,3,5,8,12,17,24,31,40,49,58,68,78,89,99,110,120,129,137,144,149,154,157,159,161,162,162,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SKELDERGATE,0,0,1,1,2,3,4,5,7,9,11,13,15,17,20,22,24,27,29,30,32,33,34,35,35,36,36,36,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SKERNESIDE,1,5,9,15,23,34,48,66,88,112,137,164,192,221,250,280,309,337,362,385,404,420,433,442,449,453,456,457,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SPADEADAM 20KV,0,0,1,1,2,3,4,5,7,9,11,13,15,17,20,22,24,27,29,30,32,33,34,35,35,36,36,36,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SPENCERBECK,0,3,5,8,12,18,26,36,47,60,74,89,104,119,135,151,167,182,195,208,218,227,233,238,242,244,246,247,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SPENNYMOOR 66/20KV,0,3,6,9,14,21,30,41,54,68,84,101,118,135,153,172,190,207,222,236,248,258,265,271,275,278,279,280,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+STARBECK,0,0,0,1,1,2,3,3,5,6,7,9,10,12,13,15,16,18,19,20,21,22,23,23,24,24,24,24,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+STOBSWOOD COAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+STOKESLEY,0,1,2,3,5,8,11,15,20,26,31,38,44,51,57,64,71,77,83,88,93,96,99,101,103,104,104,105,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+STONEY CUT,0,1,2,3,5,7,10,14,18,24,29,35,40,46,53,59,65,71,76,81,85,88,91,93,94,95,96,96,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SUNDERLAND T1 T2,0,1,2,4,5,8,12,16,21,27,33,39,46,53,60,67,74,81,87,92,97,101,104,106,107,108,109,109,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+SUNDERLAND T5 T6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TANFIELD,0,0,0,1,1,1,2,3,3,4,5,6,8,9,10,11,12,13,14,15,16,17,17,17,18,18,18,18,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TEAM VALLEY,1,7,13,21,33,49,70,96,126,161,197,236,276,317,359,402,444,484,521,553,581,604,622,635,644,651,654,657,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TEES INDUSTRIAL T1 T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TEMPLE PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+THIRSK,0,3,5,8,12,19,26,36,48,61,75,90,105,121,137,153,169,184,198,211,221,230,237,242,245,248,249,250,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+THORNTON DALE,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TORONTO 66/20KV,0,1,3,4,6,9,13,19,24,31,38,46,54,62,70,78,86,94,101,107,113,117,121,123,125,126,127,128,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TUNSTALL,0,1,2,3,5,8,11,15,20,25,31,37,43,49,56,63,69,75,81,86,90,94,97,99,100,101,102,102,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+TYNEMOUTH CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+UNIVERSITY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+URLAY NOOK,0,1,2,3,4,6,8,11,15,19,24,28,33,38,43,48,53,58,62,66,69,72,74,76,77,77,78,78,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+USWORTH,0,2,4,6,9,13,19,26,35,44,55,65,76,88,99,111,123,134,144,153,161,167,172,176,178,180,181,182,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WALKER,0,0,1,1,2,3,4,5,7,9,11,13,15,17,20,22,24,27,29,30,32,33,34,35,35,36,36,36,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WANSBECK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WARDLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WARKWORTH,0,1,1,2,3,5,7,9,12,16,20,23,27,31,36,40,44,48,51,55,57,60,61,63,64,64,65,65,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WENSLEYDALE,0,2,4,7,11,16,23,31,41,52,64,77,90,103,117,131,145,158,170,180,189,197,203,207,210,212,213,214,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST HARTFORD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST SOUTHWICK,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,11,12,13,13,14,14,14,14,14,14,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST WYLAM,0,3,5,8,12,17,25,34,45,58,71,85,99,114,129,144,159,174,187,199,209,217,223,228,231,234,235,236,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WESTERHOPE,0,0,1,1,1,2,3,4,6,7,9,11,13,15,16,18,20,22,24,25,27,28,28,29,30,30,30,30,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WESTOE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITBY T1,0,0,0,1,1,2,2,3,4,5,7,8,9,10,12,13,15,16,17,18,19,20,20,21,21,21,22,22,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITBY T2,0,1,2,3,4,6,8,12,15,19,24,29,33,38,43,49,54,59,63,67,70,73,75,77,78,79,79,79,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITBY WEST T1,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITBY WEST T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WILLINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WORMALD GREEN 132/11KV,0,1,2,2,4,6,8,11,15,19,23,28,32,37,42,47,52,57,61,65,68,71,73,74,76,76,77,77,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+WYNYARD,0,0,1,1,2,3,4,5,7,9,11,13,15,17,20,22,24,27,29,30,32,33,34,35,35,36,36,36,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+YEDINGHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+YORK UNIVERSITY,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+ABBEY ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+AIREDALE ROAD,1,4,7,12,18,27,39,54,71,90,111,133,155,178,202,226,250,272,293,311,326,339,349,357,362,366,368,369,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ALDHAM,0,1,2,3,4,6,9,13,17,21,26,31,36,42,47,53,58,64,69,73,76,80,82,84,85,86,86,86,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ALFRED GELDER STREET,0,2,3,4,7,10,15,20,27,34,42,50,58,67,76,85,94,102,110,117,123,128,131,134,136,138,138,139,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ALLERTON HILL T1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ALLERTON HILL T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ALVERTHORPE ROAD,0,1,1,2,3,4,6,8,11,13,16,20,23,26,30,34,37,40,43,46,48,50,52,53,54,54,55,55,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ARMOURIES DRIVE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ARMTHORPE,0,1,2,3,5,7,10,14,19,24,29,35,41,47,53,60,66,72,77,82,86,90,92,94,96,97,97,97,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ARUNDEL STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ASKERN,0,1,1,2,3,5,6,9,12,15,18,22,26,29,33,37,41,45,48,51,54,56,58,59,60,60,61,61,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+AUDBY LANE,0,4,7,11,17,25,35,49,64,82,100,120,140,161,183,204,226,246,265,281,295,307,316,323,327,331,333,334,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+AUSTERFIELD,0,0,0,1,1,2,2,3,4,5,7,8,9,11,12,13,15,16,17,18,19,20,21,21,22,22,22,22,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BAILIFF BRIDGE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BALBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BALME STREET,0,1,2,3,5,7,10,13,18,22,27,33,38,44,50,56,62,67,72,77,81,84,86,88,90,90,91,91,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARNBURGH,0,3,5,8,12,17,25,34,45,57,70,84,98,113,128,143,158,172,185,197,207,215,221,226,229,232,233,234,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARNOLDSWICK,0,1,2,3,5,7,10,14,18,23,29,34,40,46,52,58,64,70,75,80,84,87,90,92,93,94,95,95,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARNSLEY,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARNSLEY ROAD,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARROW,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARUGH 66/11KV,0,3,6,10,15,23,32,44,58,74,92,109,128,147,167,186,206,224,241,256,269,280,288,294,299,302,303,305,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BARWICK,0,1,2,3,5,8,11,15,20,25,31,37,44,50,57,63,70,76,82,87,92,95,98,100,102,103,103,104,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BASLOW ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BATLEY,0,3,6,9,14,21,30,42,55,70,86,103,121,139,157,176,194,212,228,242,254,264,272,278,282,285,286,287,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BEAL,0,2,4,7,10,15,22,30,40,50,62,74,86,99,113,126,139,152,163,173,182,189,195,199,202,204,205,206,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BEESTON ROYDS 33/11KV,0,1,1,2,3,4,6,9,11,14,18,21,25,28,32,36,40,43,46,49,52,54,55,57,57,58,58,58,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BEESTON ROYDS 6/7,1,4,7,11,18,26,38,52,68,87,107,127,149,171,194,217,240,261,281,298,313,326,336,343,348,351,353,354,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BEIGHTON,1,4,7,12,18,27,39,54,71,90,111,133,156,179,203,227,250,273,293,312,328,340,351,358,363,367,369,370,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BELLHOUSE ROAD,0,0,1,1,1,2,3,4,6,7,9,11,12,14,16,18,20,22,23,25,26,27,28,28,29,29,29,29,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BELMONT AVENUE,1,4,7,12,19,28,40,55,73,92,113,136,159,182,207,231,255,278,299,318,334,347,357,365,370,374,376,378,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BELMONT COVERT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BELTHORPE LANE,0,0,1,1,2,3,5,6,8,10,13,15,18,21,23,26,29,31,34,36,38,39,40,41,42,42,42,43,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BENTLEY,0,1,1,2,3,5,7,10,13,17,21,25,29,34,38,43,47,51,55,58,61,64,66,67,68,69,69,69,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BILLET LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BINBROOK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BINGLEY 33/11KV,0,0,0,1,1,1,2,2,3,4,5,6,7,8,9,10,12,13,14,14,15,16,16,16,17,17,17,17,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BIRKBY,0,2,3,5,8,12,17,24,32,40,49,59,69,79,90,101,111,121,130,138,145,151,156,159,161,163,164,164,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BLACKBURN MEADOWS 33/11KV,0,1,2,3,4,6,9,12,16,21,25,30,35,41,46,51,57,62,67,71,74,77,80,81,82,83,84,84,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BLUE BOY STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BOLTON ROAD,0,0,0,1,1,1,2,2,3,4,5,6,7,8,9,10,12,13,14,14,15,16,16,16,17,17,17,17,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BOTTESFORD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRAMHOPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRAMLEY,0,0,1,1,2,3,4,5,7,9,11,13,15,18,20,22,25,27,29,31,32,34,35,35,36,36,36,37,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRETT STREET,0,2,3,5,8,12,17,24,32,40,49,59,69,79,90,101,111,121,130,138,145,151,156,159,161,163,164,164,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRIDGES ROAD,0,2,3,5,7,11,16,22,29,36,45,53,62,72,81,91,100,109,118,125,131,137,141,144,146,147,148,149,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRIGHOUSE 33/11KV,0,0,1,1,2,3,5,6,8,10,13,15,18,21,23,26,29,31,34,36,38,39,40,41,42,42,42,43,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BRODSWORTH,1,9,16,27,41,61,88,121,159,203,249,298,349,400,454,508,561,611,657,698,734,763,785,802,814,822,826,830,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BROOKFIELD STREET,0,1,1,2,3,4,6,8,11,13,16,20,23,26,30,34,37,40,43,46,48,50,52,53,54,54,55,55,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BTP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BURLEY STREET,0,0,1,1,2,2,3,4,6,7,9,11,13,15,17,19,21,22,24,26,27,28,29,29,30,30,30,30,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BURMANTOFTS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BURNLEYVILLE,1,6,10,17,26,38,54,75,99,126,155,185,216,248,281,315,348,379,407,433,455,473,487,497,504,509,512,514,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BURTON PIDSEA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BURTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BUSLINGTHORPE GREEN,0,1,2,3,4,6,9,12,16,20,25,30,35,40,45,51,56,61,66,70,73,76,78,80,81,82,83,83,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+BUTTERWICK,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CAISTOR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CALDER WHARF,0,3,6,9,14,21,30,42,55,70,86,103,120,138,157,175,194,211,227,241,253,263,271,277,281,283,285,286,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CARLTON HILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CARR LANE,0,2,3,5,7,11,16,22,29,37,45,54,63,72,82,92,101,110,119,126,133,138,142,145,147,148,149,150,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CHELKER RESERVOIR,0,0,1,1,1,2,3,4,5,7,8,10,12,14,15,17,19,21,22,24,25,26,27,27,27,28,28,28,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CHEVIN END,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CLARENCE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CLARENDON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CLARENDON STREET,0,0,1,1,2,3,5,6,8,10,13,15,18,21,23,26,29,31,34,36,38,39,40,41,42,42,42,43,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CLAYWHEELS LANE,0,2,3,5,7,11,16,22,29,36,45,53,62,72,81,91,100,109,118,125,131,137,141,144,146,147,148,149,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CLOUGH LANE,0,0,1,1,2,3,5,6,8,10,13,15,18,21,23,26,29,31,34,36,38,39,40,41,42,42,42,43,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+COMMONSIDE LANE,0,3,5,7,11,17,24,33,44,56,68,82,96,110,125,139,154,168,181,192,201,209,216,220,223,226,227,228,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CONVAMORE ROAD,0,1,1,1,2,3,5,7,9,11,14,17,19,22,25,28,31,34,37,39,41,43,44,45,45,46,46,46,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CONYARD ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CORNWALL STREET,1,10,17,28,43,63,91,125,165,210,258,308,360,414,469,525,580,632,680,722,758,788,812,829,841,849,854,858,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CORRINGHAM ROAD,0,1,2,4,6,9,13,18,24,31,38,45,53,61,69,77,85,92,99,106,111,115,119,121,123,124,125,125,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+COSTHORPE,0,1,2,4,6,9,12,17,22,29,35,42,49,56,64,72,79,86,93,98,103,107,111,113,115,116,117,117,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+COUNTY ROAD NORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CRACOE,0,1,1,2,4,6,8,11,15,18,23,27,32,36,41,46,51,56,60,64,67,69,71,73,74,75,75,76,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CROOKESMOOR ROAD,0,0,1,1,1,2,3,4,5,7,8,10,11,13,15,16,18,20,21,23,24,25,25,26,26,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CROSSHILLS,0,2,3,6,9,13,18,25,33,42,52,62,72,83,94,105,116,127,136,145,152,158,163,166,168,170,171,172,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CROWLE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+CROWN STREET,0,0,1,1,2,3,4,6,8,10,12,15,17,20,23,25,28,31,33,35,37,38,39,40,41,41,41,41,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DALTON,0,0,0,0,1,1,1,2,3,3,4,5,6,6,7,8,9,10,11,11,12,12,13,13,13,13,13,13,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DARNALL,0,2,3,6,9,13,19,26,34,43,53,63,74,85,96,107,119,129,139,148,155,161,166,170,172,174,175,175,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DEARNE ROAD,0,1,2,3,4,6,9,12,16,21,26,31,36,41,47,52,58,63,68,72,75,78,81,82,84,84,85,85,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DEIGHTON,0,3,5,7,11,17,24,33,44,56,69,82,96,111,125,140,155,169,181,193,203,211,217,221,225,227,228,229,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DENBY DALE ROAD,0,3,5,8,12,18,26,35,46,59,72,87,101,116,132,148,163,178,191,203,213,222,228,233,237,239,240,241,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DENBY GRANGE,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DENHOLME,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DINNINGTON,1,4,7,11,17,25,36,50,66,84,103,123,144,165,187,210,231,252,271,288,303,315,324,331,336,339,341,342,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DOUGHTY ROAD,0,1,1,2,3,4,5,7,10,13,15,18,21,25,28,31,35,38,41,43,45,47,48,49,50,51,51,51,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DOWKER STREET,0,1,1,2,3,4,6,8,11,14,17,20,24,27,31,34,38,41,44,47,50,52,53,54,55,55,56,56,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DRAX PRIMARY,0,0,1,1,2,3,4,5,7,8,10,12,14,16,19,21,23,25,27,29,30,31,32,33,33,34,34,34,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DRIFFIELD,0,2,3,5,8,11,16,22,29,37,46,55,64,74,83,93,103,112,121,128,135,140,144,147,149,151,152,152,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DRONFIELD,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DUDLEY HILL,1,8,13,21,33,49,70,96,127,162,199,238,278,319,362,405,447,487,524,557,585,608,626,639,649,655,659,661,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DUNKESWICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+DURKAR LOW LANE,0,1,2,3,5,7,10,14,19,24,29,35,41,47,53,60,66,72,77,82,86,90,92,94,96,97,97,97,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+EASINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+EASTFIELD ROAD,2,18,31,50,77,114,163,224,296,377,464,554,648,745,844,944,1043,1136,1222,1299,1364,1418,1460,1491,1513,1527,1536,1542,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ECCLESFIELD,0,2,3,4,7,10,14,20,26,33,41,49,57,65,74,83,91,100,107,114,120,124,128,131,133,134,135,135,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+EDLINGTON,0,4,7,11,17,25,35,49,64,82,101,120,141,162,183,205,226,247,265,282,296,308,317,324,329,332,334,335,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+EGGBOROUGH,1,5,9,15,23,35,49,68,90,114,141,168,197,226,256,286,316,345,371,394,414,430,443,452,459,463,466,468,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELGAR ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELLAND 33/11KV,0,1,2,3,4,6,9,12,16,20,25,30,35,40,45,51,56,61,66,70,73,76,78,80,81,82,83,83,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELLIFOOT LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELLIN STREET 1/3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELLIN STREET 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELMHIRST LANE 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELMHIRST LANE 2,0,3,5,7,11,17,24,33,44,56,68,82,96,110,125,139,154,168,181,192,201,209,216,220,223,226,227,228,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ELSECAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ENDIKE LANE,0,0,0,1,1,2,2,3,4,5,6,7,9,10,11,13,14,15,16,17,18,19,20,20,20,21,21,21,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+EPWORTH,1,5,8,13,20,30,42,58,77,98,120,144,168,193,219,245,270,294,317,336,353,367,378,386,392,396,398,400,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FARNLEY CRESCENT,0,1,1,2,2,4,5,7,9,12,15,18,20,24,27,30,33,36,39,41,43,45,46,47,48,48,49,49,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FENTON LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FERRYBRIDGE A 11KV,0,2,3,5,7,10,15,21,27,35,42,51,59,68,77,86,96,104,112,119,125,130,134,137,139,140,141,141,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FIR TREE LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FIRST AVENUE,0,0,1,1,2,2,3,5,6,8,10,11,13,15,17,19,21,23,25,27,28,29,30,31,31,31,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FIRTH BROWN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FISH DAM LANE,0,2,3,5,8,13,18,25,33,41,51,61,71,82,93,104,114,125,134,143,150,156,160,164,166,168,169,169,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FLIXBOROUGH,1,6,11,18,28,41,59,81,107,136,167,200,234,269,305,341,376,410,441,469,492,512,527,538,546,551,555,557,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FOLLY HALL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FOUR LANE ENDS,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FOXHILLS,1,6,10,16,25,37,53,73,97,123,151,181,211,243,275,308,340,371,399,424,445,462,476,486,494,498,501,503,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FULLERTON ROAD,0,1,2,3,5,7,10,14,19,24,29,35,41,47,53,60,66,72,77,82,86,90,92,94,96,97,97,97,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+FURNESS AVENUE,0,1,1,2,4,5,8,11,14,18,22,26,31,35,40,45,49,54,58,62,65,67,69,71,72,72,73,73,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GAISBY LANE,0,1,2,4,6,9,12,17,22,29,35,42,49,56,64,72,79,86,93,98,103,107,111,113,115,116,117,117,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GIBRALTAR ROAD,0,4,7,11,17,25,35,49,64,82,101,120,141,162,183,205,226,247,265,282,296,308,317,324,329,332,334,335,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GIBSON LANE,1,5,9,15,24,35,50,69,91,116,143,171,200,229,260,291,321,350,376,400,420,437,450,459,466,470,473,475,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GILDERSOME,1,4,7,11,17,26,37,50,66,85,104,124,145,167,189,212,234,255,274,291,306,318,327,334,339,343,345,346,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GLEADLESS VALLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GOOLE,1,10,17,28,43,64,91,125,165,210,258,309,361,415,470,526,581,633,681,723,760,789,813,830,842,850,856,859,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GRAINTHORPE,0,0,0,1,1,1,2,3,4,4,5,7,8,9,10,11,12,13,14,15,16,17,17,18,18,18,18,18,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GREAT COATES,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GREENHILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GREYFRIARS RD,0,0,1,1,1,2,3,4,5,7,8,10,11,13,15,16,18,20,21,23,24,25,25,26,26,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GREYFRIARS ROAD 3/4,0,0,0,1,1,2,2,3,4,5,7,8,9,11,12,13,15,16,17,18,19,20,21,21,22,22,22,22,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GRIMETHORPE,0,2,3,6,9,13,18,25,33,42,52,62,73,84,95,106,117,127,137,146,153,159,164,167,170,171,172,173,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GROVE STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+GUARDIAN GLASS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HACKENTHORPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HALIFAX 33/11KV,0,1,1,2,3,4,6,8,10,13,16,19,22,25,29,32,35,39,42,44,46,48,50,51,51,52,52,52,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HALLAM STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARDEN,0,0,1,1,2,2,3,5,6,8,10,11,13,15,17,19,21,23,25,27,28,29,30,31,31,31,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARPSWELL,0,0,1,1,1,2,3,4,6,7,9,11,12,14,16,18,20,22,23,25,26,27,28,28,29,29,29,29,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HARWORTH,0,2,3,5,8,12,17,24,31,40,49,59,69,79,89,100,110,120,129,137,144,150,155,158,160,162,163,163,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAWORTH 1,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAWORTH 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAXEY,0,0,0,1,1,1,2,2,3,4,5,6,7,8,9,10,12,13,14,14,15,16,16,16,17,17,17,17,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAYTON,0,2,4,7,10,15,22,30,39,50,61,73,85,98,111,125,138,150,161,171,180,187,193,197,200,201,203,203,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HAZLEHEAD,0,2,3,5,7,10,15,20,27,34,42,50,59,68,77,86,95,103,111,118,124,129,133,135,137,139,140,140,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEBDEN BRIDGE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEDLEY CHASE,0,1,1,2,3,4,6,8,11,13,16,20,23,26,30,34,37,40,43,46,48,50,52,53,54,54,55,55,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEDON ROAD,0,1,1,2,3,4,6,8,11,14,17,20,24,27,31,34,38,41,44,47,50,52,53,54,55,55,56,56,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HEMSWORTH,0,2,3,5,7,10,15,20,27,34,42,50,59,68,77,86,95,103,111,118,124,129,133,135,137,139,140,140,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HESSLE ROAD 1,0,1,1,1,2,3,5,7,9,11,14,16,19,22,25,28,30,33,36,38,40,41,43,44,44,45,45,45,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HESSLE ROAD 2,0,2,3,5,7,10,15,20,27,34,42,50,59,68,77,86,95,103,111,118,124,129,133,135,137,139,140,140,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HIBALDSTOW,0,2,4,6,10,15,21,29,38,48,59,71,83,95,108,121,133,145,156,166,175,181,187,191,194,195,197,197,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HICKLETON,0,1,1,2,3,4,6,8,11,13,16,20,23,26,30,34,37,40,43,46,48,50,52,53,54,54,55,55,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HILLCREST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOLBECK,0,2,4,6,9,13,19,26,34,43,53,64,75,86,97,109,120,131,141,150,157,163,168,172,174,176,177,178,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOLDERNESS,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOLME UPON SPALDING MOOR,0,1,1,2,3,4,6,8,11,13,16,20,23,26,30,34,37,40,43,46,48,50,52,53,54,54,55,55,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HONLEY,0,1,2,4,6,8,12,16,21,27,33,40,47,54,61,68,75,82,88,93,98,102,105,107,109,110,110,111,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOPE,0,0,1,1,2,3,4,5,7,8,10,12,14,16,19,21,23,25,27,29,30,31,32,33,33,34,34,34,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HORBURY,0,0,1,1,2,2,3,5,6,8,10,11,13,15,17,19,21,23,25,27,28,29,30,31,31,31,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HOUGHTON MAIN,0,2,3,4,7,10,14,19,26,33,40,48,56,65,73,82,91,99,106,113,119,123,127,130,131,133,133,134,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HULL EAST 33/11KV,1,5,8,13,21,31,44,60,79,101,124,148,173,199,226,253,279,304,327,348,365,380,391,399,405,409,411,413,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HUMBER ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+HUNMANBY,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ICI FIBRES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+IDLE,0,0,1,1,2,2,3,4,6,7,9,11,13,15,17,19,21,22,24,26,27,28,29,29,30,30,30,30,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ILKLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+INGS LANE,0,1,2,3,4,6,8,12,15,19,24,28,33,38,43,48,54,58,63,67,70,73,75,77,78,78,79,79,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+IVESON HOUSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+JARRATT STREET,0,3,5,8,13,19,27,37,49,62,76,91,106,122,139,155,171,187,201,213,224,233,240,245,249,251,252,253,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KEDDINGTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KEIGHLEY,0,0,0,1,1,1,2,2,3,4,5,6,7,8,9,10,12,13,14,14,15,16,16,16,17,17,17,17,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KENMORE ROAD,0,2,3,5,8,12,17,24,32,40,49,59,69,79,90,101,111,121,130,138,145,151,156,159,161,163,164,164,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KILLINGHALL ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KILNHURST,0,1,2,3,5,7,10,14,18,23,28,34,39,45,51,57,63,69,74,79,83,86,89,91,92,93,93,94,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KING GEORGE DOCK,1,6,11,18,28,42,59,82,108,137,169,202,236,271,307,344,380,414,445,473,497,516,532,543,551,556,559,562,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KIRK DRIVE,0,1,2,3,4,6,8,12,15,19,24,28,33,38,43,48,54,58,63,67,70,73,75,77,78,78,79,79,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KIRK SANDALL,1,10,18,29,45,67,95,131,173,220,271,324,378,435,493,551,609,663,713,758,796,828,852,870,883,892,897,900,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KIRKBURN,0,2,3,5,7,11,16,22,29,37,45,54,63,72,82,92,101,110,119,126,133,138,142,145,147,148,149,150,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+KIVETON PARK,0,1,1,2,4,5,8,11,14,18,22,26,31,35,40,45,49,54,58,62,65,67,69,71,72,72,73,73,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEA ROAD,0,0,1,1,2,3,4,5,7,9,11,13,15,18,20,22,25,27,29,31,32,34,35,35,36,36,36,37,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEASOWE ROAD,2,16,27,44,68,101,144,199,262,334,410,491,574,659,747,836,923,1006,1082,1150,1208,1255,1293,1320,1340,1352,1360,1366,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEDSTON,0,2,4,6,9,13,19,26,35,44,55,65,76,88,99,111,123,134,144,153,161,167,172,175,178,180,181,182,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEEDS ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEGRAMS MILL LANE,0,0,1,1,2,3,4,5,7,9,11,13,15,18,20,22,25,27,29,31,32,34,35,35,36,36,36,37,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LEYLANDS ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LIVERSEDGE,0,0,1,1,2,3,4,5,7,9,11,13,15,18,20,22,25,27,29,31,32,34,35,35,36,36,36,37,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LOUTH,0,1,1,2,4,6,8,11,14,18,22,27,31,36,41,45,50,55,59,63,66,68,70,72,73,74,74,74,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LOW MOOR,1,6,10,16,25,37,52,72,95,121,148,177,207,238,270,302,334,363,391,415,436,454,467,477,484,489,492,493,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LOWFIELDS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+LOXLEY ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MANCHESTER ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MANSFIELD ROAD 1,0,1,2,3,4,6,9,12,16,21,26,31,36,41,47,52,58,63,68,72,75,78,81,82,84,84,85,85,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MANSFIELD ROAD 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MARKHAM GATES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MARMION ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MARSDEN ROAD,0,1,1,2,2,4,5,7,9,12,15,18,20,24,27,30,33,36,39,41,43,45,46,47,48,48,49,49,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MARTONGATE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MELTHAM,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MEXBOROUGH 1_2,0,2,4,7,11,16,23,31,41,53,65,77,91,104,118,132,146,159,171,182,191,198,204,208,212,214,215,216,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MIDDLETON TOWN STREET,0,3,5,8,12,17,25,34,45,57,71,84,99,114,129,144,159,173,186,198,208,216,223,227,231,233,234,235,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MILLHOUSES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MILLROYD STREET,0,2,4,6,9,14,19,27,35,45,55,66,77,89,101,113,124,136,146,155,163,169,174,178,180,182,183,184,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MILTON PLACE,0,3,5,9,13,20,28,39,51,65,80,95,112,128,145,163,180,196,210,224,235,244,251,257,260,263,265,266,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MIRFIELD,0,1,1,2,3,5,6,9,12,15,18,22,26,29,33,37,41,45,48,51,54,56,58,59,60,60,61,61,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MONCKTON,0,0,1,1,2,3,4,5,7,9,11,13,15,18,20,22,25,27,29,31,32,34,35,35,36,36,36,37,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MOOR ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MOORSIDE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MORLEY,1,4,8,13,19,29,41,56,75,95,117,140,163,188,213,238,263,286,308,327,344,357,368,376,381,385,387,389,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MOUNT STREET,1,4,7,11,17,26,37,51,67,85,105,126,147,169,191,214,236,258,277,294,309,321,331,338,343,346,348,350,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+MYTHOLMROYD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NAB LANE,0,3,5,9,14,20,29,40,53,67,82,98,115,132,150,168,185,202,217,231,242,252,259,265,269,271,273,274,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NABWOOD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NATIONAL AVENUE,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEW DROPPINGWELL ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEW ORCHARD LANE,1,9,15,24,37,56,80,109,144,184,226,270,316,363,411,460,508,554,596,633,665,691,711,727,737,744,749,752,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWHALL ROAD,0,1,2,3,4,6,9,12,16,20,25,29,34,39,45,50,55,60,65,69,72,75,77,79,80,81,81,82,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWPORT 1,0,2,3,5,8,12,18,24,32,41,51,60,71,81,92,103,114,124,133,142,149,155,159,163,165,166,167,168,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NEWPORT 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NINELANDS LANE,0,3,4,7,11,17,24,33,44,55,68,81,95,109,124,139,153,167,180,191,200,208,214,219,222,224,226,227,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORFOLK PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORMANBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORMANTON,2,16,28,46,71,105,150,206,272,346,426,510,596,685,776,868,959,1045,1124,1194,1254,1303,1342,1371,1391,1404,1413,1418,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTH AVENUE,0,0,0,1,1,1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,18,19,19,19,19,19,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORTH THORESBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+NORWOOD,0,0,0,0,1,1,1,2,3,3,4,5,6,6,7,8,9,10,11,11,12,12,13,13,13,13,13,13,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+OAKES ROAD,0,0,1,1,2,3,4,6,7,10,12,14,16,19,21,24,26,29,31,33,34,36,37,38,38,39,39,39,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+OAKWOOD LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ODSAL,0,1,2,4,6,8,12,17,22,28,34,41,48,55,63,70,77,84,91,96,101,105,108,111,112,113,114,115,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+OLYMPIA MILLS,0,3,6,9,14,21,30,41,55,70,86,102,120,138,156,174,193,210,226,240,252,262,270,276,280,282,284,285,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ORGREAVE,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+OUTWOOD,0,4,7,11,17,25,36,50,65,83,103,123,143,165,187,209,231,251,270,287,302,314,323,330,335,338,340,341,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PARK HILL,0,3,5,9,14,20,29,40,53,67,83,99,116,133,151,169,186,203,218,232,243,253,261,266,270,273,274,275,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PARK ROAD,1,4,7,11,18,26,38,52,68,87,107,127,149,171,194,217,240,261,281,298,313,326,336,343,348,351,353,354,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PARK STREET,0,3,5,9,14,20,29,40,53,68,83,99,116,133,151,169,187,204,219,233,245,254,262,267,271,274,275,277,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PASTURE ROAD SOUTH,0,1,2,3,4,6,9,12,16,21,26,31,36,41,47,52,58,63,68,72,75,78,81,82,84,84,85,85,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PATRINGTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PENISTONE,0,1,1,2,3,5,6,9,12,15,18,22,26,29,33,37,41,45,48,51,54,56,58,59,60,60,61,61,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PENISTONE ROAD,0,1,1,2,3,5,7,9,12,16,19,23,27,31,35,40,44,48,51,54,57,59,61,62,63,64,64,65,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PLANGEO,0,1,1,1,2,3,5,7,9,11,14,16,19,22,25,28,30,33,36,38,40,41,43,44,44,45,45,45,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+POLLINGTON,0,2,3,4,7,10,15,20,27,34,42,50,58,67,76,85,94,102,110,117,123,128,131,134,136,138,138,139,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PONTEFRACT LANE 1/2,1,12,20,33,50,75,107,147,194,247,304,364,425,489,554,620,684,746,802,852,895,931,958,979,993,1002,1009,1012,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+POOL,0,1,2,3,4,6,9,12,16,21,26,31,36,41,47,52,58,63,68,72,75,78,81,82,84,84,85,85,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PRINCE OF WALES,0,1,1,2,4,5,8,11,14,18,22,26,31,35,40,45,49,54,58,62,65,67,69,71,72,72,73,73,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+PROSPECT ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+QUEENS ROAD,2,19,33,54,83,124,177,243,320,408,502,600,701,806,913,1022,1128,1229,1323,1405,1476,1534,1580,1613,1637,1653,1663,1669,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+QUEENSBURY,0,2,4,6,9,14,19,27,35,45,55,66,77,89,101,113,124,136,146,155,163,169,174,178,180,182,183,184,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWCLIFFE,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWDON,0,0,1,1,2,3,4,5,7,9,11,13,15,18,20,22,25,27,29,31,32,34,35,35,36,36,36,37,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWMARSH ROAD 1_2,0,1,2,4,6,9,13,18,24,31,38,45,53,61,69,77,85,92,99,106,111,115,119,121,123,124,125,125,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWMARSH ROAD 3_4,0,2,3,5,8,12,17,24,32,40,49,59,69,79,90,101,111,121,130,138,145,151,156,159,161,163,164,164,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWSON ROAD,0,1,2,3,4,6,9,12,16,20,25,30,35,40,45,51,56,61,66,70,73,76,78,80,81,82,83,83,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RAWSON SPRING ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+REVILL LANE,0,1,1,2,3,5,7,9,12,15,19,23,27,31,35,39,43,47,50,53,56,58,60,61,62,63,63,63,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ROCKWARE,0,1,2,4,6,8,12,16,22,27,34,40,47,54,61,69,76,83,89,94,99,103,106,108,110,111,112,112,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+RODLEY LANE,0,0,0,0,1,1,1,2,3,3,4,5,6,6,7,8,9,10,11,11,12,12,13,13,13,13,13,13,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ROMAN AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+ROYDS LANE,1,5,9,15,23,34,49,67,88,112,138,165,193,222,251,281,310,338,364,387,406,422,435,444,450,455,458,459,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SAINT ANDREWS ROAD 33/11KV,1,4,7,12,18,27,39,53,70,89,109,131,153,176,199,223,246,268,289,307,322,335,345,352,357,361,363,364,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SAINT STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SALTERFORTH,0,0,1,1,1,2,3,4,5,7,8,10,11,13,15,16,18,20,21,23,24,25,25,26,26,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SALTERHEBBLE,1,4,7,12,18,27,39,53,71,90,111,132,155,178,201,225,249,271,292,310,325,338,348,356,361,364,367,368,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SALTSHOUSE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SANDHILL LANE,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SAXON ROAD,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SCARTHO,0,1,1,2,3,4,6,8,11,14,17,20,24,27,31,34,38,41,44,47,50,52,53,54,55,55,56,56,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SCHOLES,0,1,1,2,3,5,7,10,13,16,20,24,28,32,36,40,44,48,52,55,58,60,62,64,65,65,66,66,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SCISSETT,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SCULCOATES A,0,1,2,4,6,9,13,18,23,29,36,43,51,58,66,74,82,89,96,102,107,111,114,117,118,119,120,121,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SEACROFT,0,1,2,4,6,8,12,16,22,27,34,40,47,54,61,69,76,83,89,94,99,103,106,108,110,111,112,112,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SEATON,0,2,3,5,8,12,18,24,32,41,51,60,71,81,92,103,114,124,133,142,149,155,159,163,165,166,167,168,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SELBY,0,2,3,5,8,12,18,24,32,41,51,60,71,81,92,103,114,124,133,142,149,155,159,163,165,166,167,168,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SELBY ROAD,0,1,1,2,4,5,7,10,14,17,21,25,30,34,39,43,48,52,56,59,62,65,67,68,69,70,70,71,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHARLSTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHEPCOTE TINSLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHERBURN,1,9,15,25,38,57,81,112,147,188,231,276,322,371,420,470,519,565,608,646,679,705,726,742,753,760,765,767,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHIPLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SHIRLAND LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SILVER STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SILVERWOOD,0,1,2,3,5,8,11,15,20,25,31,37,44,50,57,63,70,76,82,87,92,95,98,100,102,103,103,104,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SKILLINGS LANE,0,1,1,2,3,5,7,10,13,17,21,25,29,33,37,42,46,50,54,57,60,63,65,66,67,68,68,68,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SKIPTON,0,0,1,1,1,2,3,4,5,7,8,10,12,14,15,17,19,21,22,24,25,26,27,27,27,28,28,28,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SLAITHWAITE,0,1,2,3,4,6,9,12,15,20,24,29,34,39,44,49,54,59,64,68,71,74,76,78,79,80,80,80,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SLEDMERE GARTH,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SMITH STREET,0,1,2,3,5,7,10,14,19,24,30,35,41,48,54,60,67,73,78,83,87,91,93,95,97,98,98,99,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SMITHY GREEN,1,5,8,13,21,31,44,61,80,102,126,150,176,202,229,256,282,308,331,352,370,384,395,404,410,414,416,418,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SNAITHING PARK ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SNELSINS LANE,0,1,2,3,4,6,8,11,15,19,23,28,33,38,43,48,53,57,62,66,69,72,74,75,76,77,78,78,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTH ELMSALL,1,7,11,18,28,42,60,83,110,140,172,205,240,276,313,350,386,421,453,481,505,525,541,552,560,566,569,571,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTH FERRIBY,0,1,1,2,4,5,8,11,14,18,22,26,31,35,40,45,49,54,58,62,65,67,69,71,72,72,73,73,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTH KIRKBY,1,5,9,14,22,33,47,65,85,109,134,160,187,215,243,272,301,328,352,374,393,409,421,430,436,440,443,445,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTH RESTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTH STREET,0,1,1,2,3,5,6,9,12,15,18,22,26,29,33,37,41,45,48,51,54,56,58,59,60,60,61,61,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTHGATE,0,1,2,4,6,9,13,18,24,30,37,45,52,60,68,76,84,92,98,105,110,114,118,120,122,123,124,124,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOUTHWOOD ROAD,0,2,3,4,7,10,14,20,26,33,41,49,57,65,74,83,91,100,107,114,120,124,128,131,133,134,135,135,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SOWERBY BRIDGE 33/11KV,0,1,3,4,6,10,14,19,25,32,39,46,54,62,71,79,87,95,102,109,114,119,122,125,127,128,129,129,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SPARK MILL LANE,0,1,3,4,6,9,14,19,25,31,38,46,54,62,70,78,86,94,101,108,113,118,121,124,125,127,127,128,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SPENBOROUGH,0,2,3,5,8,13,18,25,33,42,51,61,72,82,93,104,115,126,135,144,151,157,161,165,167,169,170,171,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SPRING MILL STREET,0,2,3,4,7,10,14,20,26,33,41,49,57,66,75,84,92,101,108,115,121,125,129,132,134,135,136,136,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STAINFORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STAIRFOOT,0,1,3,4,6,9,13,18,24,31,38,46,53,61,69,78,86,93,100,107,112,116,120,122,124,125,126,127,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STANLEY STREET,0,1,1,1,2,3,5,7,9,11,14,16,19,22,25,28,30,33,36,38,40,41,43,44,44,45,45,45,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STANNINGTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STATION ROAD,1,7,12,20,31,47,67,91,121,154,189,226,264,303,344,385,425,463,498,529,556,578,595,608,617,622,626,629,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STEVENSON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STOKE STREET,0,2,4,7,10,15,22,30,40,50,62,74,86,99,113,126,139,152,163,173,182,189,195,199,202,204,205,206,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STOURTON 132/11KV,0,0,1,1,2,2,3,5,6,8,10,11,13,15,17,19,21,23,25,27,28,29,30,31,31,31,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STOURTON 33/11KV,0,0,1,1,2,3,5,6,8,10,13,15,18,21,23,26,29,31,34,36,38,39,40,41,42,42,42,43,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+STOW,0,1,1,2,3,5,6,9,12,15,18,22,26,29,33,37,41,45,48,51,54,56,58,59,60,60,61,61,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SWAN BANK LANE,0,1,1,1,2,3,5,7,9,11,14,16,19,22,25,28,30,33,36,38,40,41,43,44,44,45,45,45,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SWEET STREET,0,2,3,4,7,10,14,19,26,33,40,48,56,65,73,82,91,99,106,113,119,123,127,130,131,133,133,134,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+SWINNOW MOOR,0,0,0,1,1,2,3,4,5,6,7,9,10,12,13,15,16,18,19,21,22,22,23,24,24,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TADCASTER,0,2,4,6,10,15,21,29,39,49,60,72,84,97,110,123,136,148,159,169,178,185,190,194,197,199,200,201,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TANKERSLEY PARK,0,1,1,2,3,4,6,9,11,15,18,21,25,29,33,37,40,44,47,50,53,55,56,58,59,59,59,60,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TEMPLEBOROUGH 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+THORNBURY,0,1,2,3,5,7,11,15,19,24,30,36,42,48,55,61,68,74,79,84,88,92,95,97,98,99,100,100,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+THORNE,1,4,7,11,17,26,37,50,67,85,104,125,146,168,190,213,235,256,275,292,307,319,329,336,341,344,346,347,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+THORNTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+THORPE ROAD,1,10,17,28,43,64,92,126,167,212,261,312,365,419,475,532,587,640,688,731,768,798,822,840,852,860,865,869,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TICKHILL ROAD,0,2,4,7,10,15,21,29,39,49,61,73,85,98,111,124,137,149,160,170,179,186,191,195,198,200,201,202,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TINGLEY,0,2,3,4,7,10,14,20,26,33,41,49,57,66,75,84,92,101,108,115,121,125,129,132,134,135,136,136,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TINSLEY PARK ROAD,0,3,6,9,14,21,30,42,55,70,86,103,120,138,157,175,194,211,227,241,253,263,271,277,281,283,285,286,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TINSLEY WIRE INDUSTRIES,1,5,9,15,23,35,49,68,90,114,141,168,197,226,256,286,316,345,371,394,414,430,443,452,459,463,466,468,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TIVERTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TODMORDEN,0,0,0,1,1,1,2,3,4,4,5,7,8,9,10,11,12,13,14,15,16,17,17,18,18,18,18,18,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TOLLER LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+TONG STREET,0,1,2,4,6,9,12,17,22,28,35,42,49,56,63,71,78,85,92,97,102,106,110,112,114,115,115,116,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+UPPER BASINGHALL STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+VARLEY STREET,0,2,3,5,8,12,18,24,32,41,50,60,70,81,91,102,113,123,132,141,148,153,158,161,164,165,166,167,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+VICTORIA STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WALESBY,0,0,1,1,2,2,3,5,6,8,10,12,14,16,18,20,22,24,26,28,29,30,31,32,32,33,33,33,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WARREN LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WATH UPON DEARNE,1,4,7,12,19,28,40,55,72,92,113,135,158,182,206,230,254,277,298,317,333,346,356,364,369,373,375,376,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WAVERLEY BUSINESS PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WAWNE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEELAND ROAD,0,2,3,5,8,11,16,22,29,37,45,54,63,73,83,92,102,111,120,127,134,139,143,146,148,150,150,151,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WELLINGTON STREET,1,10,17,27,42,63,89,123,162,207,254,304,355,408,463,517,571,623,670,712,748,777,800,817,829,837,842,845,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WESLEY CRESCENT,0,0,0,1,1,1,2,2,3,4,5,6,7,8,9,10,12,13,14,14,15,16,16,16,17,17,17,17,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST DOCKS,0,2,3,4,7,10,14,19,26,33,40,48,56,65,73,82,91,99,106,113,119,123,127,130,131,133,133,134,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST END LANE,1,4,7,12,18,27,38,52,69,88,108,129,150,173,196,219,242,264,284,302,317,329,339,346,351,355,357,358,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST MOOR PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WEST PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WESTCOTT STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WETHERBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHEATACRE ROAD,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHEATLEY PARK,0,3,6,9,14,21,30,41,54,68,84,101,118,135,153,171,189,206,222,236,248,258,265,271,275,277,279,280,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHINGATE,0,2,3,5,7,11,16,21,28,36,44,53,62,71,81,90,100,109,117,124,130,135,140,143,145,146,147,147,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITE LEE,0,1,1,2,3,5,7,10,13,17,21,25,29,34,38,43,47,51,55,58,61,64,66,67,68,69,69,69,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITEHALL ROAD 2/3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WHITEHALL ROAD 4/5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WIBSEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WITHERNSEA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WOODCOCK STREET,0,1,1,2,3,5,7,10,13,17,21,25,29,34,38,43,47,51,55,58,61,64,66,67,68,69,69,69,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WOODSEATS,0,0,0,0,1,1,1,2,2,3,4,4,5,6,7,7,8,9,10,10,11,11,12,12,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WOOLLEY,0,1,2,3,5,8,11,15,20,26,32,38,45,51,58,65,72,78,84,89,94,97,100,102,104,105,106,106,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WORSBROUGH PARK,0,2,3,5,8,12,17,24,31,40,49,58,68,78,89,99,110,119,128,136,143,149,153,157,159,160,161,162,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+WRAWBY,0,3,6,10,15,22,32,44,58,74,91,109,127,146,166,186,205,223,240,255,268,279,287,293,298,300,302,303,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+YARBOROUGH ROAD 33/11KV,0,4,7,11,17,25,35,48,64,81,100,119,139,160,181,203,224,244,263,279,293,305,314,320,325,328,330,331,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+YEW GREEN ROAD,0,0,0,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,12,13,13,14,14,14,14,15,15,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+YORK ROAD,0,0,1,1,1,2,3,4,5,7,8,10,11,13,15,16,18,20,21,23,24,25,25,26,26,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+YORK STREET,0,2,3,5,8,12,18,24,32,41,50,60,70,81,91,102,113,123,132,141,148,153,158,161,164,165,166,167,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Barnsley Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Bradford Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Calderdale Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+County Durham Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Darlington Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Doncaster Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+East Riding of Yorkshire Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Gateshead Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Hambleton Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Harrogate Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Hartlepool Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+"Kingston upon Hull, City of Direct to Supply Points",,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Kirklees Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Leeds Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Newcastle upon Tyne Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+North East Lincolnshire Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+North Lincolnshire Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+North Tyneside Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Northumberland Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Redcar and Cleveland Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Rotherham Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Ryedale Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Scarborough Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Selby Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+Sheffield Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+South Tyneside Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Stockton-on-Tees Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Sunderland Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs
+Wakefield Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+West Lindsey Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric HGVs
+York Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric HGVs

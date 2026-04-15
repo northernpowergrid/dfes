@@ -1,0 +1,253 @@
+<svg width="640" height="320" viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" overflow="visible" class="oi-chart-main" data-type="line-chart">
+<defs>
+	<style>
+	.series path.line { fill-opacity: 0; }
+	.series path.line.dotted { stroke-dasharray: 12 20 }
+	.series:hover path.line, .series.on path.line { stroke-width: 5; }
+	.series .marker { opacity:0.01; }
+	.series:hover .marker, .series.active .marker, .series .marker.selected { opacity:1!important; }
+	.series .marker:hover, .series .marker.on { r: 6px!important; fill: black; }
+	.grid { font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+	.grid line { stroke: rgb(0,0,0); stroke-width: 2; stroke-linecap: round; }
+	.grid.grid-x text { text-anchor: middle; dominant-baseline: hanging; transform: translateY(10px); }
+	.grid.grid-y text { text-anchor: end; dominant-baseline: middle; transform: translateX(-10px); }
+	</style>
+</defs>
+<g class="grid grid-y">
+	<line x1="50" y1="290" x2="630" y2="290" data-left="50"></line>
+	<text x="50" y="290" text-anchor="end">0</text>
+	<text x="50" y="230.527967000063" text-anchor="end">5</text>
+	<text x="50" y="171.055934000126" text-anchor="end">10</text>
+	<text x="50" y="111.58390100019" text-anchor="end">15</text>
+	<text x="50" y="52.1118680002527" text-anchor="end">20</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);">Annual emissions (MtCO2)</text>
+</g>
+<g class="grid grid-x">
+	<line class="tick" x1="210" y1="290" x2="210" y2="295"></line>
+	<text x="210" y="290" text-anchor="middle">2030</text>
+	<line class="tick" x1="410" y1="290" x2="410" y2="295"></line>
+	<text x="410" y="290" text-anchor="middle">2040</text>
+	<line class="tick" x1="610" y1="290" x2="610" y2="295"></line>
+	<text x="610" y="290" text-anchor="middle">2050</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);"></text>
+</g>
+<g class="data-layer" role="table">
+<g data-scenario="natural-gas" class="series series-1" tabindex="0" role="row" aria-label="Series: Natural gas" data-series="1">	<path d="M 50.00,160.90L 70.00,162.85L 90.00,164.89L 110.00,167.74L 130.00,171.21L 150.00,175.36L 170.00,180.80L 190.00,186.39L 210.00,192.13L 230.00,196.74L 250.00,201.67L 270.00,207.27L 290.00,213.67L 310.00,220.08L 330.00,226.17L 350.00,232.02L 370.00,237.91L 390.00,243.98L 410.00,250.25L 430.00,256.92L 450.00,262.91L 470.00,268.19L 490.00,273.26L 510.00,277.59L 530.00,281.51L 550.00,285.34L 570.00,288.38L 590.00,289.15L 610.00,289.79" id="Natural gas" class="line" stroke="#B8BFF9" stroke-width="3" stroke-linecap="round"><title>Natural gas</title></path>
+	<circle class="marker" cx="50.00" cy="160.90" data-y="10.85397264" data-x="2022" data-i="0" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2022: 10.85397264 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="162.85" data-y="10.68954822" data-x="2023" data-i="1" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2023: 10.68954822 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="164.89" data-y="10.51816669" data-x="2024" data-i="2" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2024: 10.51816669 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="167.74" data-y="10.27914022" data-x="2025" data-i="3" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2025: 10.27914022 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="171.21" data-y="9.987222661" data-x="2026" data-i="4" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2026: 9.987222661 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="175.36" data-y="9.638279831" data-x="2027" data-i="5" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2027: 9.638279831 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="180.80" data-y="9.180839788" data-x="2028" data-i="6" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2028: 9.180839788 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="186.39" data-y="8.711221512" data-x="2029" data-i="7" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2029: 8.711221512 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="192.13" data-y="8.228017237" data-x="2030" data-i="8" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2030: 8.228017237 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="196.74" data-y="7.840272845" data-x="2031" data-i="9" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2031: 7.840272845 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="201.67" data-y="7.426203883" data-x="2032" data-i="10" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2032: 7.426203883 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="207.27" data-y="6.954973183" data-x="2033" data-i="11" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2033: 6.954973183 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="213.67" data-y="6.417655877" data-x="2034" data-i="12" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2034: 6.417655877 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="220.08" data-y="5.878277222" data-x="2035" data-i="13" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2035: 5.878277222 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="226.17" data-y="5.365993826" data-x="2036" data-i="14" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2036: 5.365993826 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="232.02" data-y="4.874509011" data-x="2037" data-i="15" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2037: 4.874509011 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="237.91" data-y="4.379344942" data-x="2038" data-i="16" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2038: 4.379344942 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="243.98" data-y="3.869390655" data-x="2039" data-i="17" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2039: 3.869390655 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="250.25" data-y="3.341506343" data-x="2040" data-i="18" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2040: 3.341506343 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="256.92" data-y="2.780851678" data-x="2041" data-i="19" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2041: 2.780851678 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="262.91" data-y="2.27767496" data-x="2042" data-i="20" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2042: 2.27767496 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="268.19" data-y="1.833995422" data-x="2043" data-i="21" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2043: 1.833995422 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="273.26" data-y="1.407795449" data-x="2044" data-i="22" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2044: 1.407795449 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="277.59" data-y="1.043625132" data-x="2045" data-i="23" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2045: 1.043625132 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="281.51" data-y="0.71414925" data-x="2046" data-i="24" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2046: 0.71414925 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="285.34" data-y="0.391588661" data-x="2047" data-i="25" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2047: 0.391588661 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="288.38" data-y="0.135898101" data-x="2048" data-i="26" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2048: 0.135898101 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="289.15" data-y="0.071346339" data-x="2049" data-i="27" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2049: 0.071346339 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="289.79" data-y="0.017288933" data-x="2050" data-i="28" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2050: 0.017288933 MtCO2</title></circle>
+</g>
+<g data-scenario="hydrogen" class="series series-2" tabindex="0" role="row" aria-label="Series: Hydrogen" data-series="2">	<path d="M 50.00,289.99L 70.00,289.99L 90.00,289.99L 110.00,289.99L 130.00,289.99L 150.00,289.99L 170.00,289.99L 190.00,289.99L 210.00,289.95L 230.00,289.93L 250.00,289.91L 270.00,289.89L 290.00,289.86L 310.00,289.83L 330.00,289.80L 350.00,289.77L 370.00,289.74L 390.00,289.72L 410.00,289.68L 430.00,289.59L 450.00,289.51L 470.00,289.46L 490.00,289.41L 510.00,289.37L 530.00,289.34L 550.00,289.33L 570.00,289.32L 590.00,289.31L 610.00,289.31" id="Hydrogen" class="line" stroke="#0279FA" stroke-width="3" stroke-linecap="round"><title>Hydrogen</title></path>
+	<circle class="marker" cx="50.00" cy="289.99" data-y="0.000683658" data-x="2022" data-i="0" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2022: 0.000683658 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="289.99" data-y="0.000727077" data-x="2023" data-i="1" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2023: 0.000727077 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="289.99" data-y="0.000717157" data-x="2024" data-i="2" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2024: 0.000717157 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="289.99" data-y="0.000776772" data-x="2025" data-i="3" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2025: 0.000776772 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="289.99" data-y="0.00064973" data-x="2026" data-i="4" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2026: 0.00064973 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="289.99" data-y="0.00063455" data-x="2027" data-i="5" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2027: 0.00063455 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="289.99" data-y="0.000941494" data-x="2028" data-i="6" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2028: 0.000941494 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="289.99" data-y="0.000960663" data-x="2029" data-i="7" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2029: 0.000960663 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="289.95" data-y="0.00396029" data-x="2030" data-i="8" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2030: 0.00396029 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="289.93" data-y="0.005950366" data-x="2031" data-i="9" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2031: 0.005950366 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="289.91" data-y="0.007395202" data-x="2032" data-i="10" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2032: 0.007395202 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="289.89" data-y="0.009297332" data-x="2033" data-i="11" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2033: 0.009297332 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="289.86" data-y="0.011900579" data-x="2034" data-i="12" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2034: 0.011900579 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="289.83" data-y="0.014207714" data-x="2035" data-i="13" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2035: 0.014207714 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="289.80" data-y="0.017002627" data-x="2036" data-i="14" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2036: 0.017002627 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="289.77" data-y="0.019108613" data-x="2037" data-i="15" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2037: 0.019108613 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="289.74" data-y="0.021453974" data-x="2038" data-i="16" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2038: 0.021453974 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="289.72" data-y="0.023705699" data-x="2039" data-i="17" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2039: 0.023705699 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="289.68" data-y="0.026808637" data-x="2040" data-i="18" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2040: 0.026808637 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="289.59" data-y="0.034564279" data-x="2041" data-i="19" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2041: 0.034564279 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="289.51" data-y="0.040794632" data-x="2042" data-i="20" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2042: 0.040794632 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="289.46" data-y="0.045413954" data-x="2043" data-i="21" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2043: 0.045413954 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="289.41" data-y="0.049873348" data-x="2044" data-i="22" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2044: 0.049873348 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="289.37" data-y="0.053049526" data-x="2045" data-i="23" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2045: 0.053049526 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="289.34" data-y="0.05507445" data-x="2046" data-i="24" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2046: 0.05507445 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="289.33" data-y="0.056199573" data-x="2047" data-i="25" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2047: 0.056199573 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="289.32" data-y="0.057451587" data-x="2048" data-i="26" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2048: 0.057451587 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="289.31" data-y="0.05820506" data-x="2049" data-i="27" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2049: 0.05820506 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="289.31" data-y="0.057656781" data-x="2050" data-i="28" data-series="2" r="4" fill="#0279FA" roll="cell"><title>2050: 0.057656781 MtCO2</title></circle>
+</g>
+<g data-scenario="bioenergy" class="series series-3" tabindex="0" role="row" aria-label="Series: Bioenergy" data-series="3">	<path d="M 50.00,289.35L 70.00,289.37L 90.00,289.40L 110.00,289.42L 130.00,289.46L 150.00,289.49L 170.00,289.54L 190.00,289.57L 210.00,289.59L 230.00,289.62L 250.00,289.64L 270.00,289.66L 290.00,289.69L 310.00,289.72L 330.00,289.74L 350.00,289.76L 370.00,289.78L 390.00,289.80L 410.00,289.82L 430.00,289.84L 450.00,289.86L 470.00,289.88L 490.00,289.88L 510.00,289.89L 530.00,289.89L 550.00,289.89L 570.00,289.89L 590.00,289.89L 610.00,289.89" id="Bioenergy" class="line" stroke="#019303" stroke-width="3" stroke-linecap="round"><title>Bioenergy</title></path>
+	<circle class="marker" cx="50.00" cy="289.35" data-y="0.054906417" data-x="2022" data-i="0" data-series="3" r="4" fill="#019303" roll="cell"><title>2022: 0.054906417 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="289.37" data-y="0.052795306" data-x="2023" data-i="1" data-series="3" r="4" fill="#019303" roll="cell"><title>2023: 0.052795306 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="289.40" data-y="0.050624745" data-x="2024" data-i="2" data-series="3" r="4" fill="#019303" roll="cell"><title>2024: 0.050624745 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="289.42" data-y="0.0485716" data-x="2025" data-i="3" data-series="3" r="4" fill="#019303" roll="cell"><title>2025: 0.0485716 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="289.46" data-y="0.045784318" data-x="2026" data-i="4" data-series="3" r="4" fill="#019303" roll="cell"><title>2026: 0.045784318 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="289.49" data-y="0.042564357" data-x="2027" data-i="5" data-series="3" r="4" fill="#019303" roll="cell"><title>2027: 0.042564357 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="289.54" data-y="0.039093718" data-x="2028" data-i="6" data-series="3" r="4" fill="#019303" roll="cell"><title>2028: 0.039093718 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="289.57" data-y="0.036562872" data-x="2029" data-i="7" data-series="3" r="4" fill="#019303" roll="cell"><title>2029: 0.036562872 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="289.59" data-y="0.0340782" data-x="2030" data-i="8" data-series="3" r="4" fill="#019303" roll="cell"><title>2030: 0.0340782 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="289.62" data-y="0.032123357" data-x="2031" data-i="9" data-series="3" r="4" fill="#019303" roll="cell"><title>2031: 0.032123357 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="289.64" data-y="0.030184196" data-x="2032" data-i="10" data-series="3" r="4" fill="#019303" roll="cell"><title>2032: 0.030184196 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="289.66" data-y="0.028349881" data-x="2033" data-i="11" data-series="3" r="4" fill="#019303" roll="cell"><title>2033: 0.028349881 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="289.69" data-y="0.026298588" data-x="2034" data-i="12" data-series="3" r="4" fill="#019303" roll="cell"><title>2034: 0.026298588 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="289.72" data-y="0.023529809" data-x="2035" data-i="13" data-series="3" r="4" fill="#019303" roll="cell"><title>2035: 0.023529809 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="289.74" data-y="0.021869721" data-x="2036" data-i="14" data-series="3" r="4" fill="#019303" roll="cell"><title>2036: 0.021869721 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="289.76" data-y="0.020201936" data-x="2037" data-i="15" data-series="3" r="4" fill="#019303" roll="cell"><title>2037: 0.020201936 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="289.78" data-y="0.018541212" data-x="2038" data-i="16" data-series="3" r="4" fill="#019303" roll="cell"><title>2038: 0.018541212 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="289.80" data-y="0.016810988" data-x="2039" data-i="17" data-series="3" r="4" fill="#019303" roll="cell"><title>2039: 0.016810988 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="289.82" data-y="0.015086136" data-x="2040" data-i="18" data-series="3" r="4" fill="#019303" roll="cell"><title>2040: 0.015086136 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="289.84" data-y="0.013360946" data-x="2041" data-i="19" data-series="3" r="4" fill="#019303" roll="cell"><title>2041: 0.013360946 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="289.86" data-y="0.011635514" data-x="2042" data-i="20" data-series="3" r="4" fill="#019303" roll="cell"><title>2042: 0.011635514 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="289.88" data-y="0.009997172" data-x="2043" data-i="21" data-series="3" r="4" fill="#019303" roll="cell"><title>2043: 0.009997172 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="289.88" data-y="0.009759544" data-x="2044" data-i="22" data-series="3" r="4" fill="#019303" roll="cell"><title>2044: 0.009759544 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="289.89" data-y="0.009645494" data-x="2045" data-i="23" data-series="3" r="4" fill="#019303" roll="cell"><title>2045: 0.009645494 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="289.89" data-y="0.009605859" data-x="2046" data-i="24" data-series="3" r="4" fill="#019303" roll="cell"><title>2046: 0.009605859 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="289.89" data-y="0.009566645" data-x="2047" data-i="25" data-series="3" r="4" fill="#019303" roll="cell"><title>2047: 0.009566645 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="289.89" data-y="0.009534629" data-x="2048" data-i="26" data-series="3" r="4" fill="#019303" roll="cell"><title>2048: 0.009534629 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="289.89" data-y="0.009503468" data-x="2049" data-i="27" data-series="3" r="4" fill="#019303" roll="cell"><title>2049: 0.009503468 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="289.89" data-y="0.009472338" data-x="2050" data-i="28" data-series="3" r="4" fill="#019303" roll="cell"><title>2050: 0.009472338 MtCO2</title></circle>
+</g>
+<g data-scenario="petrol" class="series series-4" tabindex="0" role="row" aria-label="Series: Petrol" data-series="4">	<path d="M 50.00,74.11L 70.00,81.49L 90.00,89.72L 110.00,100.18L 130.00,113.92L 150.00,127.92L 170.00,142.57L 190.00,157.25L 210.00,171.38L 230.00,185.36L 250.00,200.25L 270.00,213.93L 290.00,226.31L 310.00,237.40L 330.00,246.71L 350.00,254.93L 370.00,262.16L 390.00,268.48L 410.00,273.95L 430.00,278.42L 450.00,282.06L 470.00,284.98L 490.00,286.79L 510.00,287.99L 530.00,288.67L 550.00,289.16L 570.00,289.38L 590.00,289.54L 610.00,289.64" id="Petrol" class="line" stroke="#FFC300" stroke-width="3" stroke-linecap="round"><title>Petrol</title></path>
+	<circle class="marker" cx="50.00" cy="74.11" data-y="18.15053935" data-x="2022" data-i="0" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2022: 18.15053935 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="81.49" data-y="17.52993135" data-x="2023" data-i="1" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2023: 17.52993135 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="89.72" data-y="16.83781335" data-x="2024" data-i="2" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2024: 16.83781335 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="100.18" data-y="15.95845405" data-x="2025" data-i="3" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2025: 15.95845405 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="113.92" data-y="14.80362403" data-x="2026" data-i="4" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2026: 14.80362403 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="127.92" data-y="13.62691998" data-x="2027" data-i="5" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2027: 13.62691998 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="142.57" data-y="12.39501143" data-x="2028" data-i="6" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2028: 12.39501143 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="157.25" data-y="11.16067651" data-x="2029" data-i="7" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2029: 11.16067651 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="171.38" data-y="9.972336309" data-x="2030" data-i="8" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2030: 9.972336309 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="185.36" data-y="8.797047098" data-x="2031" data-i="9" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2031: 8.797047098 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="200.25" data-y="7.545288197" data-x="2032" data-i="10" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2032: 7.545288197 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="213.93" data-y="6.395609484" data-x="2033" data-i="11" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2033: 6.395609484 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="226.31" data-y="5.35452095" data-x="2034" data-i="12" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2034: 5.35452095 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="237.40" data-y="4.422152055" data-x="2035" data-i="13" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2035: 4.422152055 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="246.71" data-y="3.639418923" data-x="2036" data-i="14" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2036: 3.639418923 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="254.93" data-y="2.948135804" data-x="2037" data-i="15" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2037: 2.948135804 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="262.16" data-y="2.34051249" data-x="2038" data-i="16" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2038: 2.34051249 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="268.48" data-y="1.809247099" data-x="2039" data-i="17" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2039: 1.809247099 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="273.95" data-y="1.34977123" data-x="2040" data-i="18" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2040: 1.34977123 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="278.42" data-y="0.973495032" data-x="2041" data-i="19" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2041: 0.973495032 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="282.06" data-y="0.667412015" data-x="2042" data-i="20" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2042: 0.667412015 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="284.98" data-y="0.422194504" data-x="2043" data-i="21" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2043: 0.422194504 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="286.79" data-y="0.269737232" data-x="2044" data-i="22" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2044: 0.269737232 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="287.99" data-y="0.168717709" data-x="2045" data-i="23" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2045: 0.168717709 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="288.67" data-y="0.112201859" data-x="2046" data-i="24" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2046: 0.112201859 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="289.16" data-y="0.070691091" data-x="2047" data-i="25" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2047: 0.070691091 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="289.38" data-y="0.051806448" data-x="2048" data-i="26" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2048: 0.051806448 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="289.54" data-y="0.038983533" data-x="2049" data-i="27" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2049: 0.038983533 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="289.64" data-y="0.03010756" data-x="2050" data-i="28" data-series="4" r="4" fill="#FFC300" roll="cell"><title>2050: 0.03010756 MtCO2</title></circle>
+</g>
+<g data-scenario="solid-fuel" class="series series-5" tabindex="0" role="row" aria-label="Series: Solid fuel" data-series="5">	<path d="M 50.00,286.85L 70.00,287.01L 90.00,287.18L 110.00,287.33L 130.00,287.52L 150.00,287.76L 170.00,288.01L 190.00,288.17L 210.00,288.32L 230.00,288.46L 250.00,288.59L 270.00,288.72L 290.00,288.85L 310.00,288.97L 330.00,289.09L 350.00,289.21L 370.00,289.33L 390.00,289.45L 410.00,289.57L 430.00,289.69L 450.00,289.81L 470.00,289.93L 490.00,289.94L 510.00,289.95L 530.00,289.95L 550.00,289.96L 570.00,289.96L 590.00,289.96L 610.00,289.96" id="Solid fuel" class="line" stroke="#505050" stroke-width="3" stroke-linecap="round"><title>Solid fuel</title></path>
+	<circle class="marker" cx="50.00" cy="286.85" data-y="0.264836707" data-x="2022" data-i="0" data-series="5" r="4" fill="#505050" roll="cell"><title>2022: 0.264836707 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="287.01" data-y="0.251007922" data-x="2023" data-i="1" data-series="5" r="4" fill="#505050" roll="cell"><title>2023: 0.251007922 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="287.18" data-y="0.236966918" data-x="2024" data-i="2" data-series="5" r="4" fill="#505050" roll="cell"><title>2024: 0.236966918 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="287.33" data-y="0.22461675" data-x="2025" data-i="3" data-series="5" r="4" fill="#505050" roll="cell"><title>2025: 0.22461675 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="287.52" data-y="0.208382505" data-x="2026" data-i="4" data-series="5" r="4" fill="#505050" roll="cell"><title>2026: 0.208382505 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="287.76" data-y="0.188701242" data-x="2027" data-i="5" data-series="5" r="4" fill="#505050" roll="cell"><title>2027: 0.188701242 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="288.01" data-y="0.167395804" data-x="2028" data-i="6" data-series="5" r="4" fill="#505050" roll="cell"><title>2028: 0.167395804 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="288.17" data-y="0.154046927" data-x="2029" data-i="7" data-series="5" r="4" fill="#505050" roll="cell"><title>2029: 0.154046927 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="288.32" data-y="0.140994923" data-x="2030" data-i="8" data-series="5" r="4" fill="#505050" roll="cell"><title>2030: 0.140994923 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="288.46" data-y="0.129514446" data-x="2031" data-i="9" data-series="5" r="4" fill="#505050" roll="cell"><title>2031: 0.129514446 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="288.59" data-y="0.118130671" data-x="2032" data-i="10" data-series="5" r="4" fill="#505050" roll="cell"><title>2032: 0.118130671 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="288.72" data-y="0.107336084" data-x="2033" data-i="11" data-series="5" r="4" fill="#505050" roll="cell"><title>2033: 0.107336084 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="288.85" data-y="0.096630557" data-x="2034" data-i="12" data-series="5" r="4" fill="#505050" roll="cell"><title>2034: 0.096630557 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="288.97" data-y="0.086424594" data-x="2035" data-i="13" data-series="5" r="4" fill="#505050" roll="cell"><title>2035: 0.086424594 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="289.09" data-y="0.076524733" data-x="2036" data-i="14" data-series="5" r="4" fill="#505050" roll="cell"><title>2036: 0.076524733 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="289.21" data-y="0.066596892" data-x="2037" data-i="15" data-series="5" r="4" fill="#505050" roll="cell"><title>2037: 0.066596892 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="289.33" data-y="0.056699072" data-x="2038" data-i="16" data-series="5" r="4" fill="#505050" roll="cell"><title>2038: 0.056699072 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="289.45" data-y="0.046440719" data-x="2039" data-i="17" data-series="5" r="4" fill="#505050" roll="cell"><title>2039: 0.046440719 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="289.57" data-y="0.03617493" data-x="2040" data-i="18" data-series="5" r="4" fill="#505050" roll="cell"><title>2040: 0.03617493 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="289.69" data-y="0.02588364" data-x="2041" data-i="19" data-series="5" r="4" fill="#505050" roll="cell"><title>2041: 0.02588364 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="289.81" data-y="0.015621381" data-x="2042" data-i="20" data-series="5" r="4" fill="#505050" roll="cell"><title>2042: 0.015621381 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="289.93" data-y="0.005832849" data-x="2043" data-i="21" data-series="5" r="4" fill="#505050" roll="cell"><title>2043: 0.005832849 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="289.94" data-y="0.00489016" data-x="2044" data-i="22" data-series="5" r="4" fill="#505050" roll="cell"><title>2044: 0.00489016 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="289.95" data-y="0.004490291" data-x="2045" data-i="23" data-series="5" r="4" fill="#505050" roll="cell"><title>2045: 0.004490291 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="289.95" data-y="0.004111161" data-x="2046" data-i="24" data-series="5" r="4" fill="#505050" roll="cell"><title>2046: 0.004111161 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="289.96" data-y="0.003738591" data-x="2047" data-i="25" data-series="5" r="4" fill="#505050" roll="cell"><title>2047: 0.003738591 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="289.96" data-y="0.003408833" data-x="2048" data-i="26" data-series="5" r="4" fill="#505050" roll="cell"><title>2048: 0.003408833 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="289.96" data-y="0.003215632" data-x="2049" data-i="27" data-series="5" r="4" fill="#505050" roll="cell"><title>2049: 0.003215632 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="289.96" data-y="0.003040882" data-x="2050" data-i="28" data-series="5" r="4" fill="#505050" roll="cell"><title>2050: 0.003040882 MtCO2</title></circle>
+</g>
+<g data-scenario="electricity" class="series series-6" tabindex="0" role="row" aria-label="Series: Electricity" data-series="6">	<path d="M 50.00,226.55L 70.00,232.33L 90.00,231.54L 110.00,235.27L 130.00,248.43L 150.00,255.79L 170.00,259.49L 190.00,261.57L 210.00,266.39L 230.00,270.24L 250.00,275.28L 270.00,278.54L 290.00,281.10L 310.00,283.40L 330.00,283.60L 350.00,283.99L 370.00,284.12L 390.00,284.38L 410.00,284.76L 430.00,286.36L 450.00,286.65L 470.00,286.82L 490.00,286.93L 510.00,287.94L 530.00,288.12L 550.00,288.50L 570.00,288.50L 590.00,288.73L 610.00,288.75" id="Electricity" class="line" stroke="#cc0935" stroke-width="3" stroke-linecap="round"><title>Electricity</title></path>
+	<circle class="marker" cx="50.00" cy="226.55" data-y="5.334347153" data-x="2022" data-i="0" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2022: 5.334347153 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="232.33" data-y="4.848137534" data-x="2023" data-i="1" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2023: 4.848137534 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="231.54" data-y="4.914598454" data-x="2024" data-i="2" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2024: 4.914598454 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="235.27" data-y="4.601739131" data-x="2025" data-i="3" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2025: 4.601739131 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="248.43" data-y="3.494864333" data-x="2026" data-i="4" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2026: 3.494864333 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="255.79" data-y="2.876274052" data-x="2027" data-i="5" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2027: 2.876274052 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="259.49" data-y="2.564870682" data-x="2028" data-i="6" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2028: 2.564870682 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="261.57" data-y="2.389998047" data-x="2029" data-i="7" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2029: 2.389998047 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="266.39" data-y="1.985257621" data-x="2030" data-i="8" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2030: 1.985257621 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="270.24" data-y="1.661592418" data-x="2031" data-i="9" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2031: 1.661592418 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="275.28" data-y="1.237325455" data-x="2032" data-i="10" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2032: 1.237325455 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="278.54" data-y="0.963342404" data-x="2033" data-i="11" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2033: 0.963342404 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="281.10" data-y="0.747949022" data-x="2034" data-i="12" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2034: 0.747949022 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="283.40" data-y="0.554479806" data-x="2035" data-i="13" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2035: 0.554479806 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="283.60" data-y="0.537786999" data-x="2036" data-i="14" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2036: 0.537786999 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="283.99" data-y="0.505656989" data-x="2037" data-i="15" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2037: 0.505656989 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="284.12" data-y="0.494633554" data-x="2038" data-i="16" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2038: 0.494633554 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="284.38" data-y="0.472254317" data-x="2039" data-i="17" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2039: 0.472254317 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="284.76" data-y="0.440217351" data-x="2040" data-i="18" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2040: 0.440217351 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="286.36" data-y="0.305838433" data-x="2041" data-i="19" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2041: 0.305838433 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="286.65" data-y="0.281818872" data-x="2042" data-i="20" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2042: 0.281818872 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="286.82" data-y="0.267417716" data-x="2043" data-i="21" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2043: 0.267417716 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="286.93" data-y="0.257858059" data-x="2044" data-i="22" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2044: 0.257858059 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="287.94" data-y="0.173019581" data-x="2045" data-i="23" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2045: 0.173019581 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="288.12" data-y="0.158014742" data-x="2046" data-i="24" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2046: 0.158014742 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="288.50" data-y="0.126483519" data-x="2047" data-i="25" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2047: 0.126483519 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="288.50" data-y="0.12604585" data-x="2048" data-i="26" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2048: 0.12604585 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="288.73" data-y="0.107089365" data-x="2049" data-i="27" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2049: 0.107089365 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="288.75" data-y="0.105338071" data-x="2050" data-i="28" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2050: 0.105338071 MtCO2</title></circle>
+</g>
+<g data-scenario="total-emissions" class="series series-7" tabindex="0" role="row" aria-label="Series: Total Emissions" data-series="7">	<path d="M 50.00,10.00L 70.00,23.19L 90.00,30.66L 110.00,44.86L 130.00,71.80L 150.00,93.19L 170.00,111.58L 190.00,128.38L 210.00,147.32L 230.00,165.15L 250.00,185.09L 270.00,202.02L 290.00,216.96L 310.00,230.36L 330.00,239.85L 350.00,248.45L 370.00,255.80L 390.00,262.38L 410.00,268.21L 430.00,274.21L 450.00,278.09L 470.00,281.14L 490.00,283.02L 510.00,285.19L 530.00,286.02L 550.00,286.87L 570.00,287.09L 590.00,287.46L 610.00,287.59" id="Total Emissions" class="line" stroke="#cc0935" stroke-width="3" stroke-linecap="round"><title>Total Emissions</title></path>
+	<circle class="marker" cx="50.00" cy="10.00" data-y="23.54047658" data-x="2022" data-i="0" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2022: 23.54047658 MtCO2</title></circle>
+	<circle class="marker" cx="70.00" cy="23.19" data-y="22.43159127" data-x="2023" data-i="1" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2023: 22.43159127 MtCO2</title></circle>
+	<circle class="marker" cx="90.00" cy="30.66" data-y="21.80375371" data-x="2024" data-i="2" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2024: 21.80375371 MtCO2</title></circle>
+	<circle class="marker" cx="110.00" cy="44.86" data-y="20.60954156" data-x="2025" data-i="3" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2025: 20.60954156 MtCO2</title></circle>
+	<circle class="marker" cx="130.00" cy="71.80" data-y="18.34492241" data-x="2026" data-i="4" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2026: 18.34492241 MtCO2</title></circle>
+	<circle class="marker" cx="150.00" cy="93.19" data-y="16.54639294" data-x="2027" data-i="5" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2027: 16.54639294 MtCO2</title></circle>
+	<circle class="marker" cx="170.00" cy="111.58" data-y="14.99991733" data-x="2028" data-i="6" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2028: 14.99991733 MtCO2</title></circle>
+	<circle class="marker" cx="190.00" cy="128.38" data-y="13.5881981" data-x="2029" data-i="7" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2029: 13.5881981 MtCO2</title></circle>
+	<circle class="marker" cx="210.00" cy="147.32" data-y="11.99563242" data-x="2030" data-i="8" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2030: 11.99563242 MtCO2</title></circle>
+	<circle class="marker" cx="230.00" cy="165.15" data-y="10.49671324" data-x="2031" data-i="9" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2031: 10.49671324 MtCO2</title></circle>
+	<circle class="marker" cx="250.00" cy="185.09" data-y="8.820193051" data-x="2032" data-i="10" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2032: 8.820193051 MtCO2</title></circle>
+	<circle class="marker" cx="270.00" cy="202.02" data-y="7.3965991" data-x="2033" data-i="11" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2033: 7.3965991 MtCO2</title></circle>
+	<circle class="marker" cx="290.00" cy="216.96" data-y="6.140669139" data-x="2034" data-i="12" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2034: 6.140669139 MtCO2</title></circle>
+	<circle class="marker" cx="310.00" cy="230.36" data-y="5.014369383" data-x="2035" data-i="13" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2035: 5.014369383 MtCO2</title></circle>
+	<circle class="marker" cx="330.00" cy="239.85" data-y="4.21607827" data-x="2036" data-i="14" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2036: 4.21607827 MtCO2</title></circle>
+	<circle class="marker" cx="350.00" cy="248.45" data-y="3.493103341" data-x="2037" data-i="15" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2037: 3.493103341 MtCO2</title></circle>
+	<circle class="marker" cx="370.00" cy="255.80" data-y="2.875141229" data-x="2038" data-i="16" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2038: 2.875141229 MtCO2</title></circle>
+	<circle class="marker" cx="390.00" cy="262.38" data-y="2.322018103" data-x="2039" data-i="17" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2039: 2.322018103 MtCO2</title></circle>
+	<circle class="marker" cx="410.00" cy="268.21" data-y="1.831883355" data-x="2040" data-i="18" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2040: 1.831883355 MtCO2</title></circle>
+	<circle class="marker" cx="430.00" cy="274.21" data-y="1.327258689" data-x="2041" data-i="19" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2041: 1.327258689 MtCO2</title></circle>
+	<circle class="marker" cx="450.00" cy="278.09" data-y="1.001661033" data-x="2042" data-i="20" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2042: 1.001661033 MtCO2</title></circle>
+	<circle class="marker" cx="470.00" cy="281.14" data-y="0.745023347" data-x="2043" data-i="21" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2043: 0.745023347 MtCO2</title></circle>
+	<circle class="marker" cx="490.00" cy="283.02" data-y="0.587228183" data-x="2044" data-i="22" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2044: 0.587228183 MtCO2</title></circle>
+	<circle class="marker" cx="510.00" cy="285.19" data-y="0.404432309" data-x="2045" data-i="23" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2045: 0.404432309 MtCO2</title></circle>
+	<circle class="marker" cx="530.00" cy="286.02" data-y="0.33489691" data-x="2046" data-i="24" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2046: 0.33489691 MtCO2</title></circle>
+	<circle class="marker" cx="550.00" cy="286.87" data-y="0.262940828" data-x="2047" data-i="25" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2047: 0.262940828 MtCO2</title></circle>
+	<circle class="marker" cx="570.00" cy="287.09" data-y="0.244838514" data-x="2048" data-i="26" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2048: 0.244838514 MtCO2</title></circle>
+	<circle class="marker" cx="590.00" cy="287.46" data-y="0.213781427" data-x="2049" data-i="27" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2049: 0.213781427 MtCO2</title></circle>
+	<circle class="marker" cx="610.00" cy="287.59" data-y="0.20257475" data-x="2050" data-i="28" data-series="7" r="4" fill="#cc0935" roll="cell"><title>2050: 0.20257475 MtCO2</title></circle>
+</g>
+</g>
+</svg>

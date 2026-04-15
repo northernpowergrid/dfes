@@ -1,0 +1,583 @@
+Primary,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,Licence area,Voltage level,Scenario name,Output parameter
+ACKLAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+AMBERTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+ANNFIELD 66/20KV,1,2,2,3,4,5,6,7,9,10,12,14,15,17,19,21,22,24,25,26,27,28,29,29,30,30,31,31,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+ASHINGTON,2,5,7,9,11,14,18,22,26,30,35,40,45,50,55,60,65,69,73,76,80,82,84,86,88,89,90,91,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+AYCLIFFE FORREST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+AYCLIFFE INDUSTRIAL,0,1,1,1,2,2,3,3,4,5,6,6,7,8,9,10,10,11,12,12,13,13,13,14,14,14,14,14,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BARDEN FRIAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BEDALE,2,5,6,8,10,13,16,20,24,28,32,37,41,46,51,55,59,63,67,70,73,75,77,79,80,82,82,83,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BELMONT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BENSHAM,5,10,14,18,24,30,37,45,54,63,73,83,93,104,115,125,134,143,151,158,165,170,175,179,182,185,187,188,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BENTON SQUARE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BENWELL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BILLINGHAM MARSH HOUSE,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BILLY MILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BIRTLEY GROVE 66/11KV,4,10,13,18,23,29,36,43,51,60,70,79,90,100,110,120,129,137,145,152,158,163,168,172,175,177,179,181,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BIRTLEY GROVE 66/20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BLAYDON BURN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BLUCHER 33/11KV,17,39,53,69,89,113,139,169,201,236,273,311,351,391,430,468,504,537,568,595,619,639,657,672,684,694,701,707,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BOLDON DOWNHILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BOROUGHBRIDGE/ROECLIFFE INDUSTRIAL,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,26,26,27,27,27,28,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BOWESFIELD 33/11KV,2,3,5,6,8,10,12,15,17,20,23,27,30,34,37,40,43,46,49,51,53,55,57,58,59,60,60,61,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BOWESFIELD 66/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BRANCEPETH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BREAMISH STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+BRENDA TRADING,1,2,2,3,4,5,6,7,8,10,11,13,14,16,18,19,21,22,23,24,25,26,27,27,28,28,29,29,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CAMPLESHON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CARLEY HILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CARLIN HOW T3 T4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CARR HILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CATTERICK CAMP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CLOSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CONEYTHORPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CONSETT,2,5,7,9,11,14,18,22,26,30,35,40,45,50,55,60,65,69,73,76,80,82,84,86,88,89,90,91,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CORPORATION STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+COWTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CRAMLINGTON T1 T3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+CRAMLINGTON T2 T4,0,1,1,1,2,2,2,3,3,4,5,5,6,7,7,8,9,9,10,10,11,11,11,12,12,12,12,12,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DARLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DARLINGTON 132/6KV,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,26,26,27,27,27,28,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DARLINGTON 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DARLINGTON CENTRAL 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DARLINGTON EAST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DARLINGTON WEST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DENWICK,2,5,7,10,12,16,19,23,28,33,38,43,48,54,59,65,69,74,78,82,85,88,91,93,94,96,97,98,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DUNSTON 66/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DUNSTON 66/20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+DURHAM EAST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+EASTFIELD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+EASTGATE CEMENT,1,2,2,3,4,5,7,8,9,11,13,15,16,18,20,22,24,25,27,28,29,30,31,32,32,33,33,33,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+EDUCATIONAL PRECINCT,2,5,7,10,12,16,19,23,28,33,38,43,48,54,59,65,69,74,78,82,85,88,91,93,94,96,97,98,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+ELVINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FARADAY STREET,1,2,2,3,4,5,6,7,9,10,12,13,15,17,18,20,21,23,24,25,26,27,28,28,29,29,30,30,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FAWDON T1 & SEATON BURN T1,1,2,2,3,4,5,6,7,9,10,12,14,15,17,19,21,22,24,25,26,27,28,29,29,30,30,31,31,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FISHBURN,2,4,5,7,9,11,13,16,19,23,26,30,34,37,41,45,48,51,54,57,59,61,63,64,65,66,67,68,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FLATWORTH CENTRAL,2,5,7,9,12,15,19,23,27,31,36,41,47,52,57,62,67,72,76,79,82,85,88,90,91,92,93,94,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FOSS ISLANDS,3,8,10,14,17,22,27,33,39,46,53,61,69,77,84,92,99,105,111,117,121,125,129,132,134,136,137,139,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FOSSWAY 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FOURSTONES 20KV,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,26,26,27,27,27,28,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+FYLANDS BRIDGE,1,2,3,4,6,7,9,11,13,15,17,20,22,25,27,29,32,34,36,37,39,40,41,42,43,43,44,44,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GALE LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GARWOOD STREET,16,37,49,65,84,106,131,159,189,222,256,293,330,368,405,440,474,505,534,559,582,601,618,632,643,652,660,665,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GATESHEAD CENTRAL,1,2,2,3,4,5,7,8,9,11,13,15,16,18,20,22,24,25,27,28,29,30,31,32,32,33,33,33,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GATESHEAD EAST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GOSFORTH 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GRANGETOWN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GREATHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GUISBOROUGH T1 T2,1,3,4,5,6,8,10,12,14,16,19,21,24,27,30,32,35,37,39,41,43,44,45,46,47,48,48,49,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+GUISBOROUGH T3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HARLOW GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HARMIRE BRIDGE,1,2,3,4,6,7,9,11,13,15,17,20,22,25,27,29,32,34,36,37,39,40,41,42,43,43,44,44,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HARRATON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HARROGATE 132/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HARROGATE WEST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HARTMOOR 66/20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HAWTHORN PIT,1,1,2,2,3,4,4,5,6,7,9,10,11,12,13,15,16,17,18,19,19,20,21,21,21,22,22,22,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HAXBY ROAD T2 T3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HEBBURN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HEBBURN WEST,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HEDWORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HEIGHINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HEXHAM,1,3,3,5,6,7,9,11,13,16,18,20,23,26,28,31,33,35,37,39,41,42,43,44,45,46,46,47,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HIGH BARMSTON,2,4,5,7,8,11,13,16,19,22,26,29,33,37,40,44,47,51,53,56,58,60,62,63,64,65,66,67,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HIGH FLATTS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HOUGHTON,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HOWDON,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HUNTINGTON NEW LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+HUSTHWAITE 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+JARROW,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+KENTON,1,1,2,2,3,4,4,5,6,7,9,10,11,12,13,15,16,17,18,19,19,20,21,21,21,22,22,22,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+KIELDER,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+KILLINGWORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+KIRBYMOORSIDE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+LEAM CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+LINTON 66/20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+LONGBENTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+LOW SPENNYMOOR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+LYNEMOUTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MADDISON STREET,3,6,8,11,14,18,22,26,32,37,43,49,55,61,67,73,79,84,89,93,97,100,103,105,107,109,110,111,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MALLEABLE,12,28,38,49,64,80,100,121,144,169,195,222,251,279,308,335,360,384,406,425,442,457,470,480,489,496,501,505,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MALTON,2,4,6,8,10,13,15,19,22,26,30,35,39,43,48,52,56,60,63,66,69,71,73,75,76,77,78,79,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MEADOWFIELD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MELROSEGATE 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MILLBANK LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MONKSEATON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MOOR MONKTON PUMPS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MORPETH,0,1,1,2,2,3,3,4,5,6,6,7,8,9,10,11,12,13,13,14,15,15,15,16,16,16,16,17,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+MOUNT ROAD,4,9,12,15,20,25,31,37,44,52,60,68,77,86,94,103,111,118,125,130,136,140,144,147,150,152,154,155,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NEWBURN HAUGH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NEWBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NEWCASTLE AIRPORT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NEWTON AYCLIFFE SOUTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NORTH STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NORTH TEES T1 T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NORTH TEES T3 T4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NORTHALLERTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+NORTON 132/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+OATLANDS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+OFFERTON 33/11KV,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+PALLION TRADING,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+PETERLEE INDUSTRIAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+PETERLEE WEST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+PILGRIM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+POTTER HOUSE T1 T3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+POTTER HOUSE T4 T5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+PRISSICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RAVENSCAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RAWCLIFFE LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+REDCAR,1,1,2,3,3,4,5,6,8,9,10,12,13,15,16,18,19,20,21,22,23,24,25,25,26,26,26,27,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RESERVOIR,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,26,26,27,27,27,28,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RICHMOND T1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RICHMOND T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RIPON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RISE CARR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+ROMANBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+RUDBY,0,1,1,1,2,2,3,3,4,5,6,6,7,8,9,10,10,11,12,12,13,13,13,14,14,14,14,14,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SCARBOROUGH 33/11KV,2,6,8,10,13,16,20,24,29,34,39,44,50,56,61,67,72,77,81,85,88,91,94,96,98,99,100,101,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SCARBOROUGH 66/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SEAHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SEGHILL,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SESSAY BRIDGE_SOWERBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SEVERUS HILL,2,3,5,6,8,10,12,15,18,21,24,27,31,34,38,41,44,47,50,52,54,56,58,59,60,61,62,62,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SHERIFF HUTTON,2,4,6,8,10,13,16,19,23,27,31,35,40,44,49,53,57,61,64,67,70,72,74,76,77,78,79,80,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SHOTTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SIMONSIDE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SKELDERGATE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SKERNESIDE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SPADEADAM 20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SPENCERBECK,1,2,2,3,4,5,6,7,9,10,12,13,15,17,18,20,21,23,24,25,26,27,28,28,29,29,30,30,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SPENNYMOOR 66/20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+STARBECK,2,5,7,9,12,15,19,23,27,32,37,42,47,53,58,63,68,72,76,80,83,86,89,91,92,94,95,95,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+STOBSWOOD COAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+STOKESLEY,0,1,1,1,2,2,3,3,4,4,5,6,7,7,8,9,9,10,11,11,12,12,12,13,13,13,13,13,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+STONEY CUT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SUNDERLAND T1 T2,16,37,49,65,84,106,131,159,189,222,256,293,330,368,405,440,474,505,534,559,582,601,618,632,643,652,660,665,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+SUNDERLAND T5 T6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TANFIELD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TEAM VALLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TEES INDUSTRIAL T1 T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TEMPLE PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+THIRSK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+THORNTON DALE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TORONTO 66/20KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TUNSTALL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+TYNEMOUTH CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+UNIVERSITY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+URLAY NOOK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+USWORTH,2,4,5,7,8,11,13,16,19,22,26,29,33,37,40,44,47,51,53,56,58,60,62,63,64,65,66,67,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WALKER,4,9,12,16,21,26,33,40,47,55,64,73,82,92,101,110,118,126,133,140,145,150,154,158,161,163,165,166,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WANSBECK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WARDLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WARKWORTH,0,1,1,1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9,10,10,10,11,11,11,11,11,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WENSLEYDALE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WEST HARTFORD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WEST SOUTHWICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WEST WYLAM,1,1,2,2,3,4,4,5,6,7,9,10,11,12,13,15,16,17,18,19,19,20,21,21,21,22,22,22,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WESTERHOPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WESTOE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WHITBY T1,1,2,3,4,5,6,8,9,11,13,15,17,19,21,24,26,28,29,31,33,34,35,36,37,38,38,38,39,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WHITBY T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WHITBY WEST T1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WHITBY WEST T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WILLINGTON,1,1,2,2,3,4,4,5,6,7,9,10,11,12,13,15,16,17,18,19,19,20,21,21,21,22,22,22,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WORMALD GREEN 132/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+WYNYARD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+YEDINGHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+YORK UNIVERSITY,2,5,7,9,11,14,18,21,26,30,35,39,45,50,55,59,64,68,72,76,79,81,83,85,87,88,89,90,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+ABBEY ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+AIREDALE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ALDHAM,1,1,2,2,3,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,18,19,19,20,20,21,21,21,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ALFRED GELDER STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ALLERTON HILL T1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ALLERTON HILL T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ALVERTHORPE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ARMOURIES DRIVE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ARMTHORPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ARUNDEL STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ASKERN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+AUDBY LANE,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,25,26,27,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+AUSTERFIELD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BAILIFF BRIDGE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BALBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BALME STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARNBURGH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARNOLDSWICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARNSLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARNSLEY ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARROW,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARUGH 66/11KV,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,25,26,27,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BARWICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BASLOW ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BATLEY,1,2,3,4,5,7,8,10,12,14,16,18,20,23,25,27,29,31,33,35,36,37,38,39,40,40,41,41,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BEAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BEESTON ROYDS 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BEESTON ROYDS 6/7,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BEIGHTON,2,4,6,7,9,12,15,18,21,25,29,33,37,41,46,50,53,57,60,63,66,68,70,71,73,74,74,75,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BELLHOUSE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BELMONT AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BELMONT COVERT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BELTHORPE LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BENTLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BILLET LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BINBROOK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BINGLEY 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BIRKBY,1,1,2,2,3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,22,22,23,23,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BLACKBURN MEADOWS 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BLUE BOY STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BOLTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BOTTESFORD,1,2,3,3,4,5,7,8,10,11,13,15,17,19,21,22,24,26,27,28,30,31,31,32,33,33,34,34,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BRAMHOPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BRAMLEY,22,51,67,89,114,144,179,217,258,303,350,399,450,502,552,601,647,689,728,763,794,821,843,862,878,890,900,908,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BRETT STREET,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BRIDGES ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BRIGHOUSE 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BRODSWORTH,1,2,2,3,4,5,6,7,8,10,11,13,14,16,18,19,21,22,23,24,25,26,27,28,28,28,29,29,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BROOKFIELD STREET,3,7,9,12,15,19,24,29,34,40,47,53,60,67,74,80,86,92,97,102,106,109,112,115,117,119,120,121,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BTP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BURLEY STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BURMANTOFTS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BURNLEYVILLE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BURTON PIDSEA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BURTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BUSLINGTHORPE GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+BUTTERWICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CAISTOR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CALDER WHARF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CARLTON HILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CARR LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CHELKER RESERVOIR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CHEVIN END,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CLARENCE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CLARENDON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CLARENDON STREET,3,7,10,13,17,21,26,32,38,44,51,59,66,74,81,88,95,101,107,112,116,120,124,126,129,131,132,133,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CLAYWHEELS LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CLOUGH LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+COMMONSIDE LANE,0,1,1,2,2,3,3,4,5,6,7,8,9,10,11,12,13,13,14,15,16,16,16,17,17,17,18,18,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CONVAMORE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CONYARD ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CORNWALL STREET,11,26,34,45,58,73,91,110,131,153,177,202,228,254,280,304,328,349,369,387,402,416,427,437,445,451,456,460,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CORRINGHAM ROAD,1,2,2,3,4,5,6,8,9,11,12,14,16,18,20,21,23,25,26,27,28,29,30,31,31,32,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+COSTHORPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+COUNTY ROAD NORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CRACOE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CROOKESMOOR ROAD,1,1,2,2,3,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,18,19,19,20,20,21,21,21,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CROSSHILLS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CROWLE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+CROWN STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DALTON,1,2,3,4,5,6,8,10,11,13,16,18,20,22,25,27,29,31,32,34,35,36,37,38,39,40,40,40,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DARNALL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DEARNE ROAD,0,1,1,2,2,3,3,4,5,6,7,8,9,10,11,12,13,13,14,15,16,16,16,17,17,17,18,18,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DEIGHTON,23,51,68,90,116,146,180,219,261,306,353,403,455,507,558,607,653,696,735,771,802,829,852,871,887,899,909,916,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DENBY DALE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DENBY GRANGE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DENHOLME,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DINNINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DOUGHTY ROAD,2,5,7,9,12,15,18,22,26,31,36,41,46,51,56,61,66,70,74,78,81,84,86,88,90,91,92,93,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DOWKER STREET,1,2,3,4,5,6,8,10,11,13,16,18,20,22,25,27,29,31,32,34,35,36,37,38,39,40,40,40,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DRAX PRIMARY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DRIFFIELD,0,1,1,2,2,3,3,4,5,5,6,7,8,9,10,11,11,12,13,14,14,15,15,15,16,16,16,16,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DRONFIELD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DUDLEY HILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DUNKESWICK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+DURKAR LOW LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+EASINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+EASTFIELD ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ECCLESFIELD,2,4,5,6,8,10,13,15,18,22,25,28,32,36,39,43,46,49,52,54,56,58,60,61,62,63,64,65,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+EDLINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+EGGBOROUGH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELGAR ROAD,1,2,2,3,4,5,6,8,9,11,12,14,16,18,20,21,23,25,26,27,28,29,30,31,31,32,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELLAND 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELLIFOOT LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELLIN STREET 1/3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELLIN STREET 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELMHIRST LANE 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELMHIRST LANE 2,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ELSECAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ENDIKE LANE,0,1,1,1,2,2,2,3,3,4,5,5,6,7,7,8,9,9,10,10,11,11,11,11,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+EPWORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FARNLEY CRESCENT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FENTON LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FERRYBRIDGE A 11KV,0,1,1,1,1,2,2,3,3,4,4,5,6,6,7,7,8,9,9,9,10,10,10,11,11,11,11,11,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FIR TREE LANE,0,1,1,1,2,2,3,3,4,5,6,6,7,8,9,10,10,11,12,12,13,13,13,14,14,14,14,15,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FIRST AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FIRTH BROWN,1,2,3,4,5,6,8,10,11,13,16,18,20,22,25,27,29,31,32,34,35,36,37,38,39,40,40,40,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FISH DAM LANE,1,1,2,2,3,3,4,5,6,7,8,10,11,12,13,14,16,17,17,18,19,20,20,21,21,21,22,22,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FLIXBOROUGH,1,1,2,2,3,4,4,5,6,8,9,10,11,12,14,15,16,17,18,19,20,20,21,21,22,22,22,23,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FOLLY HALL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FOUR LANE ENDS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FOXHILLS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FULLERTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+FURNESS AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GAISBY LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GIBRALTAR ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GIBSON LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GILDERSOME,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GLEADLESS VALLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GOOLE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GRAINTHORPE,1,2,2,3,4,5,6,7,8,10,12,13,15,16,18,20,21,23,24,25,26,27,28,28,29,29,30,30,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GREAT COATES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GREENHILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GREYFRIARS RD,0,1,1,2,2,3,4,5,6,6,7,9,10,11,12,13,14,15,16,16,17,18,18,18,19,19,19,19,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GREYFRIARS ROAD 3/4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GRIMETHORPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GROVE STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+GUARDIAN GLASS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HACKENTHORPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HALIFAX 33/11KV,1,2,2,3,4,4,6,7,8,9,11,12,14,16,17,19,20,21,23,24,25,26,26,27,27,28,28,28,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HALLAM STREET,1,1,2,2,3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,22,22,23,23,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HARDEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HARPSWELL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HARWORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HAWORTH 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HAWORTH 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HAXEY,0,1,1,1,1,2,2,3,3,4,4,5,6,6,7,7,8,9,9,9,10,10,10,11,11,11,11,11,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HAYTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HAZLEHEAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HEBDEN BRIDGE,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HEDLEY CHASE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HEDON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HEMSWORTH,1,1,2,3,3,4,5,6,7,9,10,11,13,14,16,17,18,20,21,22,23,23,24,25,25,25,26,26,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HESSLE ROAD 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HESSLE ROAD 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HIBALDSTOW,1,2,2,3,4,5,6,8,9,11,12,14,16,18,20,21,23,25,26,27,28,29,30,31,31,32,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HICKLETON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HILLCREST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HOLBECK,4,10,13,18,23,29,36,43,52,61,70,80,90,100,110,120,129,138,146,153,159,164,169,172,176,178,180,182,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HOLDERNESS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HOLME UPON SPALDING MOOR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HONLEY,1,2,2,3,3,4,5,7,8,9,11,12,14,15,17,18,20,21,22,23,24,25,25,26,27,27,27,27,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HOPE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HORBURY,0,1,1,2,2,3,3,4,5,6,7,8,9,10,11,12,13,13,14,15,16,16,16,17,17,17,18,18,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HOUGHTON MAIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HULL EAST 33/11KV,1,2,2,3,4,5,6,8,9,11,12,14,16,18,20,21,23,25,26,27,28,29,30,31,31,32,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HUMBER ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+HUNMANBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ICI FIBRES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+IDLE,1,2,2,3,4,5,6,7,8,10,11,13,14,16,18,19,21,22,23,24,25,26,27,28,28,28,29,29,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ILKLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+INGS LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+IVESON HOUSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+JARRATT STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KEDDINGTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KEIGHLEY,3,7,10,13,17,21,26,32,38,44,51,59,66,74,81,88,95,101,107,112,116,120,124,126,129,131,132,133,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KENMORE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KILLINGHALL ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KILNHURST,5,11,15,20,25,32,40,48,57,67,78,89,100,111,123,133,144,153,162,170,176,182,187,192,195,198,200,202,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KING GEORGE DOCK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KIRK DRIVE,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KIRK SANDALL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KIRKBURN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+KIVETON PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LEA ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LEASOWE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LEDSTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LEEDS ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LEGRAMS MILL LANE,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LEYLANDS ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LIVERSEDGE,1,3,4,6,8,10,12,14,17,20,23,27,30,33,37,40,43,46,49,51,53,55,56,57,59,59,60,61,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LOUTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LOW MOOR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LOWFIELDS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+LOXLEY ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MANCHESTER ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MANSFIELD ROAD 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MANSFIELD ROAD 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MARKHAM GATES,3,6,8,10,13,17,21,25,30,35,40,46,52,58,64,69,75,80,84,88,92,95,97,100,101,103,104,105,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MARMION ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MARSDEN ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MARTONGATE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MELTHAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MEXBOROUGH 1_2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MIDDLETON TOWN STREET,1,2,3,4,5,6,8,10,11,13,16,18,20,22,25,27,29,31,32,34,35,36,37,38,39,40,40,40,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MILLHOUSES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MILLROYD STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MILTON PLACE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MIRFIELD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MONCKTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MOOR ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MOORSIDE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MORLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MOUNT STREET,23,51,68,90,116,146,181,219,261,306,354,404,455,507,559,608,654,697,737,772,803,830,853,872,888,901,911,918,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+MYTHOLMROYD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NAB LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NABWOOD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NATIONAL AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NEW DROPPINGWELL ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NEW ORCHARD LANE,1,2,2,3,4,5,6,7,8,10,12,13,15,16,18,20,21,23,24,25,26,27,28,28,29,29,30,30,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NEWHALL ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NEWPORT 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NEWPORT 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NINELANDS LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NORFOLK PARK,11,25,33,43,56,71,87,106,126,148,171,195,220,245,270,294,316,337,356,373,388,401,412,422,429,435,440,444,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NORMANBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NORMANTON,4,9,11,15,19,24,30,37,44,51,59,67,76,85,93,101,109,116,123,129,134,139,142,146,148,150,152,153,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NORTH AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NORTH THORESBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+NORWOOD,2,4,5,6,8,10,13,15,18,22,25,28,32,36,39,43,46,49,52,54,56,58,60,61,62,63,64,65,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+OAKES ROAD,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+OAKWOOD LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ODSAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+OLYMPIA MILLS,0,1,1,2,2,3,3,4,5,6,7,8,9,10,11,12,13,13,14,15,16,16,16,17,17,17,18,18,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ORGREAVE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+OUTWOOD,0,1,1,1,1,2,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8,9,9,9,9,9,10,10,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PARK HILL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PARK ROAD,1,3,4,6,8,10,12,14,17,20,23,27,30,33,37,40,43,46,49,51,53,55,56,57,59,59,60,61,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PARK STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PASTURE ROAD SOUTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PATRINGTON ROAD,0,1,1,2,2,3,3,4,5,5,6,7,8,9,10,11,11,12,13,14,14,15,15,15,16,16,16,16,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PENISTONE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PENISTONE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PLANGEO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+POLLINGTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PONTEFRACT LANE 1/2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+POOL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PRINCE OF WALES,0,1,1,2,3,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,18,19,19,20,20,20,20,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+PROSPECT ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+QUEENS ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+QUEENSBURY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RAWCLIFFE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RAWDON,0,1,1,2,2,3,4,4,5,6,7,8,9,10,11,12,13,14,15,16,16,17,17,18,18,18,18,19,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RAWMARSH ROAD 1_2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RAWMARSH ROAD 3_4,0,1,1,2,3,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,18,19,19,20,20,20,20,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RAWSON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RAWSON SPRING ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+REVILL LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ROCKWARE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+RODLEY LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ROMAN AVENUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+ROYDS LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SAINT ANDREWS ROAD 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SAINT STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SALTERFORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SALTERHEBBLE,1,2,2,3,4,5,7,8,9,11,13,15,16,18,20,22,24,25,27,28,29,30,31,31,32,32,33,33,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SALTSHOUSE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SANDHILL LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SAXON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SCARTHO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SCHOLES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SCISSETT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SCULCOATES A,0,1,1,2,2,3,3,4,5,5,6,7,8,9,10,11,11,12,13,14,14,15,15,15,16,16,16,16,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SEACROFT,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SEATON,0,1,1,1,2,2,3,3,4,5,5,6,7,8,8,9,10,10,11,12,12,12,13,13,13,13,14,14,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SELBY,1,2,2,3,4,5,7,8,9,11,13,15,16,18,20,22,24,25,27,28,29,30,31,31,32,32,33,33,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SELBY ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SHARLSTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SHEPCOTE TINSLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SHERBURN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SHIPLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SHIRLAND LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SILVER STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SILVERWOOD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SKILLINGS LANE,0,1,1,1,2,2,3,3,4,5,5,6,7,8,8,9,10,10,11,12,12,12,13,13,13,13,14,14,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SKIPTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SLAITHWAITE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SLEDMERE GARTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SMITH STREET,1,3,4,6,7,9,11,13,16,19,22,25,28,31,34,37,40,43,45,47,49,51,52,54,55,55,56,56,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SMITHY GREEN,6,13,17,22,28,36,44,54,64,75,87,99,112,125,137,150,161,172,181,190,198,204,210,215,219,222,224,226,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SNAITHING PARK ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SNELSINS LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTH ELMSALL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTH FERRIBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTH KIRKBY,0,1,1,1,2,2,2,3,3,4,5,5,6,7,7,8,9,9,10,10,11,11,11,11,12,12,12,12,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTH RESTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTH STREET,1,3,4,5,7,8,10,13,15,17,20,23,26,29,32,35,37,40,42,44,46,47,49,50,51,51,52,52,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTHGATE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOUTHWOOD ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SOWERBY BRIDGE 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SPARK MILL LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SPENBOROUGH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SPRING MILL STREET,0,1,1,1,2,2,3,3,4,5,6,6,7,8,9,10,10,11,12,12,13,13,13,14,14,14,14,15,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STAINFORTH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STAIRFOOT,1,1,2,2,3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,22,22,23,23,24,24,24,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STANLEY STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STANNINGTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STATION ROAD,1,2,3,4,5,6,8,10,11,13,16,18,20,22,25,27,29,31,32,34,35,36,37,38,39,40,40,40,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STEVENSON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STOKE STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STOURTON 132/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STOURTON 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+STOW,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SWAN BANK LANE,23,52,69,91,117,148,183,222,264,309,358,408,460,513,564,614,661,705,745,780,812,839,862,882,897,910,920,928,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SWEET STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+SWINNOW MOOR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TADCASTER,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TANKERSLEY PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TEMPLEBOROUGH 33/11KV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+THORNBURY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+THORNE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+THORNTON,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+THORPE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TICKHILL ROAD,0,1,1,1,2,2,3,3,4,5,6,6,7,8,9,10,10,11,12,12,13,13,13,14,14,14,14,15,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TINGLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TINSLEY PARK ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TINSLEY WIRE INDUSTRIES,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TIVERTON ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TODMORDEN,22,51,67,89,114,144,179,217,258,303,350,399,450,502,552,601,647,689,728,763,794,821,843,862,878,890,900,908,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TOLLER LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+TONG STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+UPPER BASINGHALL STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+VARLEY STREET,1,1,2,2,3,4,4,5,6,8,9,10,11,12,14,15,16,17,18,19,20,20,21,21,22,22,22,23,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+VICTORIA STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WALESBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WARREN LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WATH UPON DEARNE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WAVERLEY BUSINESS PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WAWNE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WEELAND ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WELLINGTON STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WESLEY CRESCENT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WEST DOCKS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WEST END LANE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WEST MOOR PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WEST PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WESTCOTT STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WETHERBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WHEATACRE ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WHEATLEY PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WHINGATE,1,2,2,3,4,5,6,8,9,11,12,14,16,18,20,21,23,25,26,27,28,29,30,31,31,32,32,32,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WHITE LEE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WHITEHALL ROAD 2/3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WHITEHALL ROAD 4/5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WIBSEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WITHERNSEA,0,1,1,1,2,2,3,3,4,5,5,6,7,8,8,9,10,10,11,12,12,12,13,13,13,13,14,14,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WOODCOCK STREET,3,7,9,12,16,20,25,30,36,43,49,56,63,70,78,84,91,97,102,107,112,115,118,121,123,125,126,127,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WOODSEATS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WOOLLEY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WORSBROUGH PARK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+WRAWBY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+YARBOROUGH ROAD 33/11KV,1,2,3,4,5,6,7,9,10,12,14,16,18,20,22,24,26,28,29,31,32,33,34,34,35,36,36,36,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+YEW GREEN ROAD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+YORK ROAD,0,0,1,1,1,1,2,2,2,3,3,4,4,4,5,5,6,6,6,7,7,7,7,8,8,8,8,8,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+YORK STREET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Barnsley Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Bradford Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Calderdale Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+County Durham Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Darlington Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Doncaster Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+East Riding of Yorkshire Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Gateshead Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Hambleton Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Harrogate Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Hartlepool Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+"Kingston upon Hull, City of Direct to Supply Points",,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Kirklees Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Leeds Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Newcastle upon Tyne Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+North East Lincolnshire Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+North Lincolnshire Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+North Tyneside Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Northumberland Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Redcar and Cleveland Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Rotherham Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Ryedale Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Scarborough Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Selby Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+Sheffield Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+South Tyneside Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Stockton-on-Tees Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Sunderland Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses
+Wakefield Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+West Lindsey Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgY,Primary,NG FES - Counterfactual,Number of electric buses
+York Direct to Supply Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NPgN,Primary,NG FES - Counterfactual,Number of electric buses

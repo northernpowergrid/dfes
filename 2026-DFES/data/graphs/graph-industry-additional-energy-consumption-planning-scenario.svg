@@ -1,0 +1,95 @@
+<svg width="640" height="320" viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" overflow="visible" class="oi-chart-main" data-type="line-chart">
+<defs>
+	<style>
+	.series path.line { fill-opacity: 0; }
+	.series path.line.dotted { stroke-dasharray: 12 20 }
+	.series:hover path.line, .series.on path.line { stroke-width: 5; }
+	.series .marker { opacity:0.01; }
+	.series:hover .marker, .series.active .marker, .series .marker.selected { opacity:1!important; }
+	.series .marker:hover, .series .marker.on { r: 6px!important; fill: black; }
+	.grid { font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+	.grid line { stroke: rgb(0,0,0); stroke-width: 2; stroke-linecap: round; }
+	.grid.grid-x text { text-anchor: middle; dominant-baseline: hanging; transform: translateY(10px); }
+	.grid.grid-y text { text-anchor: end; dominant-baseline: middle; transform: translateX(-10px); }
+	</style>
+</defs>
+<g class="grid grid-y">
+	<line x1="80" y1="290" x2="630" y2="290" data-left="80"></line>
+	<text x="80" y="290" text-anchor="end">0</text>
+	<text x="80" y="208.845284331343" text-anchor="end">5</text>
+	<text x="80" y="127.690568662686" text-anchor="end">10</text>
+	<text x="80" y="46.5358529940294" text-anchor="end">15</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);">Energy consumption (TWh)</text>
+</g>
+<g class="grid grid-x">
+	<line class="tick" x1="217.5" y1="290" x2="217.5" y2="295"></line>
+	<text x="217.5" y="290" text-anchor="middle">2030</text>
+	<line class="tick" x1="413.928571428571" y1="290" x2="413.928571428571" y2="295"></line>
+	<text x="413.928571428571" y="290" text-anchor="middle">2040</text>
+	<line class="tick" x1="610.357142857143" y1="290" x2="610.357142857143" y2="295"></line>
+	<text x="610.357142857143" y="290" text-anchor="middle">2050</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);"></text>
+</g>
+<g class="data-layer" role="table">
+<g data-scenario="electrolysers" class="series series-1" tabindex="0" role="row" aria-label="Series: Electrolysers" data-series="1">	<path d="M 80.00,290.00L 99.64,289.98L 119.29,288.72L 138.93,286.90L 158.57,286.36L 178.21,285.16L 197.86,280.38L 217.50,275.29L 237.14,269.05L 256.79,259.21L 276.43,245.85L 296.07,229.73L 315.71,207.17L 335.36,195.41L 355.00,150.48L 374.64,145.20L 394.29,137.93L 413.93,130.22L 433.57,115.40L 453.21,83.22L 472.86,63.30L 492.50,47.92L 512.14,38.45L 531.79,26.13L 551.43,13.88L 571.07,10.00L 590.71,10.34L 610.36,14.77" id="Electrolysers" class="line" stroke="#4BACC6" stroke-width="3" stroke-linecap="round"><title>Electrolysers</title></path>
+	<circle class="marker" cx="80.00" cy="290.00" data-y="0.000" data-x="2023" data-i="0" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2023: 0.000 TWh</title></circle>
+	<circle class="marker" cx="99.64" cy="289.98" data-y="0.001" data-x="2024" data-i="1" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2024: 0.001 TWh</title></circle>
+	<circle class="marker" cx="119.29" cy="288.72" data-y="0.079" data-x="2025" data-i="2" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2025: 0.079 TWh</title></circle>
+	<circle class="marker" cx="138.93" cy="286.90" data-y="0.191" data-x="2026" data-i="3" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2026: 0.191 TWh</title></circle>
+	<circle class="marker" cx="158.57" cy="286.36" data-y="0.224" data-x="2027" data-i="4" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2027: 0.224 TWh</title></circle>
+	<circle class="marker" cx="178.21" cy="285.16" data-y="0.298" data-x="2028" data-i="5" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2028: 0.298 TWh</title></circle>
+	<circle class="marker" cx="197.86" cy="280.38" data-y="0.593" data-x="2029" data-i="6" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2029: 0.593 TWh</title></circle>
+	<circle class="marker" cx="217.50" cy="275.29" data-y="0.906" data-x="2030" data-i="7" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2030: 0.906 TWh</title></circle>
+	<circle class="marker" cx="237.14" cy="269.05" data-y="1.291" data-x="2031" data-i="8" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2031: 1.291 TWh</title></circle>
+	<circle class="marker" cx="256.79" cy="259.21" data-y="1.897" data-x="2032" data-i="9" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2032: 1.897 TWh</title></circle>
+	<circle class="marker" cx="276.43" cy="245.85" data-y="2.720" data-x="2033" data-i="10" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2033: 2.720 TWh</title></circle>
+	<circle class="marker" cx="296.07" cy="229.73" data-y="3.713" data-x="2034" data-i="11" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2034: 3.713 TWh</title></circle>
+	<circle class="marker" cx="315.71" cy="207.17" data-y="5.103" data-x="2035" data-i="12" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2035: 5.103 TWh</title></circle>
+	<circle class="marker" cx="335.36" cy="195.41" data-y="5.828" data-x="2036" data-i="13" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2036: 5.828 TWh</title></circle>
+	<circle class="marker" cx="355.00" cy="150.48" data-y="8.596" data-x="2037" data-i="14" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2037: 8.596 TWh</title></circle>
+	<circle class="marker" cx="374.64" cy="145.20" data-y="8.921" data-x="2038" data-i="15" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2038: 8.921 TWh</title></circle>
+	<circle class="marker" cx="394.29" cy="137.93" data-y="9.369" data-x="2039" data-i="16" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2039: 9.369 TWh</title></circle>
+	<circle class="marker" cx="413.93" cy="130.22" data-y="9.844" data-x="2040" data-i="17" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2040: 9.844 TWh</title></circle>
+	<circle class="marker" cx="433.57" cy="115.40" data-y="10.757" data-x="2041" data-i="18" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2041: 10.757 TWh</title></circle>
+	<circle class="marker" cx="453.21" cy="83.22" data-y="12.740" data-x="2042" data-i="19" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2042: 12.740 TWh</title></circle>
+	<circle class="marker" cx="472.86" cy="63.30" data-y="13.967" data-x="2043" data-i="20" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2043: 13.967 TWh</title></circle>
+	<circle class="marker" cx="492.50" cy="47.92" data-y="14.915" data-x="2044" data-i="21" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2044: 14.915 TWh</title></circle>
+	<circle class="marker" cx="512.14" cy="38.45" data-y="15.498" data-x="2045" data-i="22" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2045: 15.498 TWh</title></circle>
+	<circle class="marker" cx="531.79" cy="26.13" data-y="16.257" data-x="2046" data-i="23" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2046: 16.257 TWh</title></circle>
+	<circle class="marker" cx="551.43" cy="13.88" data-y="17.012" data-x="2047" data-i="24" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2047: 17.012 TWh</title></circle>
+	<circle class="marker" cx="571.07" cy="10.00" data-y="17.251" data-x="2048" data-i="25" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2048: 17.251 TWh</title></circle>
+	<circle class="marker" cx="590.71" cy="10.34" data-y="17.230" data-x="2049" data-i="26" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2049: 17.230 TWh</title></circle>
+	<circle class="marker" cx="610.36" cy="14.77" data-y="16.957" data-x="2050" data-i="27" data-series="1" r="4" fill="#4BACC6" roll="cell"><title>2050: 16.957 TWh</title></circle>
+</g>
+<g data-scenario="large-industry-fuel-switching" class="series series-2" tabindex="0" role="row" aria-label="Series: Large industry Fuel Switching" data-series="2">	<path d="M 80.00,287.03L 99.64,286.04L 119.29,285.05L 138.93,283.41L 158.57,281.79L 178.21,280.15L 197.86,278.51L 217.50,276.87L 237.14,274.71L 256.79,272.55L 276.43,270.39L 296.07,268.23L 315.71,266.08L 335.36,263.17L 355.00,260.25L 374.64,257.34L 394.29,254.44L 413.93,251.52L 433.57,245.54L 453.21,239.57L 472.86,233.60L 492.50,227.62L 512.14,221.65L 531.79,211.82L 551.43,201.98L 571.07,192.14L 590.71,182.31L 610.36,172.47" id="Large industry Fuel Switching" class="line" stroke="#808080" stroke-width="3" stroke-linecap="round"><title>Large industry Fuel Switching</title></path>
+	<circle class="marker" cx="80.00" cy="287.03" data-y="0.183" data-x="2023" data-i="0" data-series="2" r="4" fill="#808080" roll="cell"><title>2023: 0.183 TWh</title></circle>
+	<circle class="marker" cx="99.64" cy="286.04" data-y="0.244" data-x="2024" data-i="1" data-series="2" r="4" fill="#808080" roll="cell"><title>2024: 0.244 TWh</title></circle>
+	<circle class="marker" cx="119.29" cy="285.05" data-y="0.305" data-x="2025" data-i="2" data-series="2" r="4" fill="#808080" roll="cell"><title>2025: 0.305 TWh</title></circle>
+	<circle class="marker" cx="138.93" cy="283.41" data-y="0.406" data-x="2026" data-i="3" data-series="2" r="4" fill="#808080" roll="cell"><title>2026: 0.406 TWh</title></circle>
+	<circle class="marker" cx="158.57" cy="281.79" data-y="0.506" data-x="2027" data-i="4" data-series="2" r="4" fill="#808080" roll="cell"><title>2027: 0.506 TWh</title></circle>
+	<circle class="marker" cx="178.21" cy="280.15" data-y="0.607" data-x="2028" data-i="5" data-series="2" r="4" fill="#808080" roll="cell"><title>2028: 0.607 TWh</title></circle>
+	<circle class="marker" cx="197.86" cy="278.51" data-y="0.708" data-x="2029" data-i="6" data-series="2" r="4" fill="#808080" roll="cell"><title>2029: 0.708 TWh</title></circle>
+	<circle class="marker" cx="217.50" cy="276.87" data-y="0.809" data-x="2030" data-i="7" data-series="2" r="4" fill="#808080" roll="cell"><title>2030: 0.809 TWh</title></circle>
+	<circle class="marker" cx="237.14" cy="274.71" data-y="0.942" data-x="2031" data-i="8" data-series="2" r="4" fill="#808080" roll="cell"><title>2031: 0.942 TWh</title></circle>
+	<circle class="marker" cx="256.79" cy="272.55" data-y="1.075" data-x="2032" data-i="9" data-series="2" r="4" fill="#808080" roll="cell"><title>2032: 1.075 TWh</title></circle>
+	<circle class="marker" cx="276.43" cy="270.39" data-y="1.208" data-x="2033" data-i="10" data-series="2" r="4" fill="#808080" roll="cell"><title>2033: 1.208 TWh</title></circle>
+	<circle class="marker" cx="296.07" cy="268.23" data-y="1.341" data-x="2034" data-i="11" data-series="2" r="4" fill="#808080" roll="cell"><title>2034: 1.341 TWh</title></circle>
+	<circle class="marker" cx="315.71" cy="266.08" data-y="1.474" data-x="2035" data-i="12" data-series="2" r="4" fill="#808080" roll="cell"><title>2035: 1.474 TWh</title></circle>
+	<circle class="marker" cx="335.36" cy="263.17" data-y="1.653" data-x="2036" data-i="13" data-series="2" r="4" fill="#808080" roll="cell"><title>2036: 1.653 TWh</title></circle>
+	<circle class="marker" cx="355.00" cy="260.25" data-y="1.833" data-x="2037" data-i="14" data-series="2" r="4" fill="#808080" roll="cell"><title>2037: 1.833 TWh</title></circle>
+	<circle class="marker" cx="374.64" cy="257.34" data-y="2.012" data-x="2038" data-i="15" data-series="2" r="4" fill="#808080" roll="cell"><title>2038: 2.012 TWh</title></circle>
+	<circle class="marker" cx="394.29" cy="254.44" data-y="2.191" data-x="2039" data-i="16" data-series="2" r="4" fill="#808080" roll="cell"><title>2039: 2.191 TWh</title></circle>
+	<circle class="marker" cx="413.93" cy="251.52" data-y="2.371" data-x="2040" data-i="17" data-series="2" r="4" fill="#808080" roll="cell"><title>2040: 2.371 TWh</title></circle>
+	<circle class="marker" cx="433.57" cy="245.54" data-y="2.739" data-x="2041" data-i="18" data-series="2" r="4" fill="#808080" roll="cell"><title>2041: 2.739 TWh</title></circle>
+	<circle class="marker" cx="453.21" cy="239.57" data-y="3.107" data-x="2042" data-i="19" data-series="2" r="4" fill="#808080" roll="cell"><title>2042: 3.107 TWh</title></circle>
+	<circle class="marker" cx="472.86" cy="233.60" data-y="3.475" data-x="2043" data-i="20" data-series="2" r="4" fill="#808080" roll="cell"><title>2043: 3.475 TWh</title></circle>
+	<circle class="marker" cx="492.50" cy="227.62" data-y="3.843" data-x="2044" data-i="21" data-series="2" r="4" fill="#808080" roll="cell"><title>2044: 3.843 TWh</title></circle>
+	<circle class="marker" cx="512.14" cy="221.65" data-y="4.211" data-x="2045" data-i="22" data-series="2" r="4" fill="#808080" roll="cell"><title>2045: 4.211 TWh</title></circle>
+	<circle class="marker" cx="531.79" cy="211.82" data-y="4.817" data-x="2046" data-i="23" data-series="2" r="4" fill="#808080" roll="cell"><title>2046: 4.817 TWh</title></circle>
+	<circle class="marker" cx="551.43" cy="201.98" data-y="5.423" data-x="2047" data-i="24" data-series="2" r="4" fill="#808080" roll="cell"><title>2047: 5.423 TWh</title></circle>
+	<circle class="marker" cx="571.07" cy="192.14" data-y="6.029" data-x="2048" data-i="25" data-series="2" r="4" fill="#808080" roll="cell"><title>2048: 6.029 TWh</title></circle>
+	<circle class="marker" cx="590.71" cy="182.31" data-y="6.635" data-x="2049" data-i="26" data-series="2" r="4" fill="#808080" roll="cell"><title>2049: 6.635 TWh</title></circle>
+	<circle class="marker" cx="610.36" cy="172.47" data-y="7.241" data-x="2050" data-i="27" data-series="2" r="4" fill="#808080" roll="cell"><title>2050: 7.241 TWh</title></circle>
+</g>
+</g>
+</svg>

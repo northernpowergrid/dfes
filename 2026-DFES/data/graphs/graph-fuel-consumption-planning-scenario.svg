@@ -1,0 +1,221 @@
+<svg width="640" height="320" viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" overflow="visible" class="oi-chart-main" data-type="line-chart">
+<defs>
+	<style>
+	.series path.line { fill-opacity: 0; }
+	.series path.line.dotted { stroke-dasharray: 12 20 }
+	.series:hover path.line, .series.on path.line { stroke-width: 5; }
+	.series .marker { opacity:0.01; }
+	.series:hover .marker, .series.active .marker, .series .marker.selected { opacity:1!important; }
+	.series .marker:hover, .series .marker.on { r: 6px!important; fill: black; }
+	.grid { font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+	.grid line { stroke: rgb(0,0,0); stroke-width: 2; stroke-linecap: round; }
+	.grid.grid-x text { text-anchor: middle; dominant-baseline: hanging; transform: translateY(10px); }
+	.grid.grid-y text { text-anchor: end; dominant-baseline: middle; transform: translateX(-10px); }
+	</style>
+</defs>
+<g class="grid grid-y">
+	<line x1="60" y1="290" x2="630" y2="290" data-left="60"></line>
+	<text x="60" y="290" text-anchor="end">0</text>
+	<text x="60" y="214.369649429896" text-anchor="end">20</text>
+	<text x="60" y="138.739298859792" text-anchor="end">40</text>
+	<text x="60" y="63.1089482896877" text-anchor="end">60</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);">Fuel consumption (GWh-yr)</text>
+</g>
+<g class="grid grid-x">
+	<line class="tick" x1="217.241379310345" y1="290" x2="217.241379310345" y2="295"></line>
+	<text x="217.241379310345" y="290" text-anchor="middle">2030</text>
+	<line class="tick" x1="413.793103448276" y1="290" x2="413.793103448276" y2="295"></line>
+	<text x="413.793103448276" y="290" text-anchor="middle">2040</text>
+	<line class="tick" x1="610.344827586207" y1="290" x2="610.344827586207" y2="295"></line>
+	<text x="610.344827586207" y="290" text-anchor="middle">2050</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);"></text>
+</g>
+<g class="data-layer" role="table">
+<g data-scenario="natural-gas" class="series series-1" tabindex="0" role="row" aria-label="Series: Natural gas" data-series="1">	<path d="M 60.00,89.08L 79.66,92.12L 99.31,95.29L 118.97,99.72L 138.62,105.12L 158.28,111.58L 177.93,120.05L 197.59,128.74L 217.24,137.69L 236.90,144.87L 256.55,152.53L 276.21,161.25L 295.86,171.20L 315.52,181.18L 335.17,190.67L 354.83,199.77L 374.48,208.93L 394.14,218.37L 413.79,228.14L 433.45,238.52L 453.10,247.84L 472.76,256.05L 492.41,263.94L 512.07,270.68L 531.72,276.78L 551.38,282.75L 571.03,287.48L 590.69,288.68L 610.34,289.68" id="Natural gas" class="line" stroke="#B8BFF9" stroke-width="3" stroke-linecap="round"><title>Natural gas</title></path>
+	<circle class="marker" cx="60.00" cy="89.08" data-y="53.13282085" data-x="2022" data-i="0" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2022: 53.13282085 GWh-yr</title></circle>
+	<circle class="marker" cx="79.66" cy="92.12" data-y="52.32792356" data-x="2023" data-i="1" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2023: 52.32792356 GWh-yr</title></circle>
+	<circle class="marker" cx="99.31" cy="95.29" data-y="51.48896951" data-x="2024" data-i="2" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2024: 51.48896951 GWh-yr</title></circle>
+	<circle class="marker" cx="118.97" cy="99.72" data-y="50.31887711" data-x="2025" data-i="3" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2025: 50.31887711 GWh-yr</title></circle>
+	<circle class="marker" cx="138.62" cy="105.12" data-y="48.88987008" data-x="2026" data-i="4" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2026: 48.88987008 GWh-yr</title></circle>
+	<circle class="marker" cx="158.28" cy="111.58" data-y="47.18171055" data-x="2027" data-i="5" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2027: 47.18171055 GWh-yr</title></circle>
+	<circle class="marker" cx="177.93" cy="120.05" data-y="44.94243092" data-x="2028" data-i="6" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2028: 44.94243092 GWh-yr</title></circle>
+	<circle class="marker" cx="197.59" cy="128.74" data-y="42.64353589" data-x="2029" data-i="7" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2029: 42.64353589 GWh-yr</title></circle>
+	<circle class="marker" cx="217.24" cy="137.69" data-y="40.27813412" data-x="2030" data-i="8" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2030: 40.27813412 GWh-yr</title></circle>
+	<circle class="marker" cx="236.90" cy="144.87" data-y="38.38003155" data-x="2031" data-i="9" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2031: 38.38003155 GWh-yr</title></circle>
+	<circle class="marker" cx="256.55" cy="152.53" data-y="36.35306385" data-x="2032" data-i="10" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2032: 36.35306385 GWh-yr</title></circle>
+	<circle class="marker" cx="276.21" cy="161.25" data-y="34.04627562" data-x="2033" data-i="11" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2033: 34.04627562 GWh-yr</title></circle>
+	<circle class="marker" cx="295.86" cy="171.20" data-y="31.41597747" data-x="2034" data-i="12" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2034: 31.41597747 GWh-yr</title></circle>
+	<circle class="marker" cx="315.52" cy="181.18" data-y="28.77558852" data-x="2035" data-i="13" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2035: 28.77558852 GWh-yr</title></circle>
+	<circle class="marker" cx="335.17" cy="190.67" data-y="26.26783741" data-x="2036" data-i="14" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2036: 26.26783741 GWh-yr</title></circle>
+	<circle class="marker" cx="354.83" cy="199.77" data-y="23.86190039" data-x="2037" data-i="15" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2037: 23.86190039 GWh-yr</title></circle>
+	<circle class="marker" cx="374.48" cy="208.93" data-y="21.43795253" data-x="2038" data-i="16" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2038: 21.43795253 GWh-yr</title></circle>
+	<circle class="marker" cx="394.14" cy="218.37" data-y="18.94160297" data-x="2039" data-i="17" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2039: 18.94160297 GWh-yr</title></circle>
+	<circle class="marker" cx="413.79" cy="228.14" data-y="16.35748161" data-x="2040" data-i="18" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2040: 16.35748161 GWh-yr</title></circle>
+	<circle class="marker" cx="433.45" cy="238.52" data-y="13.61294144" data-x="2041" data-i="19" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2041: 13.61294144 GWh-yr</title></circle>
+	<circle class="marker" cx="453.10" cy="247.84" data-y="11.14976973" data-x="2042" data-i="20" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2042: 11.14976973 GWh-yr</title></circle>
+	<circle class="marker" cx="472.76" cy="256.05" data-y="8.977851094" data-x="2043" data-i="21" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2043: 8.977851094 GWh-yr</title></circle>
+	<circle class="marker" cx="492.41" cy="263.94" data-y="6.891499162" data-x="2044" data-i="22" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2044: 6.891499162 GWh-yr</title></circle>
+	<circle class="marker" cx="512.07" cy="270.68" data-y="5.108797398" data-x="2045" data-i="23" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2045: 5.108797398 GWh-yr</title></circle>
+	<circle class="marker" cx="531.72" cy="276.78" data-y="3.495933276" data-x="2046" data-i="24" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2046: 3.495933276 GWh-yr</title></circle>
+	<circle class="marker" cx="551.38" cy="282.75" data-y="1.916921189" data-x="2047" data-i="25" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2047: 1.916921189 GWh-yr</title></circle>
+	<circle class="marker" cx="571.03" cy="287.48" data-y="0.665254067" data-x="2048" data-i="26" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2048: 0.665254067 GWh-yr</title></circle>
+	<circle class="marker" cx="590.69" cy="288.68" data-y="0.349257581" data-x="2049" data-i="27" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2049: 0.349257581 GWh-yr</title></circle>
+	<circle class="marker" cx="610.34" cy="289.68" data-y="0.08463351" data-x="2050" data-i="28" data-series="1" r="4" fill="#B8BFF9" roll="cell"><title>2050: 0.08463351 GWh-yr</title></circle>
+</g>
+<g data-scenario="solid-fuel" class="series series-2" tabindex="0" role="row" aria-label="Series: Solid fuel" data-series="2">	<path d="M 60.00,287.05L 79.66,287.21L 99.31,287.36L 118.97,287.50L 138.62,287.68L 158.28,287.90L 177.93,288.14L 197.59,288.29L 217.24,288.43L 236.90,288.56L 256.55,288.69L 276.21,288.81L 295.86,288.93L 315.52,289.04L 335.17,289.15L 354.83,289.26L 374.48,289.37L 394.14,289.48L 413.79,289.60L 433.45,289.71L 453.10,289.83L 472.76,289.94L 492.41,289.95L 512.07,289.95L 531.72,289.95L 551.38,289.96L 571.03,289.96L 590.69,289.96L 610.34,289.97" id="Solid fuel" class="line" stroke="#505050" stroke-width="3" stroke-linecap="round"><title>Solid fuel</title></path>
+	<circle class="marker" cx="60.00" cy="287.05" data-y="0.778931491" data-x="2022" data-i="0" data-series="2" r="4" fill="#505050" roll="cell"><title>2022: 0.778931491 GWh-yr</title></circle>
+	<circle class="marker" cx="79.66" cy="287.21" data-y="0.738258594" data-x="2023" data-i="1" data-series="2" r="4" fill="#505050" roll="cell"><title>2023: 0.738258594 GWh-yr</title></circle>
+	<circle class="marker" cx="99.31" cy="287.36" data-y="0.696961522" data-x="2024" data-i="2" data-series="2" r="4" fill="#505050" roll="cell"><title>2024: 0.696961522 GWh-yr</title></circle>
+	<circle class="marker" cx="118.97" cy="287.50" data-y="0.660637499" data-x="2025" data-i="3" data-series="2" r="4" fill="#505050" roll="cell"><title>2025: 0.660637499 GWh-yr</title></circle>
+	<circle class="marker" cx="138.62" cy="287.68" data-y="0.61288972" data-x="2026" data-i="4" data-series="2" r="4" fill="#505050" roll="cell"><title>2026: 0.61288972 GWh-yr</title></circle>
+	<circle class="marker" cx="158.28" cy="287.90" data-y="0.555003654" data-x="2027" data-i="5" data-series="2" r="4" fill="#505050" roll="cell"><title>2027: 0.555003654 GWh-yr</title></circle>
+	<circle class="marker" cx="177.93" cy="288.14" data-y="0.492340599" data-x="2028" data-i="6" data-series="2" r="4" fill="#505050" roll="cell"><title>2028: 0.492340599 GWh-yr</title></circle>
+	<circle class="marker" cx="197.59" cy="288.29" data-y="0.453079198" data-x="2029" data-i="7" data-series="2" r="4" fill="#505050" roll="cell"><title>2029: 0.453079198 GWh-yr</title></circle>
+	<circle class="marker" cx="217.24" cy="288.43" data-y="0.41469095" data-x="2030" data-i="8" data-series="2" r="4" fill="#505050" roll="cell"><title>2030: 0.41469095 GWh-yr</title></circle>
+	<circle class="marker" cx="236.90" cy="288.56" data-y="0.380924841" data-x="2031" data-i="9" data-series="2" r="4" fill="#505050" roll="cell"><title>2031: 0.380924841 GWh-yr</title></circle>
+	<circle class="marker" cx="256.55" cy="288.69" data-y="0.347443149" data-x="2032" data-i="10" data-series="2" r="4" fill="#505050" roll="cell"><title>2032: 0.347443149 GWh-yr</title></circle>
+	<circle class="marker" cx="276.21" cy="288.81" data-y="0.315694365" data-x="2033" data-i="11" data-series="2" r="4" fill="#505050" roll="cell"><title>2033: 0.315694365 GWh-yr</title></circle>
+	<circle class="marker" cx="295.86" cy="288.93" data-y="0.28420752" data-x="2034" data-i="12" data-series="2" r="4" fill="#505050" roll="cell"><title>2034: 0.28420752 GWh-yr</title></circle>
+	<circle class="marker" cx="315.52" cy="289.04" data-y="0.254189982" data-x="2035" data-i="13" data-series="2" r="4" fill="#505050" roll="cell"><title>2035: 0.254189982 GWh-yr</title></circle>
+	<circle class="marker" cx="335.17" cy="289.15" data-y="0.225072745" data-x="2036" data-i="14" data-series="2" r="4" fill="#505050" roll="cell"><title>2036: 0.225072745 GWh-yr</title></circle>
+	<circle class="marker" cx="354.83" cy="289.26" data-y="0.195873211" data-x="2037" data-i="15" data-series="2" r="4" fill="#505050" roll="cell"><title>2037: 0.195873211 GWh-yr</title></circle>
+	<circle class="marker" cx="374.48" cy="289.37" data-y="0.166761976" data-x="2038" data-i="16" data-series="2" r="4" fill="#505050" roll="cell"><title>2038: 0.166761976 GWh-yr</title></circle>
+	<circle class="marker" cx="394.14" cy="289.48" data-y="0.13659035" data-x="2039" data-i="17" data-series="2" r="4" fill="#505050" roll="cell"><title>2039: 0.13659035 GWh-yr</title></circle>
+	<circle class="marker" cx="413.79" cy="289.60" data-y="0.106396853" data-x="2040" data-i="18" data-series="2" r="4" fill="#505050" roll="cell"><title>2040: 0.106396853 GWh-yr</title></circle>
+	<circle class="marker" cx="433.45" cy="289.71" data-y="0.076128352" data-x="2041" data-i="19" data-series="2" r="4" fill="#505050" roll="cell"><title>2041: 0.076128352 GWh-yr</title></circle>
+	<circle class="marker" cx="453.10" cy="289.83" data-y="0.045945238" data-x="2042" data-i="20" data-series="2" r="4" fill="#505050" roll="cell"><title>2042: 0.045945238 GWh-yr</title></circle>
+	<circle class="marker" cx="472.76" cy="289.94" data-y="0.017155439" data-x="2043" data-i="21" data-series="2" r="4" fill="#505050" roll="cell"><title>2043: 0.017155439 GWh-yr</title></circle>
+	<circle class="marker" cx="492.41" cy="289.95" data-y="0.014382823" data-x="2044" data-i="22" data-series="2" r="4" fill="#505050" roll="cell"><title>2044: 0.014382823 GWh-yr</title></circle>
+	<circle class="marker" cx="512.07" cy="289.95" data-y="0.013206738" data-x="2045" data-i="23" data-series="2" r="4" fill="#505050" roll="cell"><title>2045: 0.013206738 GWh-yr</title></circle>
+	<circle class="marker" cx="531.72" cy="289.95" data-y="0.012091649" data-x="2046" data-i="24" data-series="2" r="4" fill="#505050" roll="cell"><title>2046: 0.012091649 GWh-yr</title></circle>
+	<circle class="marker" cx="551.38" cy="289.96" data-y="0.010995857" data-x="2047" data-i="25" data-series="2" r="4" fill="#505050" roll="cell"><title>2047: 0.010995857 GWh-yr</title></circle>
+	<circle class="marker" cx="571.03" cy="289.96" data-y="0.010025978" data-x="2048" data-i="26" data-series="2" r="4" fill="#505050" roll="cell"><title>2048: 0.010025978 GWh-yr</title></circle>
+	<circle class="marker" cx="590.69" cy="289.96" data-y="0.009457742" data-x="2049" data-i="27" data-series="2" r="4" fill="#505050" roll="cell"><title>2049: 0.009457742 GWh-yr</title></circle>
+	<circle class="marker" cx="610.34" cy="289.97" data-y="0.008943769" data-x="2050" data-i="28" data-series="2" r="4" fill="#505050" roll="cell"><title>2050: 0.008943769 GWh-yr</title></circle>
+</g>
+<g data-scenario="petroleum" class="series series-3" tabindex="0" role="row" aria-label="Series: Petroleum" data-series="3">	<path d="M 60.00,10.00L 79.66,19.63L 99.31,30.38L 118.97,44.10L 138.62,62.04L 158.28,80.19L 177.93,99.14L 197.59,118.30L 217.24,136.71L 236.90,154.97L 256.55,174.45L 276.21,192.31L 295.86,208.43L 315.52,222.84L 335.17,234.90L 354.83,245.51L 374.48,254.80L 394.14,262.88L 413.79,269.82L 433.45,275.46L 453.10,280.00L 472.76,283.59L 492.41,285.93L 512.07,287.47L 531.72,288.34L 551.38,288.97L 571.03,289.26L 590.69,289.46L 610.34,289.60" id="Petroleum" class="line" stroke="#FFC300" stroke-width="3" stroke-linecap="round"><title>Petroleum</title></path>
+	<circle class="marker" cx="60.00" cy="10.00" data-y="74.04434804" data-x="2022" data-i="0" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2022: 74.04434804 GWh-yr</title></circle>
+	<circle class="marker" cx="79.66" cy="19.63" data-y="71.49879131" data-x="2023" data-i="1" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2023: 71.49879131 GWh-yr</title></circle>
+	<circle class="marker" cx="99.31" cy="30.38" data-y="68.65574047" data-x="2024" data-i="2" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2024: 68.65574047 GWh-yr</title></circle>
+	<circle class="marker" cx="118.97" cy="44.10" data-y="65.02666729" data-x="2025" data-i="3" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2025: 65.02666729 GWh-yr</title></circle>
+	<circle class="marker" cx="138.62" cy="62.04" data-y="60.28360617" data-x="2026" data-i="4" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2026: 60.28360617 GWh-yr</title></circle>
+	<circle class="marker" cx="158.28" cy="80.19" data-y="55.48321389" data-x="2027" data-i="5" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2027: 55.48321389 GWh-yr</title></circle>
+	<circle class="marker" cx="177.93" cy="99.14" data-y="50.47066188" data-x="2028" data-i="6" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2028: 50.47066188 GWh-yr</title></circle>
+	<circle class="marker" cx="197.59" cy="118.30" data-y="45.40402314" data-x="2029" data-i="7" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2029: 45.40402314 GWh-yr</title></circle>
+	<circle class="marker" cx="217.24" cy="136.71" data-y="40.53643516" data-x="2030" data-i="8" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2030: 40.53643516 GWh-yr</title></circle>
+	<circle class="marker" cx="236.90" cy="154.97" data-y="35.70762412" data-x="2031" data-i="9" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2031: 35.70762412 GWh-yr</title></circle>
+	<circle class="marker" cx="256.55" cy="174.45" data-y="30.5554031" data-x="2032" data-i="10" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2032: 30.5554031 GWh-yr</title></circle>
+	<circle class="marker" cx="276.21" cy="192.31" data-y="25.83388586" data-x="2033" data-i="11" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2033: 25.83388586 GWh-yr</title></circle>
+	<circle class="marker" cx="295.86" cy="208.43" data-y="21.57096479" data-x="2034" data-i="12" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2034: 21.57096479 GWh-yr</title></circle>
+	<circle class="marker" cx="315.52" cy="222.84" data-y="17.76077072" data-x="2035" data-i="13" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2035: 17.76077072 GWh-yr</title></circle>
+	<circle class="marker" cx="335.17" cy="234.90" data-y="14.57126362" data-x="2036" data-i="14" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2036: 14.57126362 GWh-yr</title></circle>
+	<circle class="marker" cx="354.83" cy="245.51" data-y="11.76454965" data-x="2037" data-i="15" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2037: 11.76454965 GWh-yr</title></circle>
+	<circle class="marker" cx="374.48" cy="254.80" data-y="9.307490012" data-x="2038" data-i="16" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2038: 9.307490012 GWh-yr</title></circle>
+	<circle class="marker" cx="394.14" cy="262.88" data-y="7.171547064" data-x="2039" data-i="17" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2039: 7.171547064 GWh-yr</title></circle>
+	<circle class="marker" cx="413.79" cy="269.82" data-y="5.335305757" data-x="2040" data-i="18" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2040: 5.335305757 GWh-yr</title></circle>
+	<circle class="marker" cx="433.45" cy="275.46" data-y="3.845453143" data-x="2041" data-i="19" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2041: 3.845453143 GWh-yr</title></circle>
+	<circle class="marker" cx="453.10" cy="280.00" data-y="2.644708118" data-x="2042" data-i="20" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2042: 2.644708118 GWh-yr</title></circle>
+	<circle class="marker" cx="472.76" cy="283.59" data-y="1.694406957" data-x="2043" data-i="21" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2043: 1.694406957 GWh-yr</title></circle>
+	<circle class="marker" cx="492.41" cy="285.93" data-y="1.076805078" data-x="2044" data-i="22" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2044: 1.076805078 GWh-yr</title></circle>
+	<circle class="marker" cx="512.07" cy="287.47" data-y="0.667724326" data-x="2045" data-i="23" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2045: 0.667724326 GWh-yr</title></circle>
+	<circle class="marker" cx="531.72" cy="288.34" data-y="0.438689889" data-x="2046" data-i="24" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2046: 0.438689889 GWh-yr</title></circle>
+	<circle class="marker" cx="551.38" cy="288.97" data-y="0.272405402" data-x="2047" data-i="25" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2047: 0.272405402 GWh-yr</title></circle>
+	<circle class="marker" cx="571.03" cy="289.26" data-y="0.195002807" data-x="2048" data-i="26" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2048: 0.195002807 GWh-yr</title></circle>
+	<circle class="marker" cx="590.69" cy="289.46" data-y="0.142304059" data-x="2049" data-i="27" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2049: 0.142304059 GWh-yr</title></circle>
+	<circle class="marker" cx="610.34" cy="289.60" data-y="0.106090039" data-x="2050" data-i="28" data-series="3" r="4" fill="#FFC300" roll="cell"><title>2050: 0.106090039 GWh-yr</title></circle>
+</g>
+<g data-scenario="hydrogen" class="series series-4" tabindex="0" role="row" aria-label="Series: Hydrogen" data-series="4">	<path d="M 60.00,289.97L 79.66,289.96L 99.31,289.95L 118.97,289.94L 138.62,289.93L 158.28,289.92L 177.93,289.90L 197.59,289.88L 217.24,289.50L 236.90,289.10L 256.55,288.69L 276.21,288.16L 295.86,287.56L 315.52,286.86L 335.17,286.10L 354.83,285.38L 374.48,284.57L 394.14,283.67L 413.79,282.37L 433.45,280.72L 453.10,279.30L 472.76,278.30L 492.41,277.24L 512.07,276.52L 531.72,276.08L 551.38,275.66L 571.03,275.38L 590.69,275.08L 610.34,275.07" id="Hydrogen" class="line" stroke="#0279FA" stroke-width="3" stroke-linecap="round"><title>Hydrogen</title></path>
+	<circle class="marker" cx="60.00" cy="289.97" data-y="0.008665637" data-x="2022" data-i="0" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2022: 0.008665637 GWh-yr</title></circle>
+	<circle class="marker" cx="79.66" cy="289.96" data-y="0.010189035" data-x="2023" data-i="1" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2023: 0.010189035 GWh-yr</title></circle>
+	<circle class="marker" cx="99.31" cy="289.95" data-y="0.012560961" data-x="2024" data-i="2" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2024: 0.012560961 GWh-yr</title></circle>
+	<circle class="marker" cx="118.97" cy="289.94" data-y="0.015949707" data-x="2025" data-i="3" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2025: 0.015949707 GWh-yr</title></circle>
+	<circle class="marker" cx="138.62" cy="289.93" data-y="0.018421935" data-x="2026" data-i="4" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2026: 0.018421935 GWh-yr</title></circle>
+	<circle class="marker" cx="158.28" cy="289.92" data-y="0.021838353" data-x="2027" data-i="5" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2027: 0.021838353 GWh-yr</title></circle>
+	<circle class="marker" cx="177.93" cy="289.90" data-y="0.026750654" data-x="2028" data-i="6" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2028: 0.026750654 GWh-yr</title></circle>
+	<circle class="marker" cx="197.59" cy="289.88" data-y="0.031719783" data-x="2029" data-i="7" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2029: 0.031719783 GWh-yr</title></circle>
+	<circle class="marker" cx="217.24" cy="289.50" data-y="0.133325141" data-x="2030" data-i="8" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2030: 0.133325141 GWh-yr</title></circle>
+	<circle class="marker" cx="236.90" cy="289.10" data-y="0.237549969" data-x="2031" data-i="9" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2031: 0.237549969 GWh-yr</title></circle>
+	<circle class="marker" cx="256.55" cy="288.69" data-y="0.346393774" data-x="2032" data-i="10" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2032: 0.346393774 GWh-yr</title></circle>
+	<circle class="marker" cx="276.21" cy="288.16" data-y="0.486893161" data-x="2033" data-i="11" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2033: 0.486893161 GWh-yr</title></circle>
+	<circle class="marker" cx="295.86" cy="287.56" data-y="0.645409579" data-x="2034" data-i="12" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2034: 0.645409579 GWh-yr</title></circle>
+	<circle class="marker" cx="315.52" cy="286.86" data-y="0.829372969" data-x="2035" data-i="13" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2035: 0.829372969 GWh-yr</title></circle>
+	<circle class="marker" cx="335.17" cy="286.10" data-y="1.032309103" data-x="2036" data-i="14" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2036: 1.032309103 GWh-yr</title></circle>
+	<circle class="marker" cx="354.83" cy="285.38" data-y="1.222628164" data-x="2037" data-i="15" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2037: 1.222628164 GWh-yr</title></circle>
+	<circle class="marker" cx="374.48" cy="284.57" data-y="1.435789166" data-x="2038" data-i="16" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2038: 1.435789166 GWh-yr</title></circle>
+	<circle class="marker" cx="394.14" cy="283.67" data-y="1.674208179" data-x="2039" data-i="17" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2039: 1.674208179 GWh-yr</title></circle>
+	<circle class="marker" cx="413.79" cy="282.37" data-y="2.018657855" data-x="2040" data-i="18" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2040: 2.018657855 GWh-yr</title></circle>
+	<circle class="marker" cx="433.45" cy="280.72" data-y="2.452796546" data-x="2041" data-i="19" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2041: 2.452796546 GWh-yr</title></circle>
+	<circle class="marker" cx="453.10" cy="279.30" data-y="2.829535777" data-x="2042" data-i="20" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2042: 2.829535777 GWh-yr</title></circle>
+	<circle class="marker" cx="472.76" cy="278.30" data-y="3.094175924" data-x="2043" data-i="21" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2043: 3.094175924 GWh-yr</title></circle>
+	<circle class="marker" cx="492.41" cy="277.24" data-y="3.373691139" data-x="2044" data-i="22" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2044: 3.373691139 GWh-yr</title></circle>
+	<circle class="marker" cx="512.07" cy="276.52" data-y="3.565550821" data-x="2045" data-i="23" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2045: 3.565550821 GWh-yr</title></circle>
+	<circle class="marker" cx="531.72" cy="276.08" data-y="3.681565293" data-x="2046" data-i="24" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2046: 3.681565293 GWh-yr</title></circle>
+	<circle class="marker" cx="551.38" cy="275.66" data-y="3.791104956" data-x="2047" data-i="25" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2047: 3.791104956 GWh-yr</title></circle>
+	<circle class="marker" cx="571.03" cy="275.38" data-y="3.867442911" data-x="2048" data-i="26" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2048: 3.867442911 GWh-yr</title></circle>
+	<circle class="marker" cx="590.69" cy="275.08" data-y="3.944362693" data-x="2049" data-i="27" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2049: 3.944362693 GWh-yr</title></circle>
+	<circle class="marker" cx="610.34" cy="275.07" data-y="3.947998708" data-x="2050" data-i="28" data-series="4" r="4" fill="#0279FA" roll="cell"><title>2050: 3.947998708 GWh-yr</title></circle>
+</g>
+<g data-scenario="bioenergy" class="series series-5" tabindex="0" role="row" aria-label="Series: Bioenergy" data-series="5">	<path d="M 60.00,276.72L 79.66,277.23L 99.31,277.75L 118.97,278.25L 138.62,278.92L 158.28,279.70L 177.93,280.54L 197.59,281.15L 217.24,281.76L 236.90,282.23L 256.55,282.70L 276.21,283.14L 295.86,283.64L 315.52,284.31L 335.17,284.71L 354.83,285.11L 374.48,285.51L 394.14,285.93L 413.79,286.35L 433.45,286.77L 453.10,287.18L 472.76,287.58L 492.41,287.64L 512.07,287.67L 531.72,287.68L 551.38,287.69L 571.03,287.69L 590.69,287.70L 610.34,287.71" id="Bioenergy" class="line" stroke="#019303" stroke-width="3" stroke-linecap="round"><title>Bioenergy</title></path>
+	<circle class="marker" cx="60.00" cy="276.72" data-y="3.512886537" data-x="2022" data-i="0" data-series="5" r="4" fill="#019303" roll="cell"><title>2022: 3.512886537 GWh-yr</title></circle>
+	<circle class="marker" cx="79.66" cy="277.23" data-y="3.377818664" data-x="2023" data-i="1" data-series="5" r="4" fill="#019303" roll="cell"><title>2023: 3.377818664 GWh-yr</title></circle>
+	<circle class="marker" cx="99.31" cy="277.75" data-y="3.238947247" data-x="2024" data-i="2" data-series="5" r="4" fill="#019303" roll="cell"><title>2024: 3.238947247 GWh-yr</title></circle>
+	<circle class="marker" cx="118.97" cy="278.25" data-y="3.107587944" data-x="2025" data-i="3" data-series="5" r="4" fill="#019303" roll="cell"><title>2025: 3.107587944 GWh-yr</title></circle>
+	<circle class="marker" cx="138.62" cy="278.92" data-y="2.929259011" data-x="2026" data-i="4" data-series="5" r="4" fill="#019303" roll="cell"><title>2026: 2.929259011 GWh-yr</title></circle>
+	<circle class="marker" cx="158.28" cy="279.70" data-y="2.72324741" data-x="2027" data-i="5" data-series="5" r="4" fill="#019303" roll="cell"><title>2027: 2.72324741 GWh-yr</title></circle>
+	<circle class="marker" cx="177.93" cy="280.54" data-y="2.501197541" data-x="2028" data-i="6" data-series="5" r="4" fill="#019303" roll="cell"><title>2028: 2.501197541 GWh-yr</title></circle>
+	<circle class="marker" cx="197.59" cy="281.15" data-y="2.33927524" data-x="2029" data-i="7" data-series="5" r="4" fill="#019303" roll="cell"><title>2029: 2.33927524 GWh-yr</title></circle>
+	<circle class="marker" cx="217.24" cy="281.76" data-y="2.180307073" data-x="2030" data-i="8" data-series="5" r="4" fill="#019303" roll="cell"><title>2030: 2.180307073 GWh-yr</title></circle>
+	<circle class="marker" cx="236.90" cy="282.23" data-y="2.055237162" data-x="2031" data-i="9" data-series="5" r="4" fill="#019303" roll="cell"><title>2031: 2.055237162 GWh-yr</title></circle>
+	<circle class="marker" cx="256.55" cy="282.70" data-y="1.931170595" data-x="2032" data-i="10" data-series="5" r="4" fill="#019303" roll="cell"><title>2032: 1.931170595 GWh-yr</title></circle>
+	<circle class="marker" cx="276.21" cy="283.14" data-y="1.813811937" data-x="2033" data-i="11" data-series="5" r="4" fill="#019303" roll="cell"><title>2033: 1.813811937 GWh-yr</title></circle>
+	<circle class="marker" cx="295.86" cy="283.64" data-y="1.682571241" data-x="2034" data-i="12" data-series="5" r="4" fill="#019303" roll="cell"><title>2034: 1.682571241 GWh-yr</title></circle>
+	<circle class="marker" cx="315.52" cy="284.31" data-y="1.50542601" data-x="2035" data-i="13" data-series="5" r="4" fill="#019303" roll="cell"><title>2035: 1.50542601 GWh-yr</title></circle>
+	<circle class="marker" cx="335.17" cy="284.71" data-y="1.399214365" data-x="2036" data-i="14" data-series="5" r="4" fill="#019303" roll="cell"><title>2036: 1.399214365 GWh-yr</title></circle>
+	<circle class="marker" cx="354.83" cy="285.11" data-y="1.292510304" data-x="2037" data-i="15" data-series="5" r="4" fill="#019303" roll="cell"><title>2037: 1.292510304 GWh-yr</title></circle>
+	<circle class="marker" cx="374.48" cy="285.51" data-y="1.18625795" data-x="2038" data-i="16" data-series="5" r="4" fill="#019303" roll="cell"><title>2038: 1.18625795 GWh-yr</title></circle>
+	<circle class="marker" cx="394.14" cy="285.93" data-y="1.07555904" data-x="2039" data-i="17" data-series="5" r="4" fill="#019303" roll="cell"><title>2039: 1.07555904 GWh-yr</title></circle>
+	<circle class="marker" cx="413.79" cy="286.35" data-y="0.96520387" data-x="2040" data-i="18" data-series="5" r="4" fill="#019303" roll="cell"><title>2040: 0.96520387 GWh-yr</title></circle>
+	<circle class="marker" cx="433.45" cy="286.77" data-y="0.854827005" data-x="2041" data-i="19" data-series="5" r="4" fill="#019303" roll="cell"><title>2041: 0.854827005 GWh-yr</title></circle>
+	<circle class="marker" cx="453.10" cy="287.18" data-y="0.744434673" data-x="2042" data-i="20" data-series="5" r="4" fill="#019303" roll="cell"><title>2042: 0.744434673 GWh-yr</title></circle>
+	<circle class="marker" cx="472.76" cy="287.58" data-y="0.639614362" data-x="2043" data-i="21" data-series="5" r="4" fill="#019303" roll="cell"><title>2043: 0.639614362 GWh-yr</title></circle>
+	<circle class="marker" cx="492.41" cy="287.64" data-y="0.624410981" data-x="2044" data-i="22" data-series="5" r="4" fill="#019303" roll="cell"><title>2044: 0.624410981 GWh-yr</title></circle>
+	<circle class="marker" cx="512.07" cy="287.67" data-y="0.617114152" data-x="2045" data-i="23" data-series="5" r="4" fill="#019303" roll="cell"><title>2045: 0.617114152 GWh-yr</title></circle>
+	<circle class="marker" cx="531.72" cy="287.68" data-y="0.614578287" data-x="2046" data-i="24" data-series="5" r="4" fill="#019303" roll="cell"><title>2046: 0.614578287 GWh-yr</title></circle>
+	<circle class="marker" cx="551.38" cy="287.69" data-y="0.612069408" data-x="2047" data-i="25" data-series="5" r="4" fill="#019303" roll="cell"><title>2047: 0.612069408 GWh-yr</title></circle>
+	<circle class="marker" cx="571.03" cy="287.69" data-y="0.610021021" data-x="2048" data-i="26" data-series="5" r="4" fill="#019303" roll="cell"><title>2048: 0.610021021 GWh-yr</title></circle>
+	<circle class="marker" cx="590.69" cy="287.70" data-y="0.608027412" data-x="2049" data-i="27" data-series="5" r="4" fill="#019303" roll="cell"><title>2049: 0.608027412 GWh-yr</title></circle>
+	<circle class="marker" cx="610.34" cy="287.71" data-y="0.606035703" data-x="2050" data-i="28" data-series="5" r="4" fill="#019303" roll="cell"><title>2050: 0.606035703 GWh-yr</title></circle>
+</g>
+<g data-scenario="electricity" class="series series-6" tabindex="0" role="row" aria-label="Series: Electricity" data-series="6">	<path d="M 60.00,154.08L 79.66,153.63L 99.31,152.51L 118.97,150.69L 138.62,147.90L 158.28,143.96L 177.93,138.71L 197.59,132.34L 217.24,123.93L 236.90,116.12L 256.55,108.40L 276.21,100.18L 295.86,91.94L 315.52,82.31L 335.17,73.20L 354.83,65.26L 374.48,57.61L 394.14,50.49L 413.79,44.01L 433.45,38.35L 453.10,33.34L 472.76,29.05L 492.41,25.43L 512.07,22.37L 531.72,19.77L 551.38,17.18L 571.03,14.72L 590.69,14.26L 610.34,14.14" id="Electricity" class="line" stroke="#cc0935" stroke-width="3" stroke-linecap="round"><title>Electricity</title></path>
+	<circle class="marker" cx="60.00" cy="154.08" data-y="35.94381194" data-x="2022" data-i="0" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2022: 35.94381194 GWh-yr</title></circle>
+	<circle class="marker" cx="79.66" cy="153.63" data-y="36.06186494" data-x="2023" data-i="1" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2023: 36.06186494 GWh-yr</title></circle>
+	<circle class="marker" cx="99.31" cy="152.51" data-y="36.35850758" data-x="2024" data-i="2" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2024: 36.35850758 GWh-yr</title></circle>
+	<circle class="marker" cx="118.97" cy="150.69" data-y="36.83997375" data-x="2025" data-i="3" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2025: 36.83997375 GWh-yr</title></circle>
+	<circle class="marker" cx="138.62" cy="147.90" data-y="37.57741574" data-x="2026" data-i="4" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2026: 37.57741574 GWh-yr</title></circle>
+	<circle class="marker" cx="158.28" cy="143.96" data-y="38.61975801" data-x="2027" data-i="5" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2027: 38.61975801 GWh-yr</title></circle>
+	<circle class="marker" cx="177.93" cy="138.71" data-y="40.00863838" data-x="2028" data-i="6" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2028: 40.00863838 GWh-yr</title></circle>
+	<circle class="marker" cx="197.59" cy="132.34" data-y="41.6935327" data-x="2029" data-i="7" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2029: 41.6935327 GWh-yr</title></circle>
+	<circle class="marker" cx="217.24" cy="123.93" data-y="43.91554218" data-x="2030" data-i="8" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2030: 43.91554218 GWh-yr</title></circle>
+	<circle class="marker" cx="236.90" cy="116.12" data-y="45.98192321" data-x="2031" data-i="9" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2031: 45.98192321 GWh-yr</title></circle>
+	<circle class="marker" cx="256.55" cy="108.40" data-y="48.02241182" data-x="2032" data-i="10" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2032: 48.02241182 GWh-yr</title></circle>
+	<circle class="marker" cx="276.21" cy="100.18" data-y="50.19708776" data-x="2033" data-i="11" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2033: 50.19708776 GWh-yr</title></circle>
+	<circle class="marker" cx="295.86" cy="91.94" data-y="52.37522558" data-x="2034" data-i="12" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2034: 52.37522558 GWh-yr</title></circle>
+	<circle class="marker" cx="315.52" cy="82.31" data-y="54.92243512" data-x="2035" data-i="13" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2035: 54.92243512 GWh-yr</title></circle>
+	<circle class="marker" cx="335.17" cy="73.20" data-y="57.33254914" data-x="2036" data-i="14" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2036: 57.33254914 GWh-yr</title></circle>
+	<circle class="marker" cx="354.83" cy="65.26" data-y="59.43050057" data-x="2037" data-i="15" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2037: 59.43050057 GWh-yr</title></circle>
+	<circle class="marker" cx="374.48" cy="57.61" data-y="61.45301793" data-x="2038" data-i="16" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2038: 61.45301793 GWh-yr</title></circle>
+	<circle class="marker" cx="394.14" cy="50.49" data-y="63.33642689" data-x="2039" data-i="17" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2039: 63.33642689 GWh-yr</title></circle>
+	<circle class="marker" cx="413.79" cy="44.01" data-y="65.05045544" data-x="2040" data-i="18" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2040: 65.05045544 GWh-yr</title></circle>
+	<circle class="marker" cx="433.45" cy="38.35" data-y="66.54649409" data-x="2041" data-i="19" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2041: 66.54649409 GWh-yr</title></circle>
+	<circle class="marker" cx="453.10" cy="33.34" data-y="67.87146549" data-x="2042" data-i="20" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2042: 67.87146549 GWh-yr</title></circle>
+	<circle class="marker" cx="472.76" cy="29.05" data-y="69.00722751" data-x="2043" data-i="21" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2043: 69.00722751 GWh-yr</title></circle>
+	<circle class="marker" cx="492.41" cy="25.43" data-y="69.96278886" data-x="2044" data-i="22" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2044: 69.96278886 GWh-yr</title></circle>
+	<circle class="marker" cx="512.07" cy="22.37" data-y="70.77192916" data-x="2045" data-i="23" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2045: 70.77192916 GWh-yr</title></circle>
+	<circle class="marker" cx="531.72" cy="19.77" data-y="71.46123151" data-x="2046" data-i="24" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2046: 71.46123151 GWh-yr</title></circle>
+	<circle class="marker" cx="551.38" cy="17.18" data-y="72.14521235" data-x="2047" data-i="25" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2047: 72.14521235 GWh-yr</title></circle>
+	<circle class="marker" cx="571.03" cy="14.72" data-y="72.79739976" data-x="2048" data-i="26" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2048: 72.79739976 GWh-yr</title></circle>
+	<circle class="marker" cx="590.69" cy="14.26" data-y="72.91740309" data-x="2049" data-i="27" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2049: 72.91740309 GWh-yr</title></circle>
+	<circle class="marker" cx="610.34" cy="14.14" data-y="72.94932022" data-x="2050" data-i="28" data-series="6" r="4" fill="#cc0935" roll="cell"><title>2050: 72.94932022 GWh-yr</title></circle>
+</g>
+</g>
+</svg>

@@ -1,0 +1,67 @@
+<svg width="640" height="320" viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" overflow="visible" class="oi-chart-main" data-type="line-chart">
+<defs>
+	<style>
+	.series path.line { fill-opacity: 0; }
+	.series path.line.dotted { stroke-dasharray: 12 20 }
+	.series:hover path.line, .series.on path.line { stroke-width: 5; }
+	.series .marker { opacity:0.01; }
+	.series:hover .marker, .series.active .marker, .series .marker.selected { opacity:1!important; }
+	.series .marker:hover, .series .marker.on { r: 6px!important; fill: black; }
+	.grid { font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+	.grid line { stroke: rgb(0,0,0); stroke-width: 2; stroke-linecap: round; }
+	.grid.grid-x text { text-anchor: middle; dominant-baseline: hanging; transform: translateY(10px); }
+	.grid.grid-y text { text-anchor: end; dominant-baseline: middle; transform: translateX(-10px); }
+	</style>
+</defs>
+<g class="grid grid-y">
+	<line x1="60" y1="290" x2="630" y2="290" data-left="60"></line>
+	<text x="60" y="290" text-anchor="end">0</text>
+	<text x="60" y="234" text-anchor="end">20</text>
+	<text x="60" y="178" text-anchor="end">40</text>
+	<text x="60" y="122" text-anchor="end">60</text>
+	<text x="60" y="66" text-anchor="end">80</text>
+	<text x="60" y="10" text-anchor="end">100</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);">EVs (%)</text>
+</g>
+<g class="grid grid-x">
+	<line class="tick" x1="202.5" y1="290" x2="202.5" y2="295"></line>
+	<text x="202.5" y="290" text-anchor="middle">2030</text>
+	<line class="tick" x1="406.071428571429" y1="290" x2="406.071428571429" y2="295"></line>
+	<text x="406.071428571429" y="290" text-anchor="middle">2040</text>
+	<line class="tick" x1="609.642857142857" y1="290" x2="609.642857142857" y2="295"></line>
+	<text x="609.642857142857" y="290" text-anchor="middle">2050</text>
+	<text style="text-anchor:middle;dominant-baseline:hanging;font-weight:bold;transform: translateY(150px) rotate(-90deg);"></text>
+</g>
+<g class="data-layer" role="table">
+<g data-scenario="reference-scenario" class="series series-1" tabindex="0" role="row" aria-label="Series: NPg Reference Scenario" data-series="1">	<path d="M 60.00,281.60L 80.36,276.00L 100.71,264.80L 121.07,253.60L 141.43,236.80L 161.79,220.00L 182.14,203.20L 202.50,183.60L 222.86,164.00L 243.21,144.40L 263.57,127.60L 283.93,110.80L 304.29,96.80L 324.64,82.80L 345.00,71.60L 365.36,60.40L 385.71,52.00L 406.07,43.60L 426.43,35.20L 446.79,29.60L 467.14,26.80L 487.50,21.20L 507.86,18.40L 528.21,15.60L 548.57,15.60L 568.93,12.80L 589.29,12.80L 609.64,12.80" id="NPg Reference Scenario" class="line" stroke="#ab1236" stroke-width="3" stroke-linecap="round"><title>NPg Reference Scenario</title></path>
+	<circle class="marker" cx="60.00" cy="281.60" data-y="3" data-x="2023" data-i="0" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2023: 3%</title></circle>
+	<circle class="marker" cx="80.36" cy="276.00" data-y="5" data-x="2024" data-i="1" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2024: 5%</title></circle>
+	<circle class="marker" cx="100.71" cy="264.80" data-y="9" data-x="2025" data-i="2" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2025: 9%</title></circle>
+	<circle class="marker" cx="121.07" cy="253.60" data-y="13" data-x="2026" data-i="3" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2026: 13%</title></circle>
+	<circle class="marker" cx="141.43" cy="236.80" data-y="19" data-x="2027" data-i="4" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2027: 19%</title></circle>
+	<circle class="marker" cx="161.79" cy="220.00" data-y="25" data-x="2028" data-i="5" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2028: 25%</title></circle>
+	<circle class="marker" cx="182.14" cy="203.20" data-y="31" data-x="2029" data-i="6" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2029: 31%</title></circle>
+	<circle class="marker" cx="202.50" cy="183.60" data-y="38" data-x="2030" data-i="7" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2030: 38%</title></circle>
+	<circle class="marker" cx="222.86" cy="164.00" data-y="45" data-x="2031" data-i="8" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2031: 45%</title></circle>
+	<circle class="marker" cx="243.21" cy="144.40" data-y="52" data-x="2032" data-i="9" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2032: 52%</title></circle>
+	<circle class="marker" cx="263.57" cy="127.60" data-y="58" data-x="2033" data-i="10" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2033: 58%</title></circle>
+	<circle class="marker" cx="283.93" cy="110.80" data-y="64" data-x="2034" data-i="11" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2034: 64%</title></circle>
+	<circle class="marker" cx="304.29" cy="96.80" data-y="69" data-x="2035" data-i="12" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2035: 69%</title></circle>
+	<circle class="marker" cx="324.64" cy="82.80" data-y="74" data-x="2036" data-i="13" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2036: 74%</title></circle>
+	<circle class="marker" cx="345.00" cy="71.60" data-y="78" data-x="2037" data-i="14" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2037: 78%</title></circle>
+	<circle class="marker" cx="365.36" cy="60.40" data-y="82" data-x="2038" data-i="15" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2038: 82%</title></circle>
+	<circle class="marker" cx="385.71" cy="52.00" data-y="85" data-x="2039" data-i="16" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2039: 85%</title></circle>
+	<circle class="marker" cx="406.07" cy="43.60" data-y="88" data-x="2040" data-i="17" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2040: 88%</title></circle>
+	<circle class="marker" cx="426.43" cy="35.20" data-y="91" data-x="2041" data-i="18" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2041: 91%</title></circle>
+	<circle class="marker" cx="446.79" cy="29.60" data-y="93" data-x="2042" data-i="19" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2042: 93%</title></circle>
+	<circle class="marker" cx="467.14" cy="26.80" data-y="94" data-x="2043" data-i="20" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2043: 94%</title></circle>
+	<circle class="marker" cx="487.50" cy="21.20" data-y="96" data-x="2044" data-i="21" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2044: 96%</title></circle>
+	<circle class="marker" cx="507.86" cy="18.40" data-y="97" data-x="2045" data-i="22" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2045: 97%</title></circle>
+	<circle class="marker" cx="528.21" cy="15.60" data-y="98" data-x="2046" data-i="23" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2046: 98%</title></circle>
+	<circle class="marker" cx="548.57" cy="15.60" data-y="98" data-x="2047" data-i="24" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2047: 98%</title></circle>
+	<circle class="marker" cx="568.93" cy="12.80" data-y="99" data-x="2048" data-i="25" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2048: 99%</title></circle>
+	<circle class="marker" cx="589.29" cy="12.80" data-y="99" data-x="2049" data-i="26" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2049: 99%</title></circle>
+	<circle class="marker" cx="609.64" cy="12.80" data-y="99" data-x="2050" data-i="27" data-series="1" r="4" fill="#ab1236" roll="cell"><title>2050: 99%</title></circle>
+</g>
+</g>
+</svg>

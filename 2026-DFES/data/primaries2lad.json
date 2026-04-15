@@ -1,0 +1,1876 @@
+{
+	"ABBEY ROAD": {
+		"E08000035": 1
+	},
+	"ACKLAM": {
+		"E06000002": 1
+	},
+	"AIREDALE ROAD": {
+		"E08000032": 1
+	},
+	"ALDHAM": {
+		"E08000016": 0.9619,
+		"E08000018": 0.0381
+	},
+	"ALFRED GELDER STREET": {
+		"E06000010": 1
+	},
+	"ALLERTON HILL T1": {
+		"E08000035": 1
+	},
+	"ALLERTON HILL T2": {
+		"E08000035": 1
+	},
+	"ALVERTHORPE ROAD": {
+		"E08000036": 1
+	},
+	"AMBERTON ROAD": {
+		"E06000001": 1
+	},
+	"ANNFIELD 66/20KV": {
+		"E06000047": 0.9711,
+		"E08000037": 0.0289
+	},
+	"ARMOURIES DRIVE": {
+		"E08000035": 1
+	},
+	"ARMTHORPE": {
+		"E08000017": 1
+	},
+	"ARUNDEL STREET": {
+		"E08000019": 1
+	},
+	"ASHINGTON": {
+		"E06000057": 1
+	},
+	"ASKERN": {
+		"E06000065": 0.1934,
+		"E08000017": 0.7931,
+		"E08000036": 0.0135
+	},
+	"AUDBY LANE": {
+		"E06000065": 0.2189,
+		"E08000035": 0.7811
+	},
+	"AUSTERFIELD": {
+		"E07000171": 0.2588,
+		"E08000017": 0.7412
+	},
+	"AYCLIFFE INDUSTRIAL": {
+		"E06000047": 1
+	},
+	"BAILIFF BRIDGE": {
+		"E08000032": 0.0928,
+		"E08000033": 0.8756,
+		"E08000034": 0.0317
+	},
+	"BALBY": {
+		"E08000017": 1
+	},
+	"BALME STREET": {
+		"E08000032": 1
+	},
+	"BARDEN FRIAR": {
+		"E06000065": 1
+	},
+	"BARNBURGH": {
+		"E08000016": 0.848,
+		"E08000017": 0.152
+	},
+	"BARNOLDSWICK": {
+		"E06000065": 0.21,
+		"E07000122": 0.7626,
+		"E07000124": 0.0274
+	},
+	"BARNSLEY": {
+		"E08000016": 1
+	},
+	"BARNSLEY ROAD": {
+		"E08000019": 1
+	},
+	"BARROW": {
+		"E06000013": 1
+	},
+	"BARUGH 66/11KV": {
+		"E08000016": 1
+	},
+	"BARWICK": {
+		"E08000035": 1
+	},
+	"BASLOW ROAD": {
+		"E07000035": 0.0059,
+		"E07000038": 0.0569,
+		"E08000019": 0.9373
+	},
+	"BATLEY": {
+		"E08000034": 1
+	},
+	"BEAL": {
+		"E06000065": 0.5833,
+		"E08000036": 0.4167
+	},
+	"BEDALE": {
+		"E06000065": 1
+	},
+	"BEESTON ROYDS 33/11KV": {
+		"E08000035": 1
+	},
+	"BEESTON ROYDS 6/7": {
+		"E08000035": 1
+	},
+	"BEIGHTON": {
+		"E08000018": 0.6834,
+		"E08000019": 0.3166
+	},
+	"BELLHOUSE ROAD": {
+		"E08000019": 1
+	},
+	"BELMONT": {
+		"E06000047": 1
+	},
+	"BELMONT AVENUE": {
+		"E08000017": 1
+	},
+	"BELMONT COVERT": {
+		"E07000137": 1
+	},
+	"BELTHORPE LANE": {
+		"E06000011": 1
+	},
+	"BENSHAM": {
+		"E08000037": 1
+	},
+	"BENTLEY": {
+		"E08000017": 1
+	},
+	"BENTON SQUARE": {
+		"E06000057": 0.0063,
+		"E08000022": 0.9937
+	},
+	"BENWELL": {
+		"E08000021": 1
+	},
+	"BILLET LANE": {
+		"E06000013": 1
+	},
+	"BILLINGHAM MARSH HOUSE": {
+		"E06000004": 1
+	},
+	"BILLY MILL": {
+		"E08000022": 1
+	},
+	"BINBROOK": {
+		"E07000137": 0.6566,
+		"E07000142": 0.3434
+	},
+	"BINGLEY 33/11KV": {
+		"E08000032": 1
+	},
+	"BIRKBY": {
+		"E08000034": 1
+	},
+	"BIRTLEY GROVE 66/11KV": {
+		"E06000047": 0.5462,
+		"E08000024": 0.1609,
+		"E08000037": 0.2929
+	},
+	"BIRTLEY GROVE 66/20KV": {
+		"E06000047": 0.1661,
+		"E08000037": 0.8339
+	},
+	"BLACKBURN MEADOWS 33/11KV": {
+		"E08000019": 1
+	},
+	"BLAYDON BURN": {
+		"E08000037": 1
+	},
+	"BLUCHER 33/11KV": {
+		"E08000021": 1
+	},
+	"BLUE BOY STREET": {
+		"E08000019": 1
+	},
+	"BOC BRINSWORTH": {
+		"E08000018": 1
+	},
+	"BOLDON DOWNHILL": {
+		"E08000023": 0.4704,
+		"E08000024": 0.4971,
+		"E08000037": 0.0325
+	},
+	"BOLTON ROAD": {
+		"E08000032": 1
+	},
+	"BOROUGHBRIDGE/ROECLIFFE INDUSTRIAL": {
+		"E06000065": 1
+	},
+	"BOTTESFORD": {
+		"E06000013": 1
+	},
+	"BOWESFIELD 33/11KV": {
+		"E06000004": 1
+	},
+	"BOWESFIELD 66/11KV": {
+		"E06000004": 1
+	},
+	"BRAMHOPE": {
+		"E08000035": 1
+	},
+	"BRAMLEY": {
+		"E08000035": 1
+	},
+	"BRANCEPETH": {
+		"E06000047": 1
+	},
+	"BREAMISH STREET": {
+		"E08000021": 1
+	},
+	"BRENDA TRADING": {
+		"E06000001": 1
+	},
+	"BRETT STREET": {
+		"E06000011": 1
+	},
+	"BRIDGES ROAD": {
+		"E06000013": 1
+	},
+	"BRIGHOUSE 33/11KV": {
+		"E08000033": 1
+	},
+	"BRODSWORTH": {
+		"E08000017": 1
+	},
+	"BROOKFIELD STREET": {
+		"E08000035": 1
+	},
+	"BTP": {
+		"E06000012": 1
+	},
+	"BURLEY STREET": {
+		"E08000035": 1
+	},
+	"BURMANTOFTS": {
+		"E08000035": 1
+	},
+	"BURNLEYVILLE": {
+		"E08000032": 0.1792,
+		"E08000034": 0.7971,
+		"E08000035": 0.0238
+	},
+	"BURTON PIDSEA": {
+		"E06000011": 1
+	},
+	"BURTON ROAD": {
+		"E08000016": 1
+	},
+	"BUSLINGTHORPE GREEN": {
+		"E08000035": 1
+	},
+	"BUTTERWICK": {
+		"E06000011": 0.7024,
+		"E06000065": 0.2976
+	},
+	"Barnsley Direct to Supply Points": {
+		"E08000016": 1
+	},
+	"Bradford Direct to Supply Points": {
+		"E08000032": 1
+	},
+	"CAISTOR": {
+		"E07000142": 1
+	},
+	"CALDER WHARF": {
+		"E08000034": 1
+	},
+	"CAMPLESHON ROAD": {
+		"E06000014": 0.9493,
+		"E06000065": 0.0507
+	},
+	"CARLEY HILL": {
+		"E08000023": 0.0626,
+		"E08000024": 0.9374
+	},
+	"CARLIN HOW T3 T4": {
+		"E06000003": 0.877,
+		"E06000065": 0.123
+	},
+	"CARLTON HILL": {
+		"E08000035": 1
+	},
+	"CARR HILL": {
+		"E08000037": 1
+	},
+	"CARR LANE": {
+		"E08000036": 1
+	},
+	"CATTERICK CAMP": {
+		"E06000065": 1
+	},
+	"CHELKER RESERVOIR": {
+		"E06000065": 1
+	},
+	"CHEVIN END": {
+		"E08000032": 0.7754,
+		"E08000035": 0.2246
+	},
+	"CLARENCE ROAD": {
+		"E08000035": 1
+	},
+	"CLARENDON ROAD": {
+		"E08000035": 1
+	},
+	"CLARENDON STREET": {
+		"E06000010": 1
+	},
+	"CLAYWHEELS LANE": {
+		"E08000019": 1
+	},
+	"CLOSE": {
+		"E08000021": 1
+	},
+	"CLOUGH LANE": {
+		"E06000013": 1
+	},
+	"COMMONSIDE LANE": {
+		"E08000036": 1
+	},
+	"CONEYTHORPE": {
+		"E06000065": 1
+	},
+	"CONSETT": {
+		"E06000047": 0.9068,
+		"E06000057": 0.0522,
+		"E08000037": 0.041
+	},
+	"CONVAMORE ROAD": {
+		"E06000012": 1
+	},
+	"CONYARD ROAD": {
+		"E06000012": 1
+	},
+	"CORNWALL STREET": {
+		"E06000010": 1
+	},
+	"CORPORATION STREET": {
+		"E08000021": 1
+	},
+	"CORRINGHAM ROAD": {
+		"E07000142": 1
+	},
+	"COSTHORPE": {
+		"E07000171": 0.9775,
+		"E08000018": 0.0225
+	},
+	"COUNTY ROAD NORTH": {
+		"E06000010": 0.6929,
+		"E06000011": 0.3071
+	},
+	"COWTON": {
+		"E06000065": 1
+	},
+	"CRACOE": {
+		"E06000065": 1
+	},
+	"CRAMLINGTON T1 T3": {
+		"E06000057": 1
+	},
+	"CRAMLINGTON T2 T4": {
+		"E06000057": 1
+	},
+	"CROOKESMOOR ROAD": {
+		"E08000019": 1
+	},
+	"CROSSHILLS": {
+		"E06000065": 0.8274,
+		"E08000032": 0.1726
+	},
+	"CROWLE": {
+		"E06000013": 1
+	},
+	"CROWN STREET": {
+		"E08000032": 1
+	},
+	"Calderdale Direct to Supply Points": {
+		"E08000033": 1
+	},
+	"County Durham Direct to Supply Points": {
+		"E06000047": 1
+	},
+	"DALTON": {
+		"E08000034": 1
+	},
+	"DARLEY": {
+		"E06000065": 1
+	},
+	"DARLINGTON 132/6KV": {
+		"E06000005": 1
+	},
+	"DARLINGTON 33/11KV": {
+		"E06000005": 0.9076,
+		"E06000065": 0.0924
+	},
+	"DARLINGTON CENTRAL 33/11KV": {
+		"E06000005": 1
+	},
+	"DARLINGTON EAST": {
+		"E06000005": 0.964,
+		"E06000065": 0.036
+	},
+	"DARLINGTON WEST": {
+		"E06000005": 1
+	},
+	"DARNALL": {
+		"E08000019": 1
+	},
+	"DEARNE ROAD": {
+		"E08000016": 0.039,
+		"E08000018": 0.961
+	},
+	"DEIGHTON": {
+		"E08000034": 1
+	},
+	"DENBY DALE ROAD": {
+		"E08000036": 1
+	},
+	"DENBY GRANGE": {
+		"E08000034": 0.2581,
+		"E08000036": 0.7419
+	},
+	"DENHOLME": {
+		"E08000032": 1
+	},
+	"DENWICK": {
+		"E06000057": 1
+	},
+	"DINNINGTON": {
+		"E08000018": 1
+	},
+	"DOUGHTY ROAD": {
+		"E06000012": 1
+	},
+	"DOWKER STREET": {
+		"E08000034": 1
+	},
+	"DRAX PRIMARY": {
+		"E06000011": 0.2887,
+		"E06000065": 0.7113
+	},
+	"DRIFFIELD": {
+		"E06000011": 1
+	},
+	"DRONFIELD": {
+		"E07000038": 0.9336,
+		"E08000019": 0.0664
+	},
+	"DUDLEY HILL": {
+		"E08000032": 1,
+		"E08000035": 0
+	},
+	"DUNKESWICK": {
+		"E06000065": 0.8102,
+		"E08000035": 0.1898
+	},
+	"DUNSTON 66/11KV": {
+		"E08000037": 1
+	},
+	"DUNSTON 66/20KV": {
+		"E08000037": 1
+	},
+	"DURHAM EAST": {
+		"E06000047": 1
+	},
+	"DURKAR LOW LANE": {
+		"E08000036": 1
+	},
+	"Darlington Direct to Supply Points": {
+		"E06000005": 1
+	},
+	"Doncaster Direct to Supply Points": {
+		"E08000017": 1
+	},
+	"EASINGTON": {
+		"E06000011": 1
+	},
+	"EASTFIELD": {
+		"E06000065": 1
+	},
+	"EASTFIELD ROAD": {
+		"E06000012": 0.5316,
+		"E06000013": 0.3646,
+		"E07000142": 0.1038
+	},
+	"EASTGATE CEMENT": {
+		"E06000047": 1
+	},
+	"ECCLESFIELD": {
+		"E07000035": 0.0037,
+		"E08000018": 0.0148,
+		"E08000019": 0.9815
+	},
+	"EDLINGTON": {
+		"E08000017": 1
+	},
+	"EDUCATIONAL PRECINCT": {
+		"E08000021": 1
+	},
+	"EGGBOROUGH": {
+		"E06000065": 1
+	},
+	"ELGAR ROAD": {
+		"E06000010": 0.3162,
+		"E06000011": 0.6838
+	},
+	"ELLAND 33/11KV": {
+		"E08000033": 1
+	},
+	"ELLIFOOT LANE": {
+		"E06000011": 1
+	},
+	"ELLIN STREET 1/3": {
+		"E08000019": 1
+	},
+	"ELLIN STREET 2": {
+		"E08000019": 1
+	},
+	"ELMHIRST LANE 1": {
+		"E08000016": 1
+	},
+	"ELMHIRST LANE 2": {
+		"E08000016": 1
+	},
+	"ELSECAR": {
+		"E08000016": 0.7368,
+		"E08000018": 0.2632
+	},
+	"ELVINGTON": {
+		"E06000014": 0.79,
+		"E06000065": 0.21
+	},
+	"ENDIKE LANE": {
+		"E06000010": 0.7359,
+		"E06000011": 0.2641
+	},
+	"EPWORTH": {
+		"E06000013": 1
+	},
+	"East Riding of Yorkshire Direct to Supply Points": {
+		"E06000011": 1
+	},
+	"FARADAY STREET": {
+		"E06000002": 1
+	},
+	"FARNLEY CRESCENT": {
+		"E08000035": 1
+	},
+	"FAWDON T1 & SEATON BURN T1": {
+		"E06000057": 0.2617,
+		"E08000021": 0.4372,
+		"E08000022": 0.3011
+	},
+	"FENTON LANE": {
+		"E06000065": 1
+	},
+	"FERRYBRIDGE A 11KV": {
+		"E06000065": 0.2637,
+		"E08000036": 0.7363
+	},
+	"FIR TREE LANE": {
+		"E08000035": 1
+	},
+	"FIRST AVENUE": {
+		"E06000010": 1
+	},
+	"FIRTH BROWN": {
+		"E06000013": 1
+	},
+	"FISH DAM LANE": {
+		"E08000016": 1
+	},
+	"FISHBURN": {
+		"E06000047": 1
+	},
+	"FLATWORTH CENTRAL": {
+		"E08000022": 1
+	},
+	"FLIXBOROUGH": {
+		"E06000013": 1
+	},
+	"FOLLY HALL": {
+		"E08000034": 1
+	},
+	"FOSS ISLANDS": {
+		"E06000014": 1
+	},
+	"FOSSWAY 33/11KV": {
+		"E08000021": 1
+	},
+	"FOUR LANE ENDS": {
+		"E08000032": 1
+	},
+	"FOURSTONES 20KV": {
+		"E06000057": 1
+	},
+	"FOXHILLS": {
+		"E06000013": 1
+	},
+	"FULLERTON ROAD": {
+		"E08000018": 1
+	},
+	"FURNESS AVENUE": {
+		"E08000033": 1
+	},
+	"FYLANDS BRIDGE": {
+		"E06000047": 1
+	},
+	"GAISBY LANE": {
+		"E08000032": 1
+	},
+	"GALE LANE": {
+		"E06000014": 1
+	},
+	"GARWOOD STREET": {
+		"E08000023": 1
+	},
+	"GATESHEAD CENTRAL": {
+		"E08000037": 1
+	},
+	"GATESHEAD EAST": {
+		"E08000037": 1
+	},
+	"GIBRALTAR ROAD": {
+		"E08000033": 1
+	},
+	"GIBSON LANE": {
+		"E06000011": 1
+	},
+	"GILDERSOME": {
+		"E08000034": 0.0505,
+		"E08000035": 0.9495
+	},
+	"GLEADLESS VALLEY": {
+		"E08000019": 1
+	},
+	"GOOLE": {
+		"E06000011": 1
+	},
+	"GOSFORTH 33/11KV": {
+		"E08000021": 0.9391,
+		"E08000022": 0.0609
+	},
+	"GRAINTHORPE": {
+		"E07000137": 1
+	},
+	"GRANGETOWN": {
+		"E06000003": 1
+	},
+	"GREAT COATES": {
+		"E06000012": 0.8785,
+		"E07000142": 0.1215
+	},
+	"GREATHAM": {
+		"E06000001": 0.928,
+		"E06000004": 0.072
+	},
+	"GREENHILL": {
+		"E07000038": 0.219,
+		"E08000019": 0.781
+	},
+	"GREYFRIARS RD": {
+		"E08000017": 1
+	},
+	"GREYFRIARS ROAD 3/4": {
+		"E08000017": 1
+	},
+	"GRIMETHORPE": {
+		"E08000016": 1
+	},
+	"GROVE STREET": {
+		"E08000034": 1
+	},
+	"GUARDIAN GLASS": {
+		"E06000011": 1
+	},
+	"GUISBOROUGH T1 T2": {
+		"E06000003": 0.6185,
+		"E06000065": 0.3815
+	},
+	"Gateshead Direct to Supply Points": {
+		"E08000037": 1
+	},
+	"HACKENTHORPE": {
+		"E08000019": 1
+	},
+	"HALIFAX 33/11KV": {
+		"E08000033": 1
+	},
+	"HALLAM STREET": {
+		"E08000035": 1
+	},
+	"HARDEN": {
+		"E08000032": 1
+	},
+	"HARLOW GREEN": {
+		"E08000024": 0.1163,
+		"E08000037": 0.8837
+	},
+	"HARMIRE BRIDGE": {
+		"E06000047": 0.9374,
+		"E06000065": 0.0626
+	},
+	"HARPSWELL": {
+		"E07000142": 1
+	},
+	"HARRATON": {
+		"E08000024": 1
+	},
+	"HARROGATE 132/11KV": {
+		"E06000065": 1
+	},
+	"HARROGATE WEST": {
+		"E06000065": 1
+	},
+	"HARTMOOR 66/20KV": {
+		"E06000001": 0.6347,
+		"E06000004": 0.0218,
+		"E06000047": 0.3435
+	},
+	"HARWORTH": {
+		"E07000171": 0.6039,
+		"E08000017": 0.3961
+	},
+	"HAWORTH 1": {
+		"E08000032": 1
+	},
+	"HAWORTH 2": {
+		"E08000032": 1
+	},
+	"HAWTHORN PIT": {
+		"E06000047": 0.5669,
+		"E08000024": 0.4331
+	},
+	"HAXBY ROAD T2 T3": {
+		"E06000014": 1
+	},
+	"HAXEY": {
+		"E06000013": 0.965,
+		"E07000171": 0.0257,
+		"E08000017": 0.0093
+	},
+	"HAYTON": {
+		"E06000011": 1
+	},
+	"HAZLEHEAD": {
+		"E08000016": 0.3918,
+		"E08000034": 0.6082
+	},
+	"HEBBURN": {
+		"E08000023": 1
+	},
+	"HEBBURN WEST": {
+		"E08000023": 1
+	},
+	"HEBDEN BRIDGE": {
+		"E08000033": 1
+	},
+	"HEDLEY CHASE": {
+		"E08000035": 1
+	},
+	"HEDON ROAD": {
+		"E06000010": 1
+	},
+	"HEDWORTH": {
+		"E08000023": 1
+	},
+	"HEIGHINGTON": {
+		"E06000047": 1
+	},
+	"HEMSWORTH": {
+		"E08000036": 1
+	},
+	"HESSLE ROAD 1": {
+		"E06000010": 0.4923,
+		"E06000011": 0.5077
+	},
+	"HESSLE ROAD 2": {
+		"E06000010": 0.471,
+		"E06000011": 0.529
+	},
+	"HEXHAM": {
+		"E06000057": 1
+	},
+	"HIBALDSTOW": {
+		"E06000013": 0.7312,
+		"E07000142": 0.2688
+	},
+	"HICKLETON": {
+		"E08000016": 1
+	},
+	"HIGH BARMSTON": {
+		"E08000024": 1
+	},
+	"HIGH FLATTS": {
+		"E06000047": 0.9788,
+		"E08000037": 0.0212
+	},
+	"HILLCREST": {
+		"E08000035": 1
+	},
+	"HOLBECK": {
+		"E08000035": 1
+	},
+	"HOLDERNESS": {
+		"E06000010": 0.7339,
+		"E06000011": 0.2661
+	},
+	"HOLME UPON SPALDING MOOR": {
+		"E06000011": 1
+	},
+	"HONLEY": {
+		"E08000034": 1
+	},
+	"HOPE": {
+		"E07000035": 0.0161,
+		"E07000037": 0.9839
+	},
+	"HORBURY": {
+		"E08000034": 0.0154,
+		"E08000036": 0.9846
+	},
+	"HOUGHTON": {
+		"E06000047": 0.2759,
+		"E08000024": 0.7241
+	},
+	"HOUGHTON MAIN": {
+		"E08000016": 1
+	},
+	"HOWDON": {
+		"E08000022": 1
+	},
+	"HULL EAST 33/11KV": {
+		"E06000010": 0.2039,
+		"E06000011": 0.7961
+	},
+	"HUMBER ROAD": {
+		"E06000012": 1
+	},
+	"HUNMANBY": {
+		"E06000065": 1
+	},
+	"HUNTINGTON NEW LANE": {
+		"E06000011": 0.1944,
+		"E06000014": 0.7334,
+		"E06000065": 0.0722
+	},
+	"HUSTHWAITE 33/11KV": {
+		"E06000065": 1
+	},
+	"Hambleton Direct to Supply Points": {
+		"E06000065": 1
+	},
+	"Harrogate Direct to Supply Points": {
+		"E06000065": 1
+	},
+	"Hartlepool Direct to Supply Points": {
+		"E06000001": 1
+	},
+	"ICI FIBRES": {
+		"E08000017": 1
+	},
+	"IDLE": {
+		"E08000032": 1
+	},
+	"ILKLEY": {
+		"E06000065": 0.0629,
+		"E08000032": 0.9371
+	},
+	"INGS LANE": {
+		"E06000065": 1
+	},
+	"IVESON HOUSE": {
+		"E08000035": 1
+	},
+	"JARRATT STREET": {
+		"E08000017": 1
+	},
+	"JARROW": {
+		"E08000023": 1
+	},
+	"KEDDINGTON ROAD": {
+		"E07000137": 1
+	},
+	"KEIGHLEY": {
+		"E08000032": 1
+	},
+	"KENMORE ROAD": {
+		"E08000036": 1
+	},
+	"KENTON": {
+		"E08000021": 1
+	},
+	"KIELDER": {
+		"E06000057": 1
+	},
+	"KILLINGHALL ROAD": {
+		"E08000032": 1
+	},
+	"KILLINGWORTH": {
+		"E08000022": 1
+	},
+	"KILNHURST": {
+		"E08000017": 0.0046,
+		"E08000018": 0.9954
+	},
+	"KING GEORGE DOCK": {
+		"E06000010": 1
+	},
+	"KIRBYMOORSIDE": {
+		"E06000065": 1
+	},
+	"KIRK DRIVE": {
+		"E08000032": 1
+	},
+	"KIRK SANDALL": {
+		"E08000017": 1
+	},
+	"KIRKBURN": {
+		"E06000011": 1
+	},
+	"KIVETON PARK": {
+		"E08000018": 1
+	},
+	"Kingston upon Hull, City of Direct to Supply Points": {
+		"E06000010": 1
+	},
+	"Kirklees Direct to Supply Points": {
+		"E08000034": 1
+	},
+	"LEA ROAD": {
+		"E07000142": 0.9949,
+		"E07000171": 0.0051
+	},
+	"LEASOWE ROAD": {
+		"E08000035": 1
+	},
+	"LEDSTON": {
+		"E06000065": 0.0234,
+		"E08000035": 0.9766
+	},
+	"LEEDS ROAD": {
+		"E08000035": 1
+	},
+	"LEGRAMS MILL LANE": {
+		"E08000032": 1
+	},
+	"LEYLANDS ROAD": {
+		"E08000035": 1
+	},
+	"LINTON 66/20KV": {
+		"E06000057": 1
+	},
+	"LIVERSEDGE": {
+		"E08000034": 1
+	},
+	"LONGBENTON": {
+		"E08000021": 0.5841,
+		"E08000022": 0.4159
+	},
+	"LOUTH": {
+		"E07000137": 1
+	},
+	"LOW MOOR": {
+		"E08000032": 1
+	},
+	"LOW SPENNYMOOR": {
+		"E06000047": 1
+	},
+	"LOWFIELDS": {
+		"E08000033": 1
+	},
+	"LOXLEY ROAD": {
+		"E08000019": 1
+	},
+	"LYNEMOUTH": {
+		"E06000057": 1
+	},
+	"Leeds Direct to Supply Points": {
+		"E08000035": 1
+	},
+	"MADDISON STREET": {
+		"E06000057": 1
+	},
+	"MALLEABLE": {
+		"E06000004": 1
+	},
+	"MALTON": {
+		"E06000065": 1
+	},
+	"MANCHESTER ROAD": {
+		"E08000032": 1
+	},
+	"MANSFIELD ROAD 1": {
+		"E08000019": 1
+	},
+	"MARKHAM GATES": {
+		"E08000017": 1
+	},
+	"MARMION ROAD": {
+		"E08000019": 1
+	},
+	"MARSDEN ROAD": {
+		"E06000012": 1
+	},
+	"MARTONGATE": {
+		"E06000011": 1
+	},
+	"MEADOWFIELD": {
+		"E06000047": 1
+	},
+	"MELROSEGATE 33/11KV": {
+		"E06000014": 1
+	},
+	"MELTHAM": {
+		"E08000034": 1
+	},
+	"MEXBOROUGH 1_2": {
+		"E08000017": 1
+	},
+	"MIDDLETON TOWN STREET": {
+		"E08000035": 1
+	},
+	"MILLBANK LANE": {
+		"E06000002": 0.0906,
+		"E06000004": 0.8465,
+		"E06000065": 0.0629
+	},
+	"MILLHOUSES": {
+		"E08000019": 1
+	},
+	"MILLROYD STREET": {
+		"E08000033": 0.9384,
+		"E08000034": 0.0616
+	},
+	"MILTON PLACE": {
+		"E08000034": 0.1223,
+		"E08000036": 0.8777
+	},
+	"MIRFIELD": {
+		"E08000034": 1
+	},
+	"MONCKTON": {
+		"E08000016": 0.4722,
+		"E08000036": 0.5278
+	},
+	"MONKSEATON": {
+		"E06000057": 0.0965,
+		"E08000022": 0.9035
+	},
+	"MOOR MONKTON PUMPS": {
+		"E06000065": 1
+	},
+	"MOOR ROAD": {
+		"E08000035": 1
+	},
+	"MOORSIDE ROAD": {
+		"E08000032": 1
+	},
+	"MORLEY": {
+		"E08000035": 1
+	},
+	"MORPETH": {
+		"E06000057": 1
+	},
+	"MOUNT ROAD": {
+		"E08000024": 1
+	},
+	"MOUNT STREET": {
+		"E08000032": 1
+	},
+	"MYTHOLMROYD": {
+		"E08000033": 1
+	},
+	"NAB LANE": {
+		"E08000034": 1
+	},
+	"NABWOOD": {
+		"E08000032": 1
+	},
+	"NATIONAL AVENUE": {
+		"E06000010": 1
+	},
+	"NEW DROPPINGWELL ROAD": {
+		"E08000018": 1
+	},
+	"NEW ORCHARD LANE": {
+		"E08000018": 1
+	},
+	"NEWBURN HAUGH": {
+		"E08000021": 1
+	},
+	"NEWBY": {
+		"E06000065": 1
+	},
+	"NEWCASTLE AIRPORT": {
+		"E06000057": 0.4563,
+		"E08000021": 0.5437
+	},
+	"NEWHALL ROAD": {
+		"E08000019": 1
+	},
+	"NEWPORT 1": {
+		"E06000011": 1
+	},
+	"NEWTON AYCLIFFE SOUTH": {
+		"E06000005": 0.0435,
+		"E06000047": 0.9565
+	},
+	"NINELANDS LANE": {
+		"E06000065": 0.0417,
+		"E08000035": 0.9583
+	},
+	"NORFOLK PARK": {
+		"E08000019": 1
+	},
+	"NORMANBY": {
+		"E07000142": 1
+	},
+	"NORMANTON": {
+		"E08000036": 1
+	},
+	"NORTH AVENUE": {
+		"E06000065": 0.1835,
+		"E08000032": 0.1311,
+		"E08000035": 0.6855
+	},
+	"NORTH STREET": {
+		"E06000065": 1
+	},
+	"NORTH TEES T1 T2": {
+		"E06000002": 0.9558,
+		"E06000004": 0.0442
+	},
+	"NORTH TEES T3 T4": {
+		"E06000002": 0.4005,
+		"E06000004": 0.5995
+	},
+	"NORTH THORESBY": {
+		"E06000012": 0.0383,
+		"E07000137": 0.9617
+	},
+	"NORTHALLERTON": {
+		"E06000065": 1
+	},
+	"NORTON 132/11KV": {
+		"E06000004": 1
+	},
+	"NORWOOD": {
+		"E06000011": 1
+	},
+	"Newcastle upon Tyne Direct to Supply Points": {
+		"E08000021": 1
+	},
+	"North East Lincolnshire Direct to Supply Points": {
+		"E06000012": 1
+	},
+	"North Lincolnshire Direct to Supply Points": {
+		"E06000013": 1
+	},
+	"North Tyneside Direct to Supply Points": {
+		"E08000022": 1
+	},
+	"Northumberland Direct to Supply Points": {
+		"E06000057": 1
+	},
+	"OAKES ROAD": {
+		"E08000034": 1
+	},
+	"OAKWOOD LANE": {
+		"E08000035": 1
+	},
+	"OATLANDS": {
+		"E06000065": 1
+	},
+	"ODSAL": {
+		"E08000032": 1
+	},
+	"OFFERTON 33/11KV": {
+		"E06000047": 0.0981,
+		"E08000024": 0.9019
+	},
+	"OLYMPIA MILLS": {
+		"E06000011": 0.0347,
+		"E06000065": 0.9653
+	},
+	"ORGREAVE": {
+		"E08000018": 0.8551,
+		"E08000019": 0.1449
+	},
+	"OUTWOOD": {
+		"E08000035": 0.3194,
+		"E08000036": 0.6806
+	},
+	"PALLION TRADING": {
+		"E08000024": 1
+	},
+	"PARK HILL": {
+		"E08000019": 1
+	},
+	"PARK ROAD": {
+		"E08000034": 1
+	},
+	"PARK STREET": {
+		"E08000018": 1
+	},
+	"PASTURE ROAD SOUTH": {
+		"E06000013": 1
+	},
+	"PATRINGTON ROAD": {
+		"E06000011": 1
+	},
+	"PENISTONE": {
+		"E08000016": 1
+	},
+	"PENISTONE ROAD": {
+		"E07000035": 0.0103,
+		"E08000019": 0.9897
+	},
+	"PETERLEE INDUSTRIAL": {
+		"E06000047": 1
+	},
+	"PETERLEE WEST": {
+		"E06000047": 1
+	},
+	"PILGRIM": {
+		"E08000021": 1
+	},
+	"PLANGEO": {
+		"E06000010": 1
+	},
+	"POLLINGTON": {
+		"E06000011": 0.6198,
+		"E06000065": 0.3802
+	},
+	"PONTEFRACT LANE 1/2": {
+		"E08000035": 1
+	},
+	"POOL": {
+		"E06000065": 0.3978,
+		"E08000035": 0.6022
+	},
+	"POTTER HOUSE T1 T3": {
+		"E06000047": 1
+	},
+	"POTTER HOUSE T4 T5": {
+		"E06000047": 1
+	},
+	"PRINCE OF WALES": {
+		"E08000036": 1
+	},
+	"PRISSICK": {
+		"E06000002": 0.9496,
+		"E06000003": 0.0504
+	},
+	"PROSPECT ROAD": {
+		"E08000034": 1
+	},
+	"QUEENS ROAD": {
+		"E06000012": 1
+	},
+	"QUEENSBURY": {
+		"E08000032": 0.4829,
+		"E08000033": 0.5171
+	},
+	"RAVENSCAR": {
+		"E06000065": 1
+	},
+	"RAWCLIFFE": {
+		"E06000011": 1
+	},
+	"RAWCLIFFE LANE": {
+		"E06000014": 0.939,
+		"E06000065": 0.061
+	},
+	"RAWDON": {
+		"E08000032": 0.0148,
+		"E08000035": 0.9852
+	},
+	"RAWMARSH ROAD 1_2": {
+		"E08000018": 1
+	},
+	"RAWMARSH ROAD 3_4": {
+		"E08000018": 1
+	},
+	"RAWSON ROAD": {
+		"E08000032": 1
+	},
+	"RAWSON SPRING ROAD": {
+		"E08000019": 1
+	},
+	"REDCAR": {
+		"E06000003": 1
+	},
+	"RESERVOIR": {
+		"E06000057": 1
+	},
+	"REVILL LANE": {
+		"E08000019": 1
+	},
+	"RICHMOND T1": {
+		"E06000065": 1
+	},
+	"RICHMOND T2": {
+		"E06000065": 1
+	},
+	"RIPON": {
+		"E06000065": 1
+	},
+	"RISE CARR": {
+		"E06000005": 1
+	},
+	"ROCKWARE": {
+		"E08000017": 1
+	},
+	"RODLEY LANE": {
+		"E08000032": 0.0202,
+		"E08000035": 0.9798
+	},
+	"ROMAN AVENUE": {
+		"E08000035": 1
+	},
+	"ROMANBY": {
+		"E06000065": 1
+	},
+	"ROYDS LANE": {
+		"E08000035": 0.8506,
+		"E08000036": 0.1494
+	},
+	"RUDBY": {
+		"E06000065": 1
+	},
+	"Redcar and Cleveland Direct to Supply Points": {
+		"E06000003": 1
+	},
+	"Rotherham Direct to Supply Points": {
+		"E08000018": 1
+	},
+	"Ryedale Direct to Supply Points": {
+		"E06000065": 1
+	},
+	"SAINT ANDREWS ROAD 33/11KV": {
+		"E08000034": 1
+	},
+	"SAINT STREET": {
+		"E08000032": 1
+	},
+	"SALTERFORTH": {
+		"E06000065": 0.1327,
+		"E07000122": 0.8673
+	},
+	"SALTERHEBBLE": {
+		"E08000033": 1
+	},
+	"SALTSHOUSE ROAD": {
+		"E06000010": 1
+	},
+	"SANDHILL LANE": {
+		"E06000011": 0.845,
+		"E06000065": 0.155
+	},
+	"SAXON ROAD": {
+		"E08000019": 1
+	},
+	"SCARBOROUGH 33/11KV": {
+		"E06000065": 1
+	},
+	"SCARTHO": {
+		"E06000012": 0.9372,
+		"E07000137": 0.0628
+	},
+	"SCHOLES": {
+		"E08000034": 1
+	},
+	"SCISSETT": {
+		"E08000016": 0.0141,
+		"E08000034": 0.9859
+	},
+	"SCULCOATES A": {
+		"E06000010": 1
+	},
+	"SEACROFT": {
+		"E08000035": 1
+	},
+	"SEAHAM": {
+		"E06000047": 1
+	},
+	"SEATON": {
+		"E06000011": 1
+	},
+	"SEGHILL": {
+		"E06000057": 0.8594,
+		"E08000022": 0.1406
+	},
+	"SELBY": {
+		"E06000065": 1
+	},
+	"SELBY ROAD": {
+		"E08000035": 1
+	},
+	"SESSAY BRIDGE_SOWERBY": {
+		"E06000065": 1
+	},
+	"SEVERUS HILL": {
+		"E06000014": 0.958,
+		"E06000065": 0.042
+	},
+	"SHARLSTON": {
+		"E08000036": 1
+	},
+	"SHEPCOTE TINSLEY": {
+		"E08000018": 1
+	},
+	"SHERBURN": {
+		"E06000065": 1
+	},
+	"SHERIFF HUTTON": {
+		"E06000014": 0.2339,
+		"E06000065": 0.7661
+	},
+	"SHIPLEY": {
+		"E08000032": 1
+	},
+	"SHIRLAND LANE": {
+		"E08000019": 1
+	},
+	"SHOTTON": {
+		"E06000047": 1
+	},
+	"SILVER STREET": {
+		"E08000019": 1
+	},
+	"SILVERWOOD": {
+		"E08000017": 0.0801,
+		"E08000018": 0.9199
+	},
+	"SIMONSIDE": {
+		"E08000023": 1
+	},
+	"SKELDERGATE": {
+		"E06000014": 1
+	},
+	"SKERNESIDE": {
+		"E06000004": 0.0874,
+		"E06000005": 0.2294,
+		"E06000047": 0.3714,
+		"E06000065": 0.3117
+	},
+	"SKILLINGS LANE": {
+		"E06000011": 1
+	},
+	"SKIPTON": {
+		"E06000065": 1
+	},
+	"SLAITHWAITE": {
+		"E08000033": 0.0108,
+		"E08000034": 0.9892
+	},
+	"SLEDMERE GARTH": {
+		"E08000035": 1
+	},
+	"SMITH STREET": {
+		"E08000036": 1
+	},
+	"SMITHY GREEN": {
+		"E08000016": 1
+	},
+	"SNAITHING PARK ROAD": {
+		"E08000019": 1
+	},
+	"SNELSINS LANE": {
+		"E08000032": 0.1628,
+		"E08000034": 0.8372
+	},
+	"SOUTH ELMSALL": {
+		"E08000016": 0.0208,
+		"E08000017": 0.1102,
+		"E08000036": 0.869
+	},
+	"SOUTH FERRIBY": {
+		"E06000013": 1
+	},
+	"SOUTH KIRKBY": {
+		"E08000036": 1
+	},
+	"SOUTH RESTON": {
+		"E07000137": 1
+	},
+	"SOUTH STREET": {
+		"E08000032": 1
+	},
+	"SOUTHGATE": {
+		"E06000011": 1
+	},
+	"SOUTHWOOD ROAD": {
+		"E06000011": 1
+	},
+	"SOWERBY BRIDGE 33/11KV": {
+		"E08000033": 1
+	},
+	"SPADEADAM 20KV": {
+		"E06000057": 0.9969,
+		"E06000064": 0.0031
+	},
+	"SPARK MILL LANE": {
+		"E06000010": 0.0081,
+		"E06000011": 0.9919
+	},
+	"SPENBOROUGH": {
+		"E08000032": 0.0229,
+		"E08000034": 0.9771
+	},
+	"SPENCERBECK": {
+		"E06000002": 0.6579,
+		"E06000003": 0.3421
+	},
+	"SPENNYMOOR 66/20KV": {
+		"E06000047": 1
+	},
+	"SPRING MILL STREET": {
+		"E08000032": 1
+	},
+	"STAINFORTH": {
+		"E08000017": 1
+	},
+	"STAIRFOOT": {
+		"E08000016": 1
+	},
+	"STANLEY STREET": {
+		"E08000019": 1
+	},
+	"STANNINGTON ROAD": {
+		"E08000019": 1
+	},
+	"STARBECK": {
+		"E06000065": 1
+	},
+	"STATION ROAD": {
+		"E06000013": 1
+	},
+	"STEVENSON ROAD": {
+		"E08000019": 1
+	},
+	"STOKE STREET": {
+		"E08000019": 1
+	},
+	"STOKESLEY": {
+		"E06000002": 0.009,
+		"E06000065": 0.991
+	},
+	"STONEY CUT": {
+		"E06000047": 1
+	},
+	"STOURTON 132/11KV": {
+		"E08000035": 1
+	},
+	"STOURTON 33/11KV": {
+		"E08000035": 1
+	},
+	"STOW": {
+		"E07000142": 1
+	},
+	"SUNDERLAND T1 T2": {
+		"E08000024": 1
+	},
+	"SWAN BANK LANE": {
+		"E08000033": 1
+	},
+	"SWEET STREET": {
+		"E08000035": 1
+	},
+	"SWINNOW MOOR": {
+		"E08000032": 0.0307,
+		"E08000035": 0.9693
+	},
+	"Scarborough Direct to Supply Points": {
+		"E06000065": 1
+	},
+	"Selby Direct to Supply Points": {
+		"E06000065": 1
+	},
+	"Sheffield Direct to Supply Points": {
+		"E08000019": 1
+	},
+	"South Tyneside Direct to Supply Points": {
+		"E08000023": 1
+	},
+	"Stockton-on-Tees Direct to Supply Points": {
+		"E06000004": 1
+	},
+	"Sunderland Direct to Supply Points": {
+		"E08000024": 1
+	},
+	"TADCASTER": {
+		"E06000014": 0.0036,
+		"E06000065": 0.9964
+	},
+	"TANFIELD": {
+		"E06000047": 1
+	},
+	"TANKERSLEY PARK": {
+		"E08000016": 0.194,
+		"E08000018": 0.0525,
+		"E08000019": 0.7536
+	},
+	"TEAM VALLEY": {
+		"E08000037": 1
+	},
+	"TEES INDUSTRIAL T1 T2": {
+		"E06000004": 1
+	},
+	"TEMPLE PARK": {
+		"E08000023": 1
+	},
+	"TEMPLEBOROUGH 33/11KV": {
+		"E08000018": 1
+	},
+	"THIRSK": {
+		"E06000065": 1
+	},
+	"THORNBURY": {
+		"E08000032": 0.7577,
+		"E08000035": 0.2423
+	},
+	"THORNE": {
+		"E08000017": 1
+	},
+	"THORNTON": {
+		"E08000032": 1
+	},
+	"THORNTON DALE": {
+		"E06000065": 1
+	},
+	"THORPE ROAD": {
+		"E06000011": 1
+	},
+	"TICKHILL ROAD": {
+		"E07000171": 0.0429,
+		"E08000017": 0.3553,
+		"E08000018": 0.6018
+	},
+	"TINGLEY": {
+		"E08000034": 0.023,
+		"E08000035": 0.977
+	},
+	"TINSLEY PARK ROAD": {
+		"E08000019": 1
+	},
+	"TINSLEY WIRE INDUSTRIES": {
+		"E08000019": 1
+	},
+	"TIVERTON ROAD": {
+		"E06000010": 1
+	},
+	"TODMORDEN": {
+		"E08000005": 0.0023,
+		"E08000033": 0.9977
+	},
+	"TOLLER LANE": {
+		"E08000032": 1
+	},
+	"TONG STREET": {
+		"E08000032": 1
+	},
+	"TORONTO 66/20KV": {
+		"E06000047": 1
+	},
+	"TUNSTALL": {
+		"E08000024": 1
+	},
+	"TYNEMOUTH CENTRAL": {
+		"E08000022": 1
+	},
+	"UNIVERSITY": {
+		"E08000021": 1
+	},
+	"UPPER BASINGHALL STREET": {
+		"E08000035": 1
+	},
+	"URLAY NOOK": {
+		"E06000004": 0.9771,
+		"E06000065": 0.0229
+	},
+	"USWORTH": {
+		"E08000024": 1
+	},
+	"VARLEY STREET": {
+		"E08000035": 1
+	},
+	"VICTORIA STREET": {
+		"E08000019": 1
+	},
+	"WALESBY": {
+		"E07000142": 1
+	},
+	"WALKER": {
+		"E08000021": 0.7303,
+		"E08000022": 0.2697
+	},
+	"WANSBECK": {
+		"E06000057": 1
+	},
+	"WARDLEY": {
+		"E08000023": 0.3781,
+		"E08000037": 0.6219
+	},
+	"WARKWORTH": {
+		"E06000057": 1
+	},
+	"WARREN LANE": {
+		"E06000065": 0.055,
+		"E08000035": 0.945
+	},
+	"WATH UPON DEARNE": {
+		"E08000016": 0.0336,
+		"E08000017": 0.1628,
+		"E08000018": 0.8036
+	},
+	"WAVERLEY BUSINESS PARK": {
+		"E08000018": 1
+	},
+	"WAWNE ROAD": {
+		"E06000010": 0.8673,
+		"E06000011": 0.1327
+	},
+	"WEELAND ROAD": {
+		"E06000065": 0.0622,
+		"E08000036": 0.9378
+	},
+	"WELLINGTON STREET": {
+		"E08000036": 1
+	},
+	"WENSLEYDALE": {
+		"E06000065": 1
+	},
+	"WESLEY CRESCENT": {
+		"E06000012": 1
+	},
+	"WEST DOCKS": {
+		"E06000010": 1
+	},
+	"WEST END LANE": {
+		"E08000017": 1
+	},
+	"WEST HARTFORD": {
+		"E06000057": 1
+	},
+	"WEST MOOR PARK": {
+		"E08000017": 1
+	},
+	"WEST PARK": {
+		"E08000035": 1
+	},
+	"WEST SOUTHWICK": {
+		"E08000024": 1
+	},
+	"WEST WYLAM": {
+		"E06000057": 0.9662,
+		"E08000037": 0.0338
+	},
+	"WESTCOTT STREET": {
+		"E06000010": 1
+	},
+	"WESTERHOPE": {
+		"E08000021": 1
+	},
+	"WESTOE": {
+		"E08000023": 1
+	},
+	"WHEATACRE ROAD": {
+		"E08000019": 1
+	},
+	"WHEATLEY PARK": {
+		"E08000017": 1
+	},
+	"WHINGATE": {
+		"E08000035": 1
+	},
+	"WHITBY T1": {
+		"E06000065": 1
+	},
+	"WHITBY T2": {
+		"E06000065": 1
+	},
+	"WHITBY WEST T1": {
+		"E06000065": 1
+	},
+	"WHITBY WEST T2": {
+		"E06000065": 1
+	},
+	"WHITE LEE": {
+		"E08000034": 1
+	},
+	"WHITEHALL ROAD 2/3": {
+		"E08000035": 1
+	},
+	"WHITEHALL ROAD 4/5": {
+		"E08000035": 1
+	},
+	"WIBSEY": {
+		"E08000032": 1
+	},
+	"WILLINGTON": {
+		"E08000022": 1
+	},
+	"WITHERNSEA": {
+		"E06000011": 1
+	},
+	"WOODCOCK STREET": {
+		"E08000036": 1
+	},
+	"WOODSEATS": {
+		"E08000019": 1
+	},
+	"WOOLLEY": {
+		"E08000016": 0.804,
+		"E08000036": 0.196
+	},
+	"WORMALD GREEN 132/11KV": {
+		"E06000065": 1
+	},
+	"WORSBROUGH PARK": {
+		"E08000016": 1
+	},
+	"WRAWBY": {
+		"E06000013": 0.9549,
+		"E07000142": 0.0451
+	},
+	"WYNYARD": {
+		"E06000001": 0.1,
+		"E06000004": 0.9
+	},
+	"Wakefield Direct to Supply Points": {
+		"E08000036": 1
+	},
+	"West Lindsey Direct to Supply Points": {
+		"E07000142": 1
+	},
+	"YARBOROUGH ROAD 33/11KV": {
+		"E06000012": 1
+	},
+	"YEDINGHAM": {
+		"E06000065": 1
+	},
+	"YEW GREEN ROAD": {
+		"E08000034": 1
+	},
+	"YORK ROAD": {
+		"E08000035": 1
+	},
+	"YORK STREET": {
+		"E08000036": 1
+	},
+	"YORK UNIVERSITY": {
+		"E06000014": 1
+	},
+	"York Direct to Supply Points": {
+		"E06000014": 1
+	}
+}

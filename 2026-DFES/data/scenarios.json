@@ -1,0 +1,356 @@
+{
+	"Counterfactual": {
+		"description": "<ul><li>Does not meet net zero by 2050</li><li>Slowest decarbonisation effort</li><li>Heavy reliance on gas across all sectors</li></ul>",
+		"color": "#070E40",
+		"negativecolor": "#d7191c",
+		"data": {
+			"evportal": {
+				"primary": { "file": "https://northernpowergrid.opendatasoft.com/api/explore/v2.1/catalog/datasets/northern-powergrid-dfes/exports/csv?refine=voltage_level%3A%22Primary%22&refine=scenario_name%3A%22NG%20FES%20-%20Falling%20Short%22&refine=output_parameter%3A%22Number%20of%20electric%20cars%20and%20vans%20(hybrid%20and%20full%20electric)%22","key": "substation_name" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ev": {
+				"primary": { "file": "scenarios/primaries/EV-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ebus": {
+				"primary": { "file": "scenarios/primaries/Number of electric buses-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ehgv": {
+				"primary": { "file": "scenarios/primaries/Number of electric HGVs-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"peakdemand":{
+				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"peakutilisation":{
+				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"totalconsumptioncf":{
+				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"windcapacity":{
+				"primary": { "file": "scenarios/primaries/WindCapacity-CF_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"heatpumps":{
+				"primary": { "file": "scenarios/primaries/HP-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-consumption":{
+				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-pv":{
+				"primary": { "file": "scenarios/primaries/DOMPV_MW-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-consumption":{
+				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-CF.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-pv":{
+				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-CF_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"renewablegen":{
+				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-CF_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"storage":{
+				"primary": { "file": "scenarios/primaries/Storage_MW-CF_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"nonrenewablegen":{
+				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-CF_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			}
+		}
+	},
+	"Hydrogen Evolution": {
+		"description": "<ul><li>Net zero compliant to 2050 target</li><li>Energy system adapted for hydrogen use</li><li>Hydrogen used in heating and industry</li></ul>",
+		"color": "#0079C1",
+		"negativecolor": "#d7191c",
+		"data": {
+			"evportal": {
+				"primary": { "file": "https://northernpowergrid.opendatasoft.com/api/explore/v2.1/catalog/datasets/northern-powergrid-dfes/exports/csv?refine=voltage_level%3A%22Primary%22&refine=scenario_name%3A%22NG%20FES%20-%20System%20Transformation%22&refine=output_parameter%3A%22Number%20of%20electric%20cars%20and%20vans%20(hybrid%20and%20full%20electric)%22", "key": "substation_name" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ev": {
+				"primary": { "file": "scenarios/primaries/EV-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ebus": {
+				"primary": { "file": "scenarios/primaries/Number of electric buses-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ehgv": {
+				"primary": { "file": "scenarios/primaries/Number of electric HGVs-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"peakdemand":{
+				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"peakutilisation":{
+				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"totalconsumptioncf":{
+				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"windcapacity":{
+				"primary": { "file": "scenarios/primaries/WindCapacity-HE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"heatpumps":{
+				"primary": { "file": "scenarios/primaries/HP-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-consumption":{
+				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-pv":{
+				"primary": { "file": "scenarios/primaries/DOMPV_MW-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-consumption":{
+				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-pv":{
+				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-HE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"renewablegen":{
+				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-HE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"storage":{
+				"primary": { "file": "scenarios/primaries/Storage_MW-HE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"nonrenewablegen":{
+				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-HE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			}
+		}
+	},
+	"Electric Engagement": {
+		"description": "<ul><li>Net zero compliant to 2050 target</li><li>Electricity is the main energy source for heating</li></ul>",
+		"color": "#EE8C5C",
+		"negativecolor": "#5e3c99",
+		"data": {
+			"evportal": {
+				"primary": { "file": "https://northernpowergrid.opendatasoft.com/api/explore/v2.1/catalog/datasets/northern-powergrid-dfes/exports/csv?refine=voltage_level%3A%22Primary%22&refine=scenario_name%3A%22NG%20FES%20-%20Consumer%20Transformation%22&refine=output_parameter%3A%22Number%20of%20electric%20cars%20and%20vans%20(hybrid%20and%20full%20electric)%22", "key": "substation_name" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ev": {
+				"primary": { "file": "scenarios/primaries/EV-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ebus": {
+				"primary": { "file": "scenarios/primaries/Number of electric buses-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ehgv": {
+				"primary": { "file": "scenarios/primaries/Number of electric HGVs-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"peakdemand":{
+				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"peakutilisation":{
+				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"totalconsumptioncf":{
+				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"windcapacity":{
+				"primary": { "file": "scenarios/primaries/WindCapacity-EE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"heatpumps":{
+				"primary": { "file": "scenarios/primaries/HP-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-consumption":{
+				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-pv":{
+				"primary": { "file": "scenarios/primaries/DOMPV_MW-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-consumption":{
+				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-EE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-pv":{
+				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-EE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"renewablegen":{
+				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-EE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"storage":{
+				"primary": { "file": "scenarios/primaries/Storage_MW-EE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"nonrenewablegen":{
+				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-EE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			}
+		}
+	},
+	"Holistic Transition": {
+		"description": "<ul><li>Net zero compliant to 2050 target</li><li>Heating primarily through electricity</li><li>Hydrogen used around industrial clusters</li><li>Smart homes and electric vehicles provide grid flexibility</li></ul>",
+		"color": "#2CB9FF",
+		"negativecolor": "#d01c8b",
+		"data": {
+			"evportal": {
+				"primary": { "file": "https://northernpowergrid.opendatasoft.com/api/explore/v2.1/catalog/datasets/northern-powergrid-dfes/exports/csv?refine=voltage_level%3A%22Primary%22&refine=scenario_name%3A%22NG%20FES%20-%20Leading%20The%20Way%22&refine=output_parameter%3A%22Number%20of%20electric%20cars%20and%20vans%20(hybrid%20and%20full%20electric)%22", "key": "substation_name" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ev": {
+				"primary": { "file": "scenarios/primaries/EV-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ebus": {
+				"primary": { "file": "scenarios/primaries/Number of electric buses-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ehgv": {
+				"primary": { "file": "scenarios/primaries/Number of electric HGVs-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"peakdemand":{
+				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"peakutilisation":{
+				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"totalconsumptioncf":{
+				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"windcapacity":{
+				"primary": { "file": "scenarios/primaries/WindCapacity-HT_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"heatpumps":{
+				"primary": { "file": "scenarios/primaries/HP-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-consumption":{
+				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-pv":{
+				"primary": { "file": "scenarios/primaries/DOMPV_MW-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-consumption":{
+				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-pv":{
+				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-HT_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"renewablegen":{
+				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-HT_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"storage":{
+				"primary": { "file": "scenarios/primaries/Storage_MW-HT_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"nonrenewablegen":{
+				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-HT_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			}
+		}
+	},
+	"NPg Reference Scenario": {
+		"description": "<ul><li>Net zero compliant to 2050 target</li><li>Accelerated uptake of electric vehicles</li><li>Early adoption of heat pumps</li></ul>",
+		"color": "#ab1236",
+		"data": {
+			"evportal": {
+				"primary": { "file": "https://northernpowergrid.opendatasoft.com/api/explore/v2.1/catalog/datasets/northern-powergrid-dfes/exports/csv?refine=voltage_level%3A%22Primary%22&refine=scenario_name%3A%22NPg%20Best%20View%22&refine=output_parameter%3A%22Number%20of%20electric%20cars%20and%20vans%20(hybrid%20and%20full%20electric)%22", "key": "substation_name" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ev": {
+				"primary": { "file": "scenarios/primaries/EV-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ebus": {
+				"primary": { "file": "scenarios/primaries/Number of electric buses-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"ehgv": {
+				"primary": { "file": "scenarios/primaries/Number of electric HGVs-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"peakdemand":{
+				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"peakutilisation":{
+				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},			
+			"totalconsumptioncf":{
+				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"windcapacity":{
+				"primary": { "file": "scenarios/primaries/WindCapacity-RS_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"heatpumps":{
+				"primary": { "file": "scenarios/primaries/HP-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-consumption":{
+				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"domestic-pv":{
+				"primary": { "file": "scenarios/primaries/DOMPV_MW-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-consumption":{
+				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-RS.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"industrial-pv":{
+				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-RS_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"renewablegen":{
+				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-RS_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"storage":{
+				"primary": { "file": "scenarios/primaries/Storage_MW-RS_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"nonrenewablegen":{
+				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-RS_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			}
+		}
+	}
+}

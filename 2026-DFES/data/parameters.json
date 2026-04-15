@@ -1,0 +1,17 @@
+[
+	{ "key": "ev", "title": "Electric Vehicles (number)", "combine": "sum", "units":"", "dp": 0, "description": "Number of registered plug in electric vehicles (pure and hybrid)" },
+	{ "key": "ebus", "title": "Electric Buses (number)", "combine": "sum", "units":"", "dp": 0, "description": "Number of registered plug in electric Buses (pure and hybrid)" },
+	{ "key": "ehgv", "title": "Electric HGVs (number)", "combine": "sum", "units":"", "dp": 0, "description": "Number of registered plug in electric HGVs (pure and hybrid)" },
+	{ "key": "heatpumps", "title": "Heat Pumps (number)", "combine": "sum", "units":"", "dp": 0, "description": "Number of heat pumps per residential household and commercial properties including hybrids" },
+	{ "key": "domestic-pv", "title": "Domestic photovoltaic installed capacity (MW)", "combine": "sum", "units":"MW", "dp": 3, "description": "Capacity of solar PV panels on domestic roofs for installations less than 4kW" },
+	{ "key": "industrial-pv", "title": "Large solar generation installed capacity (MW)", "combine": "sum", "units":"MW", "dp": 3, "description": "Installed capacity of industrial and commercial solar farms" },
+	{ "key": "windcapacity", "title": "Wind generation installed capacity (MW)", "combine": "sum", "units":"MW", "dp": 3, "description": "Installed capacity of industrial and commercial onshore and offshore wind farms" },
+	{ "key": "renewablegen", "title": "Renewable generation installed capacity (MW)", "combine": "sum", "units":"MW", "dp": 3, "description": "Installed capacity of all renewable generation including solar PV, wind, biomass, renewable gas engines, hydro" },
+	{ "key": "nonrenewablegen", "title": "Non-renewable generation installed capacity (MW)", "combine": "sum", "units":"MW", "dp": 3, "description": "Installed capacity of all non-renewable generation including CHP, waste incineration, non-renewable engines, other thermal" },
+	{ "key": "storage", "title": "Energy storage installed capacity (MW)", "combine": "sum", "units":"MW", "dp": 3, "description": "Installed capacity of domestic, industrial and commercial batteries" },
+	{ "key": "domestic-consumption", "title": "Domestic underlying energy consumption (MWh)", "combine": "sum", "units":"MWh", "dp": 0, "description": "Annual energy consumption by residential households excluding electric vehicle and heat pump consumption" },
+	{ "key": "industrial-consumption", "title": "Industrial and commercial underlying energy consumption (MWh)", "combine": "sum", "units":"MWh", "dp": 0, "description": "Annual energy consumption by industrial and commercial properties excluding electric vehicles and heat pump consumption" },
+	{ "key": "totalconsumptioncf", "title": "Total energy consumption including electric vehicles and heat pumps (MWh)", "combine": "sum", "units":"MWh", "dp": 0, "description": "Total energy consumption by domestic households and industrial and commercial properties including electric vehicle and heat pump consumption" },
+	{ "key": "peakdemand", "title": "Peak demand (MW) at Primary Substations", "combine": "max", "units":"MW", "dp": 3, "description": "Peak half hourly demand within the year (includes price driven ToUT)" },
+	{ "key": "peakutilisation", "title": "Peak utilisation (%) at Primary Substations", "combine": "max", "units":"%", "dp": 1, "description": "Peak half hourly demand (with ToUT) within the year as proportion of primary substation capacity" }
+]

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Northern Powergrid Future Energy Scenarios 2025</title>
+	<link rel="shortcut icon" type="image/png" href="https://www.northernpowergrid.com/sites/default/files/favicon.png" />
+	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
+	<link rel="stylesheet" href="resources/stuquery.barchart.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<script src="resources/tooltips.js"></script>
+	<script src="resources/typeahead.js"></script>
+	<script src="resources/dfes.js"></script>
+	<script src="resources/config.js"></script>
+	<script src="resources/leaflet.js"></script>
+	<script src="resources/leaflet-pip.js"></script>
+	<script src="resources/Leaflet.PlaceNameLayer.js"></script>
+	<script src="resources/dom-to-image.min.js"></script>
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@Northpowergrid" />
+	<meta name="twitter:url" property="og:url" content="https://odileeds.github.io/northern-powergrid/2025-DFES/" />
+	<meta name="twitter:title" property="og:title" content="NorthernPowerGrid Future Energy Scenarios 2025" />
+	<meta name="twitter:description" property="og:description" content="Northern Powergrid's potential future scenarios, a regionalised interpretion of the 2025 National Grid Future Energy Pathways, and a Northern Powergrid Reference Scenario fitting the ENA Open Networks DNO Scenario criteria" />
+	<meta name="twitter:image" property="og:image" content="https://odileeds.github.io/northern-powergrid/2025-DFES/screenshot.png" />
+</head>
+<body>
+	
+	<div class="warning tallpadded">
+		<div class="holder">
+		<h2>WARNING</h2>
+		<p>This page is currently <em>under development</em>. It contains placeholder parameters, scenarios, data, and text.<br />The real DFES 2025 data will be included here later.</p>
+		</div>
+	</div>
+	<header class="b1-bg">
+		<div class="b1-bg glory">
+			<div class="glory-opacity">
+				<div class="holder logos">
+					<a href="https://open-innovations.org/"><img alt="Open Innovations" src="resources/logos/oi-square-white.svg" /></a>
+					<a href="https://www.northernpowergrid.com/"><img alt="Northern Powergrid" src="resources/logos/northernpowergrid.svg" /></a>
+					<a href="https://www.erm.com/"><img alt="ERM" src="resources/logos/erm.svg" /></a>
+				</div>
+			</div>
+		</div>
+		<div class="scenario title">
+			<div class="holder">
+				<h1>Northern Powergrid Distribution Future Energy Scenarios - DFES 2025</h1>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="b6-bg" id="scenario">
+		<div class="intro tallpadded b5-bg">
+			<div class="holder">
+				<p>Northern Powergrid's potential future scenarios, both interpreted from the 2025 National Grid Future Energy Scenarios, and a Northern Powergrid Reference Scenario fitting the ENA Open Networks DNO Scenario criteria.</p>
+			</div>
+		</div>
+		<div class="message"></div>
+
+		<div class="scenario thickline leading-the-way"></div>
+		<div class="columns">
+			<div class="left">
+				<h2><label for="scenarios">Choose a scenario</label>:</h2>
+				<div id="scenario-holder">
+					<select id="scenarios"></select>
+				</div>
+				<h2><label for="parameters">Choose a parameter</label>:</h2>
+				<div id="parameter-holder">
+					<select id="parameters"></select>
+				</div>
+				<h2><label for="views">View by</label>:</h2>
+				<div id="view-holder">
+					<select id="views"></select>
+				</div>
+				<div class="info-bubble warning" data-scale="absolute" style="display:none;"><p>To improve the contrast between areas within your chosen year you may wish to change the colour scale.</p></div>
+
+				<h2><label for="slider">Select year (<span class="year"></span>):</label></h2>
+				<input type="range" id="slider" min="2024" max="2051" step="1" class="scenario" />
+				<div><button id="play" class="scenario" title="Play">&#9658;</button> <button id="pause" class="scenario" title="Pause" disabled>&#10074;&#10074;</button></div>
+				<div class="info-bubble warning" data-scale="relative"><p>To better show changes in values over time you may wish to change the colour scale.</p></div>
+
+				<div id="download">
+					<button class="page-header__branding scenario" id="download-csv"><svg width="1em" height="1em" viewBox="0 0 32 32" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M 0 32 l 32 0 l 0 -10 l -4 0 l 0 6 l -24 0 l 0 -6 l -4 0 l 0 10 M 12 5 l 8 0 l 0 10 l 8 0 l -12 12 l -12 -12 l 8 0"></path></svg> Download CSV for this view</button>
+				</div>
+			</div>
+			<div class="right">
+				<div id="screenshot">
+					<div id="map">
+						<div class="spinner">
+							<div class="sk-cube-grid">
+							<div class="sk-cube sk-cube1"></div>
+							<div class="sk-cube sk-cube2"></div>
+							<div class="sk-cube sk-cube3"></div>
+							<div class="sk-cube sk-cube4"></div>
+							<div class="sk-cube sk-cube5"></div>
+							<div class="sk-cube sk-cube6"></div>
+							<div class="sk-cube sk-cube7"></div>
+							<div class="sk-cube sk-cube8"></div>
+							<div class="sk-cube sk-cube9"></div>
+							</div>
+						</div>
+					</div>
+					<div id="scale"></div>
+				</div>
+				<div id="scale-holder" class="toggleinput toggler">
+					<label for="scale-mode">Adjust colour scale to current year?</label>:
+					<div id="scale-holder" class="toggleinput toggler">
+						<span class="toggle-label1" title="To compare the values of different areas for the current year">Yes</span>
+						<div class="toggle-bg">
+							<input type="checkbox" id="scale-mode" name="scale-mode" title="Select for an absolute scale" />
+							<span class="switch"></span>
+						</div>
+						<span class="toggle-label2" title="To compare the values of different areas across the the full range of years">No</span>
+					</div>
+						
+					<div class="info-bubble warning">
+						<p>Select <strong>Yes</strong> and the colour scale will change depending on the year you have selected. This will help improve contrast for each area within your chosen year. Select <strong>No</strong> and the colour scale will stay the same as you move through the years.</p>
+					</div>
+				</div>
+				<div id="issues"><a href="#" onClick="saveDOMImage(document.getElementById('screenshot'));">Save map as PNG</a> | <a href="graphs.html">Graphs to accompany this tool</a> | <a href="https://northernpowergrid.opendatasoft.com/explore/dataset/northern-powergrid-dfes/">Get the data</a> | <a href="https://github.com/odileeds/northern-powergrid/issues/">Report any issues you find</a> with our tool</div>
+			</div>
+		</div>
+	</div>
+	<div class="scenario thickline">&nbsp;</div>
+	<div class="b5-bg" id="about">
+		<div class="holder tallpadded">
+			<h2>About this visualisation - DFES 2025</h2>
+ 			<p>This tool shows how we can achieve net-zero carbon emissions by 2050. As part of our planning for decarbonisation we considered a range of possible scenarios in our region. We are publishing our modelling results here for our stakeholders to use, apply to their own models, review, and comment upon. The five scenarios are:</p>
+			
+ 			<ol>
+				<li>NPg Reference Scenario – net zero compliant to 2050 target. Accelerated uptake of electric vehicles and heat pumps in the early years.</li>
+				<li>Hydrogen Evolution – net zero compliant to 2050 target. Energy system is adapted for the use of hydrogen in heating and industry.</li>
+				<li>Electric Engagement – net zero compliant to 2050 target. In contrast to the previous scenario, the majority of heating is powered by electricity.</li>
+				<li>Holistic Transition – net zero compliant to 2050 target. Heating is mainly electric but hydrogen is used around industrial clusters. Smart homes and electric vehicles provide flexibility to the grid.</li>
+				<li>Counterfactual – does not meet net zero by 2050. This represents the slowest decarbonisation effort with a heavy reliance on gas across all sectors.</li>
+			</ol>
+			<p>Details of assumptions and how these scenarios were built can be found below.</p>
+			<p>These regional pathways together form our 2025 Distribution Future Energy Scenarios (DFES). They also incorporate feedback from stakeholders who engaged with our 2024 DFES published in December 2024.</p>
+			<p>Previous versions of Northern Powergrid's DFES can be found for <a href="https://odileeds.github.io/northern-powergrid/2019-DFES/index.html">2019</a>, <a href="https://odileeds.github.io/northern-powergrid/2020-DFES/index.html">2020</a>, <a href="https://odileeds.github.io/northern-powergrid/2021-DFES/index.html">2021</a>, <a href="https://odileeds.github.io/northern-powergrid/2022-DFES/index.html">2022</a>, <a href="https://odileeds.github.io/northern-powergrid/2023-DFES/index.html">2023</a> and <a href="https://odileeds.github.io/northern-powergrid/2024-DFES/index.html">2024</a>, or choose from <a href="https://odileeds.github.io/northern-powergrid/">all our visualisations</a>.</p>
+			<p>If you have any comments, questions or feedback on our scenarios, please send them to <a href="mailto:System.Forecasting@Northernpowergrid.com?subject=Northern%20Powergrid%202025%20DFES">System.Forecasting@Northernpowergrid.com</a></p>	
+			<h3>Northern Powergrid DFES 2025 scenario assumptions in detail</h3>
+			<h4>NPg Reference Scenario &mdash; net zero in 2050</h4>			
+			<p>This scenario is highly ambitious and aligns with our stakeholders' vision, getting on the path early to achieve net-zero by 2050. The scenario relies on intensive investment in low carbon technologies, as well as early action from government and a high level of engagement from consumers, in order to achieve aggressive rollout rates, especially of EVs and heat pumps.</p>
+			<dl>
+				<dt><em>Electricity demand</em></dt>
+				<dd>Appliance efficiency assumptions meet current EU targets for 2030. Industrial and commercial (I&C) energy efficiency is aligned with EU energy efficiency targets.</dd>
+				<dt><em>Heat demand</em><dt>
+				<dd>600,000 heat pumps installed per year by 2028.Gas grid connection for new homes ends 2025. 4 in 5 homes not using natural gas boiler as primary heat source by 2045.</dd>
+				<dt><em>Transport</em></dt>
+				<dd>Sales of petrol and diesel cars and vans banned from 2030. Zero tailpipe emissions for all new heavy goods vehicles from 2040.</dd>
+				<dt><em>Natural gas and hydrogen supply</em></dt>
+				<dd>Annual industrial hydrogen demand exceeds 10 TWh by 2040. A 40% reduction in gas consumption by 2035.</dd>
+				<dt><em>Generation</em></dt>
+				<dd>Highest renewable capacity pathway with unabatedgas dropping sharply to zero after 2036. The rollout of carbon capture and storage (CCS) technologies is also successful. High consumer driven technologies such as domestic solar PV and batteries.</dd>
+				<dt><em>Flexibility</em></dt>
+				<dd>For Northern Powergrid, the key purpose for using flexibility in the network is to reduce peak demand. Our Reference Scenario considers customer flexibility from time of use tariffs (ToUT), providing the basis for a plan further supplemented by active network management (ANM) schemes, contracted customer flexibility (<a href="https://www.northernpowergrid.com/DSO">Distribution System Operation</a>) and the application of smart grid solutions to our network. Based on findings from our CLDS innovation project and other market intelligence, we assume that customer price-driven flexibility will reduce demand by around 6% and 5% at EHV and HV/LV respectively during peak hours from 2025.</dd>
+				<dt><em>Support mechanisms</em></dt>
+				<dd>Substantial encouragement for the roll-out of heat pumps. Ban on sale of internal combustion engine (ICE) vehicles. Supportive environment for the adoption of distributed generation and flexibility markets.</dd>
+			</dl>
+			
+			<h4>Holistic Transition &mdash; UK&ndash;wide net zero in 2050</h4>
+			<p>Net zero met through a mix of electrification and hydrogen, with hydrogen mainly around industrial clusters. Strong consumer engagement in the transition, with demand shifting, and smart homes and electric vehicles providing flexibility to the grid.</p>
+			<dl>
+				<dt><em>Residential sector</em></dt>
+				<dd>600,000 heat pumps installed per year by 2028.Gas grid connection for new homes ends 2025. 4 in 5 homes not using natural gas boiler as primary heat source by 2045.</dd>
+				<dt><em>Transport</em></dt>
+				<dd>Sales of petrol and diesel cars and vans banned from 2035. Zero tailpipe emissions for all new heavy goods vehicles from 2040.</dd>
+				<dt><em>Industrial</em></dt>
+				<dd>Annual industrial hydrogen demand over 10 TWh by 2030.</dd>
+				<dt><em>Supply</em></dt>
+				<dd>Highest renewable capacity pathway with unabatedgas dropping sharply to zero after 2036.  Moderate levels of nuclear capacity and lowest levels of hydrogen dispatchable power present. Supply side flexibility is high, delivered through electricity storage and interconnectors.</dd>
+			</dl>
+
+			<h4>Hydrogen Evolution &mdash; net zero in 2050</h4>
+			<p>M.Net zero met through fast progress for hydrogen in industry and heat.  There are low levels of consumer engagement.</p>
+			<dl>
+				<dt><em>Residential sector</em></dt>
+				<dd>Many consumers will have hydrogen boilers, although energy efficiency will be key to reducing costs. 600,000 heat pumps installed per year by 2028.Gas grid connection for new homes ends 2025. 4 in 5 homes not using natural gas boiler as primary heat source by 2045.</dd>
+				<dt><em>Transport</em></dt>
+				<dd>Hydrogen will be prevalent for heavy goods vehicles but electric car uptake is strong. Sales of petrol and diesel cars and vans banned from 2035. Zero tailpipe emissions for all new heavy goods vehicles from 2040.</dd>
+				<dt><em>Industrial</em></dt>
+				<dd>Annual industrial hydrogen demand over 10 TWh by 2030.</dd>
+				<dt><em>Supply</em></dt>
+				<dd>Pathway with high levels of hydrogen dispatchable power plants leading to lower needs for renewable and nuclear capacities. Natural gas plants have lower utilisation post 2035. Hydrogen storage provides most flexibility in this pathway.</dd>
+			</dl>
+			
+			<h4>Electric Engagement &mdash; net zero in 2050</h4>
+			<p>Net zero is met through mainly electrified demand. Consumers are highly engaged in the energy transition through smart technologies that reduce energy demands, such as electric heat pumps and electric vehicles.</p>
+			<dl>
+				<dt><em>Residential sector</em></dt>
+				<dd>600,000 heat pumps installed per year by 2028.Gas grid connection for new homes ends 2025. 4 in 5 homes not using natural gas boiler as primary heat source by 2045.</dd>
+				<dt><em>Transport</em></dt>
+				<dd>Sales of petrol and diesel cars and vans banned from 2035. Zero tailpipe emissions for all new heavy goods vehicles from 2040.</dd>
+				<dt><em>Industrial</em></dt>
+				<dd>Annual industrial hydrogen demand over 10 TWh by 2040.</dd>
+				<dt><em>Supply</em></dt>
+				<dd>Highest peak electricity demand requiring high nuclear and renewable capacities. Natural gas plants have lower utilisation post-2035. Supply side flexibility is high, delivered through electricity storage, interconnectors and low carbon dispatchable power.</dd>
+			</dl>
+
+			<h4>Counterfactual &mdash; fails to reach net zero in 2050</h4>
+			<p>Net zero is missed, although some progress is made toward decarbonisation compared to today.</p>
+			<dl>
+				<dt><em>Residential sector</em></dt>
+				<dd>While home insulation improves, there is still a heavy reliance on gas across all sectors, particularly power and space heating. 600,000 heat pumps installed per year by 2040.Gas grid connection for new homes ends 2030.</dd>
+				<dt><em>Transport</em></dt>
+				<dd>Electric vehicle uptake is slower than the net zero pathways, but still displaces petrol and diesel.Sales of petrol and diesel cars and vans banned from 2040. Zero tailpipe emissions for all new heavy goods vehicles from 2045.</dd>
+				<dt><em>Industrial</em></dt>
+				<dd>Fossil fuel switching is limited up until 2030s, after which industrial consumers start to electrify their processes. Industrial clusters grow slowly and so is hydrogen production there. By the end of 2050, electricity provides 59%, with 36% coming from natural gas. Few customers take part in Demand Side Response with only 10% of peak electricity being shifted to other times.</dd>
+				<dt><em>Supply</em></dt>
+				<dd>The least renewable capacity and has heavy reliance on natural gas, which leads to net zero missed. Because of the lower needs for flexibility, lower electricity storage, interconnectors and low carbon dispatchable power are present.</dd>
+			</dl>
+			
+			<h3>Geographies</h3>
+			<p>To display data on a map, we need unique polygons for each Primary Substation. To do this we used customer postcodes to identify each ONS <a href="https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies#england-and-wales">Output Area</a> (2021) supplied by each Primary substation using <a href="https://geoportal.statistics.gov.uk/datasets/ons::nspl-online-latest-centroids/about">a lookup table from ONS</a>. Output Areas with fewer than 5 customers connected to a Primary substation were excluded. This reduced data issues in the customer database e.g. mistyped customer postcodes. We constructed representative geographies for each Primary substation from the remaining Output Areas. In cases where multiple Primary substations serve the same Output Area, that Output Area was assigned to the Primary substation that serves the most customers. For the 2024 DFES, we have built new <a href="data/maps/npg-primaries-polygons-unique-2023_BGC.geojson">polygons for each Primary substation</a> in Northern Powergrid's network using the latest postcode data and the latest <a href="https://geoportal.statistics.gov.uk/datasets/ons::output-areas-2021-boundaries-ew-bfe/explore">Output Areas</a> produced from the 2021 Census.</p>
+			<p>Knowing the Output Areas connected to each Primary allows us to also build a mapping from Primary to Local Authority.</p>
+			<p>Some Primary Substation geographies may appear larger on the map, particularly in rural areas where network connectivity may be concentrated in specific parts of an Output Area. The areas shown here are representative for the purpose of showing the Distribution Future Energy Scenario model data and should not be relied upon for checking connectivity or to assess the terms of connection for specific premises.</p>
+			<p>In the Primaries layer we have included Bulk and Grid Supply Points as "pseudo-Primaries" to give Local Authorities the full picture in their area. These pseudo-Primaries generally appear as small cut-outs. They are used to include large generation and storage connections that are not seen by Primary substations.</p>
+			<h3>Local Authority view</h3>
+			<p>The model predictions have been created by Primary substation and that is the definitive view. The Local Authority view is constructed from the Primary substation values. We have found the proportion of a Primary substation's customers in each Local Authority district (as defined in April 2019) by adding up the customers in each Output Area belonging to a specific Local Authority district. For some parameters (e.g. electric vehicles) the values from the Primary substations are apportioned to each Local Authority District and then summated into totals. For values which can't be summated (e.g. Peak demand) we have shown the maximum value for any Primary substation that serves a Local Authority.</p>
+			<p>For Local Authorities which are only partially in Northern Powergrid areas the model only produces forecasts for the area served by Northern Powergrid, so it is not a total Local Authority forecast. Examples of these Local Authorities partially served by Northern Powergrid include Bassetlaw, East Lindsey, High Peak, North East Derbyshire, North East Lincolnshire, North Lincolnshire, Pendle, West Lindsey.</p>
+			<p>There are some additional major sites situated within a Local Authority area which distribute into many Local Authority areas and which may have further direct connections for large wind, solar and other generation. Direct connects to Grid Supply Points (connection points between the GB transmission network and Northern Powergrid’s distribution network), comprised of wind generation and co-located storage, have been allocated to local authorities on the basis of the greenspace available to build wind farms, while direct connections to Bulk Supply Points (connection points on NPg's network which are fed from the Grid Supply Points and supply the primary substations) have been included on the basis of the location of Primary substations fed by each bulk supply point. The underlying data can be downloaded from <a href="https://northernpowergrid.opendatasoft.com/">our Open Data Portal</a>.</p>
+						
+			<h3>Data</h3>
+			<p>DFES 2025 data files can be found on the Northern Powergrid Data Portal. and the <a href="https://github.com/odileeds/northern-powergrid/tree/master/2025-DFES/data/scenarios/primaries">Primary substation data files</a> powering this visualisation are stored in this <a href="https://github.com/odileeds/northern-powergrid">repository on Github</a>.</p>
+			<h3>Postcodes</h3>
+			<p>If you enter a full postcode in the search, we use <a href="https://findthatpostcode.uk/">FindThatPostcode</a> (© David Kane) to look up associated geographic areas. For the Primary Substation view we use the latitude/longitude of the postcode centroid to calculate the appropriate place.</p>		</div>
+	</div>
+	<footer class="b1-bg">
+		<div class="holder">
+				<h3><a href="https://open-innovations.org/blog/2019-12-09-visualising-future-energy-scenarios">Interactive visualisation</a></h3>
+				<p>&copy; Open Innovations (Stuart Lowe) 2025. Released under an <a href="https://github.com/odileeds/northern-powergrid/blob/master/LICENSE">MIT licence</a>. <a href="https://odileeds.org/projects/northernpowergrid/dfes/">Read about the project</a> or view the <a href="https://github.com/odileeds/northern-powergrid">repository on Github</a>.</p>
+				<h3><a href="https://datamillnorth.org/">Energy scenario data</a></h3>
+				<p>&copy; Northern Powergrid &amp; ERM 2025. Released under a Creative Commons Attribution Licence.</p>
+				<h3><a href="https://open-innovations.org/blog/2019-11-27-building-electricity-distribution-geography">Geographic boundaries</a></h3>
+				<p><a href="https://geoportal.statistics.gov.uk/datasets/local-authority-districts-april-2019-boundaries-uk-bgc">Local Authority District boundaries</a>, <a href="https://geoportal.statistics.gov.uk/datasets/ons::output-areas-2021-boundaries-ew-bfe/explore">Output Area boundaries</a>, and the <a href="https://geoportal.statistics.gov.uk/datasets/ons::nspl-online-latest-centroids/about">conversion from Postcodes to Output Areas (2021)</a> uses data from the ONS geo service. They are <a href="https://www.ons.gov.uk/methodology/geography/licences">released under the OGL</a>:</p>
+				<ul>
+					<li>Contains National Statistics data © Crown copyright and database right 2021</li>
+					<li>Contains OS data © Crown copyright and database right 2021</li>
+				</ul>
+				<p><a href="https://open-innovations.org/blog/2019-11-27-building-electricity-distribution-geography">Primary substation geographies</a> created by Open Innovations 2023. Contains data derived from Output Areas geographies.</p>
+		</div>
+	</footer>
+
+	<script src="https://open-innovations.org/resources/oi.log.js"></script>
+	<script>
+	OI.log.setup({"id":"npg","target":["odileeds.github.io","dev.open-innovations.org"]}).add('action=view');
+	</script>
+</body>
+</html>

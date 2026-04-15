@@ -1,0 +1,91 @@
+[{
+	"title":"Low carbon technologies",
+	"intro": "",
+	"graphs": [{
+		"title":"Electric vehicle uptake forecast (#)",
+		"csv":"TotalNumberOfEVs.csv",
+		"svg":"graph-ev.svg",
+		"yaxis-label": "Number",
+		"left": 110
+	},{
+		"title":"Electric vehicle penetration of total car stock (%)",
+		"csv":"ElectricVehiclePenetrationOfTotalCarStock_percent.csv",
+		"svg":"graph-ev-percent.svg",
+		"tooltip":"{{x}}: {{y}}%",
+		"yaxis-label": "EVs (%)",
+		"yaxis-max": 100,
+		"yscale": 100,
+		"left": 60
+	},{
+		"title": "Total number of heat pumps (#)",
+		"csv":"TotalNumberOfHeatPumps.csv",
+		"svg":"graph-heatpumps.svg",
+		"yaxis-label": "Number",
+		"left": 120
+	},{
+		"title":"Battery storage capacity installed (GW)",
+		"csv":"BatteryStorageCapacityInstalled_GW.csv",
+		"svg":"graph-battery-storage.svg",
+		"tooltip":"{{x}}: {{y}} GW",
+		"yaxis-label": "Installed capacity (GW)",
+		"left": 50
+	},{
+		"title":"Renewable generation installed (GW)",
+		"csv":"RenewableGenerationInstalled_GW.csv",
+		"svg":"graph-renewable-generation-installed.svg",
+		"tooltip":"{{x}}: {{y}} GW",
+		"yaxis-label": "Renewable generation (GW)",
+		"left": 50
+	},{
+		"title":"Electric bus and HGV uptake forecast (#)",
+		"csv":"TotalNumberOfBusesAndHGVs.csv",
+		"svg":"graph-ebus-ehgv.svg",
+		"yaxis-label": "Number",
+		"left": 90
+	}]
+},{
+	"title": "Network data",
+	"graphs": [{
+		"title":"Annual peak demand (with ToUT) (GW)",
+		"csv":"AnnualPeakDemand_GW.csv",
+		"svg":"graph-annual-peak-demand.svg",
+		"tooltip":"{{x}}: {{y}} GW",
+		"yaxis-label": "Annual peak demand (GW)",
+		"left": 50
+	},{
+		"title":"Network peak demand breakdown - NPg Reference Scenario (MW)",
+		"csv":"NetworkAnnualGrossPeakDemandBreakdown_ReferenceScenario_MW.csv",
+		"svg":"graph-annual-peak-demand-breakdown.svg",
+		"tooltip":"{{x}}: {{y}} MW",
+		"yaxis-label": "Annual gross peak demand (MW)",
+		"left": 50
+	},{
+		"title":"Network energy consumption breakdown - NPg Reference Scenario (TWh)",
+		"csv":"NetworkEnergyConsumptionBreakdown_ReferenceScenario_TWh.csv",
+		"svg":"graph-energy-consumption-breakdown.svg",
+		"tooltip":"{{x}}: {{y}} TWh",
+		"yaxis-label": "Network energy consumption (TWh)",
+		"left": 60
+	},{
+		"title":"Annual network energy consumption (TWh)",
+		"csv":"AnnualNetworkEnergyConsumption_TWh.csv",
+		"svg":"graph-annual-energy-consumption.svg",
+		"tooltip":"{{x}}: {{y}} TWh",
+		"yaxis-label": "Energy consumption (TWh)",
+		"left": 60
+	},{
+		"title":"Additional industrial peak demand breakdown - NPg Reference Scenario (MW)",
+		"csv":"IndustryAdditionalPeakDemandBreakdown_NPgReferenceScenario_MW.csv",
+		"svg":"graph-industry-additional-peak-demand-planning-scenario.svg",
+		"tooltip":"{{x}}: {{y}} MW",
+		"yaxis-label": "Peak demand (MW)",
+		"left": 70
+	},{
+		"title":"Additional industrial energy consumption breakdown - NPg Reference Scenario (TWh)",
+		"csv":"IndustryAdditionalEnergyConsumptionBreakdown_NPgReferenceScenario_TWh.csv",
+		"tooltip":"{{x}}: {{y}} TWh",
+		"svg":"graph-industry-additional-energy-consumption-planning-scenario.svg",
+		"yaxis-label": "Energy consumption (TWh)",
+		"left": 80
+	}]
+}]
