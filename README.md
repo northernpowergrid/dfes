@@ -2,6 +2,7 @@
 
 The following visualisations were made in collaboration with [Open Innovations](https://open-innovations.org/):
 
+* [Northern Powergrid Future Energy Scenarios 2024](https://odileeds.github.io/northern-powergrid/2024-DFES/)
 * [Northern Powergrid Future Energy Scenarios 2023](https://odileeds.github.io/northern-powergrid/2023-DFES/)
 * [Northern Powergrid Future Energy Scenarios 2022](https://odileeds.github.io/northern-powergrid/2022-DFES/)
 * [Northern Powergrid Future Energy Scenarios 2021](https://odileeds.github.io/northern-powergrid/2021-DFES/)
