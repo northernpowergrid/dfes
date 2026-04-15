@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Northern Powergrid Future Energy Scenarios 2026</title>
+	<link rel="shortcut icon" type="image/png" href="https://www.northernpowergrid.com/sites/default/files/favicon.png" />
+	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
+	<link rel="stylesheet" href="resources/stuquery.barchart.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<script src="resources/tooltips.js"></script>
+	<script src="resources/typeahead.js"></script>
+	<script src="resources/dfes.js"></script>
+	<script src="resources/config.js"></script>
+	<script src="resources/leaflet.js"></script>
+	<script src="resources/leaflet-pip.js"></script>
+	<script src="resources/Leaflet.PlaceNameLayer.js"></script>
+	<script src="resources/dom-to-image.min.js"></script>
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@Northpowergrid" />
+	<meta name="twitter:url" property="og:url" content="https://northernpowergrid.github.io/dfes/2026-DFES/" />
+	<meta name="twitter:title" property="og:title" content="NorthernPowerGrid Future Energy Scenarios 2026" />
+	<meta name="twitter:description" property="og:description" content="Northern Powergrid's potential future scenarios, a regionalised interpretion of the 2026 National Grid Future Energy Pathways, and a Northern Powergrid Reference Scenario fitting the ENA Open Networks DNO Scenario criteria" />
+	<meta name="twitter:image" property="og:image" content="https://northernpowergrid.github.io/dfes/2026-DFES/screenshot.png" />
+</head>
+<body>
+	
+	<div class="warning tallpadded">
+		<div class="holder">
+		<h2>WARNING</h2>
+		<p>This page is currently <em>under development</em>. It contains placeholder parameters, scenarios, data, and text.<br />The real DFES 2026 data will be included here later.</p>
+		</div>
+	</div>
+	<header class="b1-bg">
+		<div class="scenario title">
+			<div class="holder">
+				<h1>Northern Powergrid Distribution Future Energy Scenarios - DFES 2026</h1>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="b6-bg" id="scenario">
+		<div class="intro tallpadded b5-bg">
+			<div class="holder">
+				<p>Northern Powergrid's potential future scenarios, both interpreted from the 2026 National Grid Future Energy Scenarios, and a Northern Powergrid Reference Scenario fitting the ENA Open Networks DNO Scenario criteria.</p>
+			</div>
+		</div>
+		<div class="message"></div>
+
+		<div class="scenario thickline leading-the-way"></div>
+		<div class="columns">
+			<div class="left">
+				<h2><label for="scenarios">Choose a scenario</label>:</h2>
+				<div id="scenario-holder">
+					<select id="scenarios"></select>
+				</div>
+				<h2><label for="parameters">Choose a parameter</label>:</h2>
+				<div id="parameter-holder">
+					<select id="parameters"></select>
+				</div>
+				<h2><label for="views">View by</label>:</h2>
+				<div id="view-holder">
+					<select id="views"></select>
+				</div>
+				<div class="info-bubble warning" data-scale="absolute" style="display:none;"><p>To improve the contrast between areas within your chosen year you may wish to change the colour scale.</p></div>
+
+				<h2><label for="slider">Select year (<span class="year"></span>):</label></h2>
+				<input type="range" id="slider" min="2024" max="2051" step="1" class="scenario" />
+				<div><button id="play" class="scenario" title="Play">&#9658;</button> <button id="pause" class="scenario" title="Pause" disabled>&#10074;&#10074;</button></div>
+				<div class="info-bubble warning" data-scale="relative"><p>To better show changes in values over time you may wish to change the colour scale.</p></div>
+
+				<div id="download">
+					<button class="page-header__branding scenario" id="download-csv"><svg width="1em" height="1em" viewBox="0 0 32 32" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M 0 32 l 32 0 l 0 -10 l -4 0 l 0 6 l -24 0 l 0 -6 l -4 0 l 0 10 M 12 5 l 8 0 l 0 10 l 8 0 l -12 12 l -12 -12 l 8 0"></path></svg> Download CSV for this view</button>
+				</div>
+			</div>
+			<div class="right">
+				<div id="screenshot">
+					<div id="map">
+						<div class="spinner">
+							<div class="sk-cube-grid">
+							<div class="sk-cube sk-cube1"></div>
+							<div class="sk-cube sk-cube2"></div>
+							<div class="sk-cube sk-cube3"></div>
+							<div class="sk-cube sk-cube4"></div>
+							<div class="sk-cube sk-cube5"></div>
+							<div class="sk-cube sk-cube6"></div>
+							<div class="sk-cube sk-cube7"></div>
+							<div class="sk-cube sk-cube8"></div>
+							<div class="sk-cube sk-cube9"></div>
+							</div>
+						</div>
+					</div>
+					<div id="scale"></div>
+				</div>
+				<div id="scale-holder" class="toggleinput toggler">
+					<label for="scale-mode">Adjust colour scale to current year?</label>:
+					<div id="scale-holder" class="toggleinput toggler">
+						<span class="toggle-label1" title="To compare the values of different areas for the current year">Yes</span>
+						<div class="toggle-bg">
+							<input type="checkbox" id="scale-mode" name="scale-mode" title="Select for an absolute scale" />
+							<span class="switch"></span>
+						</div>
+						<span class="toggle-label2" title="To compare the values of different areas across the the full range of years">No</span>
+					</div>
+						
+					<div class="info-bubble warning">
+						<p>Select <strong>Yes</strong> and the colour scale will change depending on the year you have selected. This will help improve contrast for each area within your chosen year. Select <strong>No</strong> and the colour scale will stay the same as you move through the years.</p>
+					</div>
+				</div>
+				<div id="issues"><a href="#" onClick="saveDOMImage(document.getElementById('screenshot'));">Save map as PNG</a> | <a href="graphs.html">Graphs to accompany this tool</a> | <a href="https://northernpowergrid.opendatasoft.com/explore/dataset/northern-powergrid-dfes/">Get the data</a> | <a href="https://github.com/odileeds/northern-powergrid/issues/">Report any issues you find</a> with our tool</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://open-innovations.org/resources/oi.log.js"></script>
+	<script>
+	OI.log.setup({"id":"npg","target":["odileeds.github.io","dev.open-innovations.org","northernpowergrid.github.io"]}).add('action=view');
+	</script>
+</body>
+</html>
