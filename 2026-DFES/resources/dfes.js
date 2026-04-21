@@ -1,6 +1,8 @@
 /*!
 	Open Innovations Future Energy Scenario viewer
 	Changeset:
+	2.1.0
+	- Explicitly define year columns e.g. to allow columns of the style "2024/25"
 	2.0.0
 	- Restructure scenarios file to be able to provide data for different geographies
 	- Deprecate old parameters/scenarios structures
@@ -30,6 +32,7 @@
 	1.5.0
 	- scenario and parameter config is now in an array (rather than an object) to make sure order is preserved
  */
+/*jshint esversion: 6 */ 
 (function(root){
 
 	let OI = root.OI || {};
@@ -51,7 +54,7 @@
 	// Main function
 	function FES(config){
 
-		this.version = "2.0.0";
+		this.version = "2.1.0";
 		this.title = "FES";
 		if(!config) config = {};
 		this.options = (config.options||{});
@@ -85,11 +88,11 @@
 		if(!this.options.files.parameters) this.options.files.parameters = basepath+"data/config.json";
 		if(!this.options.files.scenarios) this.options.files.scenarios = basepath+"data/index.json";
 
-		this.getDir = function(p){ return p.replace(/[^\/]*$/g,""); }
+		this.getDir = function(p){ return p.replace(/[^\/]*$/g,""); };
 		this.getURL = function(url,file){
 			if(!url.match(/^https/)) url = basepath + this.getDir(this.options.files.scenarios) + url;
 			return url;
-		}
+		};
 
 		this.fetch(this.options.files.parameters,{
 			'type':'json',
@@ -169,7 +172,7 @@
 				if(g != "all") html += '<optgroup label="'+g+'">';
 				for(j = 0; j < groups[g].length; j++){
 					l = groups[g][j];
-					html += "<option"+(this.options.view == l ? " selected=\"selected\"":"")+" value=\""+l+"\">"+this.views[l].title+"</option>"
+					html += "<option"+(this.options.view == l ? " selected=\"selected\"":"")+" value=\""+l+"\">"+this.views[l].title+"</option>";
 				}
 				if(g != "all") html += '</optgroup>';
 			}
@@ -233,28 +236,38 @@
 		let labels = document.createElement('div');
 		labels.classList.add('pip-labels');
 		const dy = 10;
-		const r = this.options.years.max-this.options.years.min;
-		for(let y = this.options.years.min; y <= this.options.years.max; y++){
+		let y,year;
+		if(typeof this.options.years.columns!=="object"){
+			this.message('No explicit columns set for years in options so using min/max.',{'id':'error','type':'ERROR'});
+			this.options.years.columns = [];
+			for(year = this.options.years.min ; year <= this.options.years.max; year++){
+				this.options.years.columns.push(year);
+			}
+		}
+		for(y = 0; y < this.options.years.columns.length; y++){
+			year = this.options.years.columns[y];
 			let opt = document.createElement('option');
 			opt.setAttribute('value',y);
 			let lbl = document.createElement('span');
-			if(y%dy==0){
-				lbl.innerHTML = y;
+			let y2 = parseInt(year);
+			if(y2%dy==0){
+				lbl.innerHTML = this.options.years.columns[y];
 				lbl.classList.add('big');
 			}else{
 				lbl.innerHTML = '';
 			}
-			lbl.style.left = (100*(y-this.options.years.min)/r)+"%";
+			lbl.setAttribute('data-y',this.options.years.columns[y]);
+			lbl.style.left = (100*y/(this.options.years.columns.length-1))+"%";
 			lbl.addEventListener('click',function(e){
-				_obj.setYear(e.target.innerHTML);
+				_obj.setYear(e.target.getAttribute('data-y'));
 			});
 			labels.appendChild(lbl);
 		}
 		this.slider.after(labels);
-		this.slider.setAttribute('min',this.options.years.min);
-		this.slider.setAttribute('max',this.options.years.max);
+		this.slider.setAttribute('min',0);
+		this.slider.setAttribute('max',this.options.years.columns.length-1);
 		// Bind the changing function to the update event.
-		this.slider.addEventListener('input',function(e){ _obj.setYear() });
+		this.slider.addEventListener('input',function(e){ _obj.setYear(_obj.options.years.columns[parseInt(e.target.value)]); });
 		this.setYear(this.options.key);
 
 		// Set the scenario
@@ -283,13 +296,15 @@
 		let scenario = this.options.scenario;
 		let parameter = this.options.parameter;
 		let geography = this.views[this.options.view].geography;
+		let year,y;
 
 		// We should build an empty result
 		if(!this.scenarios[scenario].data[parameter]) this.scenarios[scenario].data[parameter] = {};
 		// Clear the geography
 		this.scenarios[scenario].data[parameter][geography] = {'raw':{'header':[],'rows':[]},'values':{},'fullrange':{'min':0,'max':1},'years':this.options.years};
 		// Set default year ranges
-		for(let year = this.options.years.min; year <= this.options.years.max; year++){
+		for(y = 0; y < this.options.years.columns.length; y++){
+			year = this.options.years.columns[y];
 			this.scenarios[scenario].data[parameter][geography].fullrange[year] = {'min':0,'max':1};
 		}
 		this.mapData(function(){
@@ -310,7 +325,7 @@
 			callback = function(){
 				this.mapData();
 				this.updateSlider();
-			}
+			};
 		}
 
 		this.log('INFO',"loadData "+scenario+", "+parameter+", "+geography);
@@ -373,12 +388,11 @@
 										
 										// Find the column number for the column containing the name
 										// And convert year headings to integers
-										col = -1;
+										let col = -1,n,c,r;
 										for(c = 0; c < raw.header.length; c++){
 											n = raw.header[c];
-											if(parseFloat(n) == n) raw.header[c] = parseInt(n);
-											if(raw.header[c] == data.key) col = c;
-											if(isYear(raw.header[c])){
+											if(this.options.years.columns.indexOf(raw.header[c])>=0){
+												if(raw.header[c] == data.key) col = c;
 												for(r = 0; r < raw.rows.length; r++){
 													// Convert to numbers - if the number doesn't parse replace with zero
 													raw.rows[r][c] = (parseFloat(raw.rows[r][c])||0);
@@ -456,8 +470,6 @@
 
 		// Set the scenario
 		this.options.scenario = scenario;
-		let parameter = this.options.parameter;
-		let geography = this.views[this.options.view].geography;
 
 		// Clear messages
 		this.message('',{'id':'warn','type':'WARNING'});
@@ -486,7 +498,7 @@
 			let geography = this.views[this.options.view].geography;
 			let params = document.querySelectorAll('#parameters option');
 			for(let i = 0; i < params.length; i++){
-				p = params[i].getAttribute('value');
+				let p = params[i].getAttribute('value');
 				if(scenario in this.scenarios && p in this.scenarios[scenario].data && geography in this.scenarios[scenario].data[p]){
 					params[i].removeAttribute('disabled');
 				}else{
@@ -521,16 +533,17 @@
 
 	FES.prototype.startAnimate = function(){
 		this.log('MSG','Start animation');
-		this.setYear(this.options.years.min);
+		this.setYear(this.options.years.columns[0]);
 		document.getElementById('play').disabled = true;
 		document.getElementById('pause').disabled = false;
 		let _obj = this;
 		// If we are starting at the end, reset first
-		if(parseInt(this.slider.value)==this.options.years.max) this.slider.value = this.options.years.min;
+		if(parseInt(this.slider.value)==this.options.years.columns.length-1) this.slider.value = this.options.years.columns[0];
 		this.options.years.interval = setInterval(function(){
-			const yy = parseInt(_obj.slider.value) + 1;
-			if(yy <= _obj.options.years.max){
-				_obj.slider.value = yy;
+			const y = parseInt(_obj.slider.value) + 1;
+			const yy = _obj.options.years.columns[y];
+			if(yy != _obj.options.years.columns[_obj.options.years.length-1]){
+				_obj.slider.value = y;
 				_obj.setYear(yy).loadData();
 			}else _obj.stopAnimate();
 		},500);
@@ -568,9 +581,9 @@
 			}
 		}
 		// Update the slider range and position
-		this.slider.setAttribute('min',range.min);
-		this.slider.setAttribute('max',range.max);
-		this.slider.value = this.options.key;
+		this.slider.setAttribute('min',0);
+		this.slider.setAttribute('max',this.options.years.columns.length-1);
+		this.slider.value = this.options.years.columns.indexOf(this.options.key);
 		return this;
 	};
 
@@ -584,22 +597,23 @@
 		return this;
 	};
 
-	FES.prototype.setYear = function(y){
-		this.log('MSG','setYear',y);
+	FES.prototype.setYear = function(year){
+		this.log('MSG','setYear',year);
+		let y = this.options.years.columns.indexOf(year);
 		if(typeof y==="undefined") y = this.slider.value;
 		else this.slider.value = y;
 		if(this.map){
-			this.options.key = y+'';
+			this.options.key = this.options.years.columns[y];
 			this.mapData();
 		}
-		document.querySelectorAll('.year').forEach((el)=>{ el.innerHTML = y; });
+		document.querySelectorAll('.year').forEach((el)=>{ el.innerHTML = this.options.years.columns[y]; });
 		return this;
 	};
 
 	FES.prototype.mapData = function(callback){
 		this.log('MSG','mapData');
 
-		let s,p,v,data,l,id,a,d,key,val,pkey,min,max,r,c,area_from,area_to;
+		let s,p,v,g,data,l,id,d,key,r,c,area_from,area_to,year;
 		s = this.options.scenario;
 		p = this.options.parameter;
 		v = this.options.view;
@@ -612,7 +626,6 @@
 				this.log('INFO','Mapping data from '+data.use+' to '+g);
 
 				// Need to create a new CSV object that converts from other geography
-				let areas = {};
 				let years = {};
 				d = this.scenarios[s].data[p][data.use];
 
@@ -624,7 +637,7 @@
 
 				if(area_col >= 0){
 					for(c = 0 ; c < d.raw.header.length; c++){
-						if(isYear(d.raw.header[c])) years[d.raw.header[c]] = true;
+						if(this.options.years.columns.indexOf(d.raw.header[c])>=0) years[d.raw.header[c]] = true;
 					}
 
 					// Loop over data rows
@@ -724,18 +737,12 @@
 			data.values = {};
 			data.fullrange = {};
 			data.years = {};
-			years = {};
-
-			for(c = 0 ; c < data.raw.header.length; c++){
-				if(isYear(data.raw.header[c])){
-					data.years = getMinMax(data.years,parseInt(data.raw.header[c]));
-				}
-			}
+			let years = {};
 
 			// Get the column key
 			key = (data.use && data.use in this.scenarios[s].data[p] ? 'Area' : data.key);
 			this.log('MSG','Looking for column '+key+' in header',data.raw.header,data);
-			area_col = data.raw.header.indexOf(key);
+			let area_col = data.raw.header.indexOf(key);
 
 			if(area_col >= 0){
 				for(r = 0; r < data.raw.rows.length; r++){
@@ -743,7 +750,7 @@
 					if(!(area_to in data.values)) data.values[area_to] = {};
 					for(c = 0 ; c < data.raw.header.length; c++){
 						// Check if it is a year-like column
-						if(isYear(data.raw.header[c])){
+						if(this.options.years.columns.indexOf(data.raw.header[c])>=0){
 							year = data.raw.header[c];
 							data.values[area_to][year] = data.raw.rows[r][c]||0;
 							if(!(year in years)) years[year] = [];
@@ -761,11 +768,12 @@
 			}
 
 			// Get ranges for each year
-			for(year = data.years.min; year <= data.years.max; year++){
+			for(let y = 0; y < this.options.years.columns.length; y++){
+				year = this.options.years.columns[y];
 				data.fullrange[year] = {
 					'min': Math.min(...years[year]),
 					'max': Math.max(...years[year])
-				}
+				};
 				if(data.fullrange[year].min == data.fullrange[year].max) data.fullrange[year].min = 0;
 			}
 			if(data.fullrange.min == data.fullrange.max) data.fullrange.min = 0;
@@ -803,7 +811,7 @@
 		let view = this.options.view;
 		let geo = this.views[view].geography;
 
-		let _obj,i,mapel,mapid,info,color,ncolor,min,max,v,l,_id,_l,lid,bounds;
+		let _obj,mapel,mapid,info,color,ncolor,l,_id,_l,lid,bounds;
 		bounds = L.latLngBounds(L.latLng(56.01680,2.35107),L.latLng(52.6497,-5.5151));
 		if(this.options.map && this.options.map.bounds){
 			bounds = L.latLngBounds(L.latLng(this.options.map.bounds[0][0],this.options.map.bounds[0][1]),L.latLng(this.options.map.bounds[1][0],this.options.map.bounds[1][1]));
@@ -962,6 +970,10 @@
 							this.views[view].layers[l].range = this.scenarios[scenario].data[parameter][geo].fullrange[this.options.key];
 						}
 
+						if(!this.views[view].layers[l].range){
+							console.error('Bad range.',this.options.key,this.scenarios[scenario].data[parameter][geo].fullrange);
+						}
+
 						// Get a nicer range
 						this.views[view].layers[l].range = niceRange(this.views[view].layers[l].range.min,this.views[view].layers[l].range.max);
 
@@ -1048,7 +1060,7 @@
 									if(_obj.views[_obj.options.view].geography in _obj.scenarios[_obj.options.scenario].data[_obj.options.parameter]){
 										_obj.events.click.call(_obj,feature,attr);
 									}
-								}
+								};
 							}
 							l.on(evnt);
 						};
@@ -1094,7 +1106,7 @@
 		let controller = new AbortController();
 		let id = setTimeout(() => controller.abort(), timeout);
 		this.log('INFO','Getting %c'+resource.replace(/\%/g,'\\%')+'%c','font-style:italic;','');
-		let response = fetch(resource,{
+		fetch(resource,{
 			...options,
 			signal: controller.signal
 		}).then(response=>{
@@ -1105,11 +1117,11 @@
 			this.log('INFO','Got '+resource);
 			if(typeof options.callback==="function") options.callback.call(options['this']||this,d,options.data||{});
 		}).catch(e => {
-			this.message((options.error ? options.error : 'Unable to load from ')+'<em>'+resource.replace(/\?.*/,"")+'</em>',{'id':'error','type':'ERROR'})
+			this.message((options.error ? options.error : 'Unable to load from ')+'<em>'+resource.replace(/\?.*/,"")+'</em>',{'id':'error','type':'ERROR'});
 		});
 		clearTimeout(id);
 		return this;
-	}
+	};
 
 	function popuptext(feature,attr){
 		// does this feature have a property named popupContent?
@@ -1162,13 +1174,16 @@
 		if(attr.type=="ERROR") css = "error";
 		if(attr.type=="WARNING") css = "warning";
 
-		const msgel = document.querySelector('.message');
+		let msgel = document.querySelector('.message');
+		let el;
 		if(msgel.length == 0){
 			msgel = document.createElement('div');
-			msgel.classList.add('message');
+			el = msgel.querySelector('#'+attr.id);
 			document.getElementById('scenario').before(el);
+			msgel.classList.add('message');
+		}else{
+			el = msgel.querySelector('#'+attr.id);
 		}
-		let el = msgel.querySelector('#'+attr.id);
 		if(!msg){
 			// Remove the specific message container
 			if(el) el.remove();
@@ -1233,7 +1248,7 @@
 	 * @param {String} delimiter - the delimeter used to separate fields of data
 	 * @returns {Array} rows - rows of CSV where first row are column headers
 	 */
-	function CSVToArray (CSV_string, delimiter) {
+	function CSVToArray(CSV_string, delimiter){
 		delimiter = (delimiter || ","); // user-supplied delimeter or default comma
 
 		let pattern = new RegExp( // regular expression to parse the CSV values.
@@ -1299,10 +1314,6 @@
 		}
 		// Return the structured data
 		return { 'header':header, 'rows': data };
-	}
-
-	function isYear(y){
-		return parseInt(y)==y;
 	}
 
 	function getMinMax(o,v){

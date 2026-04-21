@@ -19,7 +19,9 @@ OI.ready(function(){
 			"key": "2023",
 			"parameter": "ev",
 			"scale": "relative",
-			"years": {"min":2023, "max":2050},
+			"years": {
+				"columns":["2023","2024","2025","2026","2027","2028","2029","2030","2031","2032","2033","2034","2035","2036","2037","2038","2039","2040","2041","2042","2043","2044","2045","2046","2047","2048","2049","2050"]
+			},
 			"files": {
 				"parameters": "data/parameters.json",
 				"scenarios": "data/scenarios.json"
@@ -450,7 +452,7 @@ OI.ready(function(){
 			for(r = 0; r < data.raw.rows.length; r++){
 				csv += (data.raw.header[col].match(",") ? '"' : '') + data.raw.rows[r][col] + (data.raw.header[col].match(",") ? '"' : '');
 				for(c = 0; c < data.raw.rows[r].length; c++){
-					if(c!=col && data.raw.header[c]==parseInt(data.raw.header[c])){
+					if(c!=col && e.data.me.options.years.columns.indexOf(data.raw.header[c])>=0){
 						csv += ",";
 						csv += (typeof e.data.me.parameters[e.data.me.options.parameter].dp==="number" ? data.raw.rows[r][c].toFixed(e.data.me.parameters[e.data.me.options.parameter].dp) : data.raw.rows[r][c]);
 					}
