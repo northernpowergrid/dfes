@@ -18,14 +18,14 @@ use JSON::XS;
 use OpenInnovations::NPG;
 
 # Define input files
-my $file_scenario = $dir."scenarios/index.json";
+my $file_scenario = $dir."scenarios.json";
 my $file_colours = $dir."colours.csv";
 my $file_index = $dir."graphs/index.json";
 
 # Define output file
 my $file_html = $dir."../graphs.html";
 
-
+my $indent = "";
 
 # Define variables
 my (@lines,%scenarios,@cols,$line,$scenario,@graphs,$html,$i,$graph,$svg,@sections,$section,$s,$str,$fig,$table);
@@ -36,11 +36,13 @@ open(FILE,$file_scenario);
 @lines = <FILE>;
 close(FILE);
 %scenarios = %{JSON::XS->new->utf8->decode(join("\n",@lines))};
+msgIndent(1);
 foreach $scenario (keys(%scenarios)){
-	msg("\t$scenario: $scenarios{$scenario}{'color'} / $scenarios{$scenario}{'css'}\n");
+	msg("$scenario: ".($scenarios{$scenario}{'color'}||"")." / ".($scenarios{$scenario}{'css'}||"")."\n");
 }
 
 # Load in the extra colour definitions
+msgIndent(0);
 msg("Reading colours from <cyan>$file_colours<none>\n");
 open(FILE,$file_colours);
 @lines = <FILE>;
@@ -73,6 +75,7 @@ if(-e $file_index){
 	$fig = 1;
 
 	for($s = 0; $s < @sections; $s++){
+		msgIndent(0);
 		msg("Section: <green>".($sections[$s]->{'title'}||"")."<none>\n");
 
 		$html .= "<h2>".($sections[$s]->{'title'}||"")."</h2>\n";
@@ -80,8 +83,10 @@ if(-e $file_index){
 			$html .= ($sections[$s]->{'intro'}||"")."\n";
 		}
 		@graphs = @{$sections[$s]->{'graphs'}};
+		msgIndent(1);
+
 		for($i = 0; $i < (@graphs); $i++,$fig++){
-			msg("\tFigure <yellow>$fig<none>: <cyan>".$dir."graphs/$graphs[$i]{'csv'}<none>\n");
+			msg("Figure <yellow>$fig<none>: <cyan>".$dir."graphs/$graphs[$i]{'csv'}<none>\n");
 			$graph->load($dir.'graphs/'.$graphs[$i]{'csv'})->process();
 			
 			# If we have a y-axis scaling we scale the values
@@ -91,7 +96,24 @@ if(-e $file_index){
 			$table = $graph->table(());
 			
 			# Output the SVG
-			$svg = $graph->draw(('yaxis-label'=>$graphs[$i]{'yaxis-label'},'yscale'=>$graphs[$i]{'yscale'},'yaxis-max'=>$graphs[$i]{'yaxis-max'},'width'=>'640','xaxis-max'=>2051,'xaxis-line'=>1,'stroke'=>3,'strokehover'=>5,'point'=>4,'pointhover'=>6,'line'=>2,'yaxis-format'=>"commify",'yaxis-labels-baseline'=>'middle','xaxis-ticks'=>1,'left'=>$graphs[$i]{'left'},'tooltip'=>$graphs[$i]{'tooltip'}));
+			$svg = $graph->draw((
+				'yaxis-label'=>$graphs[$i]{'yaxis-label'},
+				'yscale'=>$graphs[$i]{'yscale'},
+				'yaxis-max'=>$graphs[$i]{'yaxis-max'},
+				'width'=>'640',
+				'xaxis-max'=>2051,
+				'xaxis-line'=>1,
+				'stroke'=>3,
+				'strokehover'=>5,
+				'point'=>4,
+				'pointhover'=>6,
+				'line'=>2,
+				'yaxis-format'=>"commify",
+				'yaxis-labels-baseline'=>'middle',
+				'xaxis-ticks'=>1,
+				'left'=>$graphs[$i]{'left'},
+				'tooltip'=>$graphs[$i]{'tooltip'}
+			));
 			open(FILE,'>',$dir.'graphs/'.$graphs[$i]{'svg'});
 			print FILE $svg;
 			close(FILE);
@@ -140,6 +162,10 @@ if(-e $file_index){
 #####################
 # Subroutines
 
+sub msgIndent {
+	$indent = "\t" x shift;
+}
+
 sub msg {
 	my $str = $_[0];
 	my $dest = $_[1]||"STDOUT";
@@ -152,14 +178,23 @@ sub msg {
 		'blue'=>"\033[0;34m",
 		'magenta'=>"\033[0;35m",
 		'cyan'=>"\033[0;36m",
-		'white'=>"\033[0;37m",
+		'lightgrey'=>"\033[0;37m",
+		'grey'=>"\033[0;90m",
+		'lightred'=>"\033[0;91m",
+		'lightgreen'=>"\033[0;92m",
+		'lightyellow'=>"\033[0;93m",
+		'lightblue'=>"\033[0;94m",
+		'lightmagenta'=>"\033[0;95m",
+		'lightcyan'=>"\033[0;96m",
+		'white'=>"\033[0;97m",
 		'none'=>"\033[0m"
 	);
 	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
+	$str =~ s/\n(.+)/\n$indent$1/g;
 	if($dest eq "STDERR"){
-		print STDERR $str;
+		print STDERR $indent.$str;
 	}else{
-		print STDOUT $str;
+		print STDOUT $indent.$str;
 	}
 }
 

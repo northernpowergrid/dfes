@@ -5,6 +5,7 @@ use warnings;
 use Data::Dumper;
 use OpenInnovations::Colour;
 
+my $indent = "";
 
 sub new {
     my ($class, %args) = @_;
@@ -32,7 +33,7 @@ sub load {
 		# Get a remote file
 		@lines = `wget -q --no-check-certificate -O- "$file"`;
 	}else{
-		print "ERROR: No file provided ($file).\n";
+		error("No file provided ($file).\n");
 		return $self;
 	}
 	$self->{'file'} = $file;
@@ -50,7 +51,7 @@ sub setScenarios {
 
 sub process {
 	my ($self) = @_;
-	my(@lines,@header,$c,%headers,$i,@cols,$maxy,$miny,$maxyr,$minyr,$scale);
+	my(@lines,@header,$c,%headers,$i,@cols,$maxy,$miny,$maxyr,$minyr,$scale,$year);
 
 	# Set some dummy min/max values
 	$minyr = 3000;
@@ -61,6 +62,7 @@ sub process {
 	@lines = @{$self->{'data'}};
 	$self->{'scenarios'} = ();
 	$self->{'scenariolookup'} = ();
+	$self->{'years'} = ();
 
 	# Split the headers and tidy
 	$lines[0] =~ s/[\n\r]//g;
@@ -68,8 +70,12 @@ sub process {
 	for($c = 0; $c < @header; $c++){
 		$header[$c] =~ s/(^\"|\"$)//g;
 		$headers{$header[$c]} = $c;
-		if($c > 0 && $header[$c] > $maxyr){ $maxyr = $header[$c]; }
-		if($c > 0 && $header[$c] < $minyr){ $minyr = $header[$c]; }
+		if($header[$c] =~ /^([0-9]{4})(\/[0-9]{2})?$/){
+			$year = $1;
+			push(@{$self->{'years'}},{'full'=>$header[$c],'y'=>$1});
+			if($c > 0 && $year > $maxyr){ $maxyr = $year; }
+			if($c > 0 && $year < $minyr){ $minyr = $year; }
+		}
 	}
 
 	# Process the rest of the lines
@@ -88,18 +94,17 @@ sub process {
 			if($cols[$c] < $miny){ $miny = $cols[$c]; }
 		}
 	}
-	
 	$self->{'xmax'} = $maxyr;
 	$self->{'xmin'} = $minyr;
 	$self->{'ymax'} = $maxy;
 	$self->{'ymin'} = $miny;
-	
+
 	return $self;
 }
 
 sub scaleY {
 	my ($self,$scale) = @_;
-	my ($scenario,$y,$s);
+	my ($scenario,$y,$s,$i);
 	
 	# Scale the max/min values
 	$self->{'ymax'} *= $scale;
@@ -107,8 +112,8 @@ sub scaleY {
 
 	for($s = 0; $s < @{$self->{'scenariolookup'}}; $s++){
 		$scenario = $self->{'scenariolookup'}[$s];
-		for($y = $self->{'xmin'}; $y <= $self->{'xmax'}; $y++){
-			$self->{'scenarios'}{$scenario}{$y} *= $scale;
+		for($i = 0; $i < @{$self->{'years'}}; $i++){
+			$self->{'scenarios'}{$scenario}{$self->{'years'}[$i]{'full'}} *= $scale;
 		}
 	}
 	
@@ -118,7 +123,7 @@ sub scaleY {
 # Draw the graph
 sub draw {
 	my ($self, %props) = @_;
-	my ($r,$w,$h,@lines,$svg,@header,%headers,$c,@cols,@rows,$i,@scenariolookup,$s,%scenarios,$scenario,$safescenario,$minyr,$maxyr,$miny,$maxy,$path,$y,$yrs,$yrange,$xpos,$ypos,$t,@pos,$circles,%ticks,@a,@b,$left,$right,$top,$bottom,$tooltip);
+	my ($r,$w,$h,@lines,$svg,@header,%headers,$c,@cols,@rows,$i,@scenariolookup,$s,%scenarios,$scenario,$safescenario,$minyr,$maxyr,$miny,$maxy,$path,$y,$yrs,$yrange,$xpos,$ypos,$t,@pos,$circles,%ticks,@a,@b,$left,$right,$top,$bottom,$tooltip,$year);
 
 	$w = $props{'width'};
 	$h = $props{'height'};
@@ -137,9 +142,6 @@ sub draw {
 	if($props{'yaxis-max'}){ $maxy = $props{'yaxis-max'}; }
 	if($props{'yaxis-min'}){ $miny = $props{'yaxis-min'}; }
 
-	$yrs = $maxyr-$minyr;
-	$yrange = $maxy-$miny;
-	
 	if(!$props{'tick'} || $props{'tick'} eq ""){ $props{'tick'} = 5; }
 
 	# Build SVG
@@ -166,13 +168,12 @@ sub draw {
 
 	# Draw grid lines
 	$svg .= buildAxis(('axis'=>'y','label'=>$props{'yaxis-label'},'tick'=>5,'ticks'=>$props{'yaxis-ticks'},'line'=>$props{'xaxis-line'},'format'=>$props{'yaxis-format'},'n'=>4,'left'=>$left,'right'=>$right,'bottom'=>$bottom,'top'=>$top,'axis-lines'=>$props{'yaxis-lines'},'width'=>$w,'height'=>$h,'xmin'=>$minyr,'xmax'=>$maxyr,'ymin'=>$miny,'ymax'=>$maxy));
-	$svg .= buildAxis(('axis'=>'x','label'=>$props{'xaxis-label'},'tick'=>5,'ticks'=>$props{'xaxis-ticks'},'line'=>$props{'yaxis-line'},'format'=>$props{'xaxis-format'},'left'=>$left,'right'=>$right,'bottom'=>$bottom,'top'=>$top,'spacing'=>10,'axis-lines'=>$props{'xaxis-lines'},'width'=>$w,'height'=>$h,'xmin'=>$minyr,'xmax'=>$maxyr,'ymin'=>$miny,'ymax'=>$maxy));
+	$svg .= buildAxis(('axis'=>'x','label'=>$props{'xaxis-label'},'tick'=>5,'ticks'=>$props{'xaxis-ticks'},'tick-labels'=>$self->{'years'},'line'=>$props{'yaxis-line'},'format'=>$props{'xaxis-format'},'left'=>$left,'right'=>$right,'bottom'=>$bottom,'top'=>$top,'spacing'=>10,'axis-lines'=>$props{'xaxis-lines'},'width'=>$w,'height'=>$h,'xmin'=>$minyr,'xmax'=>$maxyr,'ymin'=>$miny,'ymax'=>$maxy));
 
 		
 	$svg .= "<g class=\"data-layer\" role=\"table\">\n";
 	for($s = 0; $s < @{$self->{'scenariolookup'}}; $s++){
 		$scenario = $self->{'scenariolookup'}[$s];
-		#print Dumper $self->{'scenarios'}{$scenario};
 		$safescenario = safeXML($scenario);
 		$t = $scenario;
 		$t =~ s/[\(\)]//g;
@@ -180,19 +181,20 @@ sub draw {
 		$path = "";
 		$svg .= "<g data-scenario=\"".($self->{'scenario-props'}{$t}{'css'}||safeID($scenario)).($scenario =~ /$self->{'flexible'}/i ? "-flexible":"")."\" class=\"series series-".($s+1)."\" tabindex=\"0\" role=\"row\" aria-label=\"Series: $scenario\" data-series=\"".($s+1)."\">";
 		$circles = "";
-		for($y = $minyr,$i=0; $y <= $maxyr; $y++){
-			if(defined($self->{'scenarios'}{$scenario}{$y})){
-				@pos = getXY(('x'=>$y,'y'=>$self->{'scenarios'}{$scenario}{$y},'width'=>$w,'height'=>$h,'left'=>$left,'right'=>$right,'bottom'=>$bottom,'top'=>$top,'xmin'=>$minyr,'xmax'=>$maxyr,'ymin'=>$miny,'ymax'=>$maxy));
+		for($i = 0; $i < @{$self->{'years'}}; $i++){
+			$y = $self->{'years'}[$i]{'y'};
+			$year = $self->{'years'}[$i]{'full'};
+			if(defined($self->{'scenarios'}{$scenario}{$year})){
+				@pos = getXY(('x'=>$y,'y'=>$self->{'scenarios'}{$scenario}{$year},'width'=>$w,'height'=>$h,'left'=>$left,'right'=>$right,'bottom'=>$bottom,'top'=>$top,'xmin'=>$minyr,'xmax'=>$maxyr,'ymin'=>$miny,'ymax'=>$maxy));
 				$xpos = $pos[0];
 				$ypos = $pos[1];
 				$path .= ($i == 0 ? "M":"L")." ".sprintf("%0.2f",$xpos).",".sprintf("%0.2f",$ypos);
 				if($props{'point'} > 0){
-					$tooltip = ($props{'tooltip'}||"$y: $self->{'scenarios'}{$scenario}{$y}");
-					$tooltip =~ s/\{\{\s*x\s*\}\}/$y/g;
-					$tooltip =~ s/\{\{\s*y\s*\}\}/$self->{'scenarios'}{$scenario}{$y}/g;
-					$circles .= "\t<circle class=\"marker\" cx=\"".sprintf("%0.2f",$xpos)."\" cy=\"".sprintf("%0.2f",$ypos)."\" data-y=\"$self->{'scenarios'}{$scenario}{$y}\" data-x=\"$y\" data-i=\"$i\" data-series=\"".($s+1)."\" r=\"$props{'point'}\" fill=\"".($self->{'scenario-props'}{$t}{'color'}||"#cc0935")."\" roll=\"cell\"><title>$tooltip</title></circle>\n";
+					$tooltip = ($props{'tooltip'}||"$year: $self->{'scenarios'}{$scenario}{$year}");
+					$tooltip =~ s/\{\{\s*x\s*\}\}/$year/g;
+					$tooltip =~ s/\{\{\s*y\s*\}\}/$self->{'scenarios'}{$scenario}{$year}/g;
+					$circles .= "\t<circle class=\"marker\" cx=\"".sprintf("%0.2f",$xpos)."\" cy=\"".sprintf("%0.2f",$ypos)."\" data-y=\"$self->{'scenarios'}{$scenario}{$year}\" data-x=\"$year\" data-i=\"$i\" data-series=\"".($s+1)."\" r=\"$props{'point'}\" fill=\"".($self->{'scenario-props'}{$t}{'color'}||"#cc0935")."\" roll=\"cell\"><title>$tooltip</title></circle>\n";
 				}
-				$i++;
 			}
 		}
 		$svg .= "\t<path d=\"$path\" id=\"$safescenario\" class=\"line".($scenario =~ /$self->{'flexible'}/i ? " dotted":"")."\" stroke=\"".($self->{'scenario-props'}{$t}{'color'}||"#cc0935")."\" stroke-width=\"$props{'stroke'}\" stroke-linecap=\"round\"><title>$safescenario</title></path>\n";
@@ -208,22 +210,27 @@ sub draw {
 # Draw the graph
 sub table {
 	my ($self, %props) = @_;
-	my ($html,$minyr,$maxyr,$miny,%ticks,$s,$t,$y,$scenario,$safescenario,$c);
+	my ($html,$minyr,$maxyr,$miny,%ticks,$s,$t,$y,$i,$scenario,$safescenario,$c);
 
 	
 	$minyr = $self->{'xmin'};
 	$maxyr = $self->{'xmax'};
 
-	%ticks = makeTicks($minyr,$maxyr,('spacing'=>10));
+	# Build tick marks for time axis
+	for($y = 0,$i = 0; $y < @{$self->{'years'}}; $y++){
+		if($self->{'years'}[$y]{'y'} % 10 == 0){
+			$ticks{'data-'.$i} = $self->{'years'}[$y]{'full'};
+			$i++;
+		}
+	}
+	$ticks{'length'} = $i;
 
 	# Build HTML
 	$html = "<table>\n";
 
 	$html .= "<tr><th>Scenario</th>";
-	for($y = $ticks{'data-0'}; $y <= $maxyr; $y += 10){
-		if($y ge $minyr){
-			$html .= "<th>$y</th>";
-		}
+	for($y = 0; $y < $ticks{'length'}; $y++){
+		$html .= "<th>".($ticks{'data-'.$y}||"")."</th>";
 	}
 	$html .= "</tr>\n";
 	for($s = 0; $s < @{$self->{'scenariolookup'}}; $s++){
@@ -235,12 +242,10 @@ sub table {
 
 		$c = OpenInnovations::Colour->new('colour'=>($self->{'scenario-props'}{$t}{'color'}||"#cc0935"));
 
-		$html .= "<tr data-scenario=\"".($self->{'scenario-props'}{$t}{'css'}||safeID($scenario))."".($scenario =~ /$self->{'flexible'}/i ? "-flexible":"")."\"><td ".($self->{'scenario-props'}{$t}{'css'} ? "class=\"".$self->{'scenario-props'}{$t}{'css'}."\"" : "style=\"background-color:".($c->{'hex'}).";color:".($c->{'text'})."\"")."><span>".$safescenario."</span></td>";
+		$html .= "<tr data-scenario=\"".($self->{'scenario-props'}{$t}{'css'}||safeID($scenario))."".($scenario =~ /$self->{'flexible'}/i ? "-flexible":"")."\"><td ".($self->{'scenario-props'}{$t}{'css'} ? "class=\"".$self->{'scenario-props'}{$t}{'css'}."\"" : "style=\"background-color:".($c->{'hex'}).";color:".(OpenInnovations::Colour::contrastColour($c->{'hex'}))."\"")."><span>".$safescenario."</span></td>";
 		
-		for($y = $ticks{'data-0'}; $y <= $maxyr; $y += 10){
-			if($y ge $minyr){
-				$html .= "<td>".($self->{'scenarios'}{$scenario}{$y}||"")."</td>";
-			}
+		for($y = 0; $y < $ticks{'length'}; $y++){
+			$html .= "<td>".($self->{'scenarios'}{$scenario}{$ticks{'data-'.$y}}||"")."</td>";
 		}
 		$html .= "</tr>\n";
 	}
@@ -251,18 +256,29 @@ sub table {
 
 sub buildAxis {
 	my (%props) = @_;
-	my (%ticks,$svg,$t,@a,@b,$axis,$label,$temp,$tick);
+	my (%ticks,$svg,$t,@a,@b,$axis,$label,$temp,$tick,$i,$y);
 	$axis = $props{'axis'}."axis";
 	$tick = ($props{'tick'}||5);
-	
-	%ticks = makeTicks($props{($axis eq "yaxis" ? "ymin":"xmin")},$props{($axis eq "yaxis" ? "ymax":"xmax")},%props);
+
+	if($axis eq "xaxis"){
+		# Build tick marks for time axis
+		for($y = 0,$i = 0; $y < @{$props{'tick-labels'}}; $y++){
+			if($props{'tick-labels'}[$y]{'y'} % $props{'spacing'} == 0){
+				$ticks{'data-'.$i} = $props{'tick-labels'}[$y];
+				$i++;
+			}
+		}
+		$ticks{'length'} = $i;		
+	}else{
+		%ticks = makeTicks($props{($axis eq "yaxis" ? "ymin":"xmin")},$props{($axis eq "yaxis" ? "ymax":"xmax")},%props);
+	}
 
 	$svg = "<g class=\"grid grid-$props{'axis'}\">\n";
 	
 	for($t = 0; $t < $ticks{'length'}; $t++){
 
 		if($props{'axis'} eq "x"){
-			$props{'x'} = $ticks{'data-'.$t};
+			$props{'x'} = $ticks{'data-'.$t}{'y'};
 			$props{'y'} = $props{'ymin'};
 		}else{
 			$props{'x'} = $props{'xmin'};
@@ -271,7 +287,7 @@ sub buildAxis {
 		@a = getXY(%props);
 
 		if($props{'axis'} eq "x"){
-			$props{'x'} = $ticks{'data-'.$t};
+			$props{'x'} = $ticks{'data-'.$t}{'y'};
 			$props{'y'} = $props{'ymax'};
 		}else{
 			$props{'x'} = $props{'xmax'};
@@ -287,7 +303,11 @@ sub buildAxis {
 				if($props{'ticks'}){
 					$svg .= "\t<line class=\"tick\" x1=\"$a[0]\" y1=\"$a[1]\" x2=\"".($a[0]-($axis eq "yaxis" ? $tick : 0))."\" y2=\"".($a[1]+($axis eq "yaxis" ? 0 : $tick))."\"></line>\n";
 				}
-				$label = $ticks{'data-'.$t};
+				if($props{'axis'} eq "x"){
+					$label = $ticks{'data-'.$t}{'full'};
+				}else{
+					$label = $ticks{'data-'.$t};					
+				}
 				if($props{'format'} && $props{'format'} eq "commify"){ $label = commify($label); }
 				$svg .= "\t<text x=\"$a[0]\" y=\"$a[1]\" text-anchor=\"".($axis eq "yaxis" ? "end":"middle")."\">".$label."</text>\n";
 			}
@@ -337,7 +357,7 @@ sub makeTicks(){
 	my ($mn,$mx,%opts) = @_;
 	my ($v,$l,$i,$d,$vmx,%ticks);
 	if(!defined($mx)){
-		print "WARNING: No maximum value is set.\n";
+		warning("No maximum value is set.\n");
 		return ();
 	}
 
@@ -358,7 +378,7 @@ sub makeTicks(){
 	}
 
 	if($ticks{'length'} == 0){
-		print "No ticks";
+		warning("No ticks");
 		return %ticks;
 	}
 
@@ -370,7 +390,7 @@ sub makeTicks(){
 sub log10 {
 	my $n = shift;
 	if($n==0){
-		print "Unable to take log of $n\n";
+		error("Unable to take log of $n\n");
 		exit;
 	}
 	return log($n)/log(10);
@@ -390,7 +410,7 @@ sub defaultSpacing {
 	$dv = abs($mx - $mn) / $n;
 	
 	if($dv == 0){
-		print "WARNING: The spacing appears to be zero. Min = $mn, Max = $mx, n = $n. So returning a dummy spacing of '1'.\n";
+		warning("The spacing appears to be zero. Min = $mn, Max = $mx, n = $n. So returning a dummy spacing of '1'.\n");
 		return 1;
 	}
 	
@@ -427,6 +447,55 @@ sub commify {
 	my $text = reverse $_[0];
 	$text =~ s/(\d\d\d)(?=\d)(?!\d*\.)/$1,/g;
 	return scalar reverse $text;
+}
+
+
+sub msgIndent {
+	$indent = "\t" x shift;
+}
+
+sub msg {
+	my $str = $_[0];
+	my $dest = $_[1]||"STDOUT";
+	
+	my %colours = (
+		'black'=>"\033[0;30m",
+		'red'=>"\033[0;31m",
+		'green'=>"\033[0;32m",
+		'yellow'=>"\033[0;33m",
+		'blue'=>"\033[0;34m",
+		'magenta'=>"\033[0;35m",
+		'cyan'=>"\033[0;36m",
+		'lightgrey'=>"\033[0;37m",
+		'grey'=>"\033[0;90m",
+		'lightred'=>"\033[0;91m",
+		'lightgreen'=>"\033[0;92m",
+		'lightyellow'=>"\033[0;93m",
+		'lightblue'=>"\033[0;94m",
+		'lightmagenta'=>"\033[0;95m",
+		'lightcyan'=>"\033[0;96m",
+		'white'=>"\033[0;97m",
+		'none'=>"\033[0m"
+	);
+	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
+	$str =~ s/\n(.+)/\n$indent$1/g;
+	if($dest eq "STDERR"){
+		print STDERR $indent.$str;
+	}else{
+		print STDOUT $indent.$str;
+	}
+}
+
+sub error {
+	my $str = $_[0];
+	$str =~ s/(^[\t\s]*)/$1<red>ERROR:<none> /;
+	msg($str,"STDERR");
+}
+
+sub warning {
+	my $str = $_[0];
+	$str =~ s/(^[\t\s]*)/$1<yellow>WARNING:<none> /;
+	msg($str,"STDERR");
 }
 
 1;
