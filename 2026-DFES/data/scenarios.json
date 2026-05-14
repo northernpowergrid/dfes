@@ -9,27 +9,27 @@
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"ev": {
-				"primary": { "file": "scenarios/primaries/EV-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/EV-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"ebus": {
-				"primary": { "file": "scenarios/primaries/Number of electric buses-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/Number of electric buses-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"ehgv": {
-				"primary": { "file": "scenarios/primaries/Number of electric HGVs-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/Number of electric HGVs-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"peakdemand":{
-				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/PeakDemandWithToUT-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"peakutilisation":{
-				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/PeakUtilisationWithToUT-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"totalconsumptioncf":{
-				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/TotalConsumptionWithLCTs_mWh-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"windcapacity":{
@@ -37,19 +37,19 @@
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"heatpumps":{
-				"primary": { "file": "scenarios/primaries/HP-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/HP-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"domestic-consumption":{
-				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/DOMESTIC_consumption_mWh-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"domestic-pv":{
-				"primary": { "file": "scenarios/primaries/DOMPV_MW-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/DOMPV_MW-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"industrial-consumption":{
-				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-CF.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/IC_consumption_mWh-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"industrial-pv":{
