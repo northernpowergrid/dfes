@@ -249,6 +249,10 @@
 				"primary": { "file": "scenarios/primaries/WindCapacity-HT_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
+			"resheatpumps":{
+				"primary": { "file": "scenarios/primaries/Total number of domestic heat pumps-HT.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
 			"heatpumps":{
 				"primary": { "file": "scenarios/primaries/HP-HT.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
