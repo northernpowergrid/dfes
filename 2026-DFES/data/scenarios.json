@@ -36,6 +36,10 @@
 				"primary": { "file": "scenarios/primaries/WindCapacity-CF_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
+			"resheatpumps":{
+				"primary": { "file": "scenarios/primaries/Total number of domestic heat pumps-FB.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
 			"heatpumps":{
 				"primary": { "file": "scenarios/primaries/HP-FB.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
@@ -107,6 +111,10 @@
 				"primary": { "file": "scenarios/primaries/WindCapacity-HE_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
+			"resheatpumps":{
+				"primary": { "file": "scenarios/primaries/Total number of domestic heat pumps-HE.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
 			"heatpumps":{
 				"primary": { "file": "scenarios/primaries/HP-HE.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
@@ -176,6 +184,10 @@
 			},
 			"windcapacity":{
 				"primary": { "file": "scenarios/primaries/WindCapacity-EE_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"resheatpumps":{
+				"primary": { "file": "scenarios/primaries/Total number of domestic heat pumps-EE.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"heatpumps":{
@@ -321,6 +333,10 @@
 			},
 			"windcapacity":{
 				"primary": { "file": "scenarios/primaries/WindCapacity-RS_withDirects.csv", "key": "Primary" },
+				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
+			},
+			"resheatpumps":{
+				"primary": { "file": "scenarios/primaries/Total number of domestic heat pumps-RS.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"heatpumps":{
