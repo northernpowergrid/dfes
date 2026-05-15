@@ -33,7 +33,7 @@
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"windcapacity":{
-				"primary": { "file": "scenarios/primaries/WindCapacity-CF_withDirects.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/WindCapacity-FB_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"resheatpumps":{
@@ -57,19 +57,19 @@
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"industrial-pv":{
-				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-CF_withDirects.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/Large(IC)PV_MW-FB_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"renewablegen":{
-				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-CF_withDirects.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/RenewableGeneration_MW-FB_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"storage":{
-				"primary": { "file": "scenarios/primaries/Storage_MW-CF_withDirects.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/Storage_MW-FB_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			},
 			"nonrenewablegen":{
-				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-CF_withDirects.csv", "key": "Primary" },
+				"primary": { "file": "scenarios/primaries/Non-renewableGeneration_MW-FB_withDirects.csv", "key": "Primary" },
 				"LAD": { "use": "primary", "mapping": "primaries2lad.json" }
 			}
 		}
