@@ -3,19 +3,20 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://www.northernpowergrid.com https://*.basemaps.cartocdn.com https://*.global.ssl.fastly.net; connect-src 'self' https://findthatpostcode.uk https://northernpowergrid.opendatasoft.com; font-src 'self'; base-uri 'self'; form-action 'self';" />
 	<title>Northern Powergrid Future Energy Scenarios 2026</title>
 	<link rel="shortcut icon" type="image/png" href="https://www.northernpowergrid.com/sites/default/files/favicon.png" />
-	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/leaflet.css?v=1.9.4" type="text/css" />
 	<link rel="stylesheet" href="resources/stuquery.barchart.css" type="text/css" />
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 	<script src="resources/tooltips.js"></script>
 	<script src="resources/typeahead.js"></script>
-	<script src="resources/dfes.js"></script>
-	<script src="resources/config.js"></script>
-	<script src="resources/leaflet.js"></script>
+	<script src="resources/dfes.js?v=2"></script>
+	<script src="resources/config.js?v=2"></script>
+	<script src="resources/leaflet.js?v=1.9.4"></script>
 	<script src="resources/leaflet-pip.js"></script>
 	<script src="resources/Leaflet.PlaceNameLayer.js"></script>
-	<script src="resources/dom-to-image.min.js"></script>
+	<script src="resources/html-to-image.min.js?v=1.11.13"></script>
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@Northpowergrid" />
 	<meta name="twitter:url" property="og:url" content="https://northernpowergrid.github.io/dfes/2026-DFES/" />
@@ -108,7 +109,7 @@
 						<p>Select <strong>Yes</strong> and the colour scale will change depending on the year you have selected. This will help improve contrast for each area within your chosen year. Select <strong>No</strong> and the colour scale will stay the same as you move through the years.</p>
 					</div>
 				</div>
-				<div id="issues"><a href="#" onClick="saveDOMImage(document.getElementById('screenshot'));">Save map as PNG</a> | <a href="graphs.html">Graphs to accompany this tool</a> | <a href="https://northernpowergrid.opendatasoft.com/explore/dataset/northern-powergrid-dfes/">Get the data</a> | <a href="https://github.com/odileeds/northern-powergrid/issues/">Report any issues you find</a> with our tool</div>
+				<div id="issues"><a href="#" id="save-png-link">Save map as PNG</a> | <a href="graphs.html">Graphs to accompany this tool</a> | <a href="https://northernpowergrid.opendatasoft.com/explore/dataset/northern-powergrid-dfes/">Get the data</a> | <a href="https://github.com/odileeds/northern-powergrid/issues/">Report any issues you find</a> with our tool</div>
 			</div>
 		</div>
 	</div>

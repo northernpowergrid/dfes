@@ -1,4 +1,4 @@
-# Northern Powergrid Future Energy Scenarios 2025
+# Northern Powergrid Future Energy Scenarios 2026
 
 ## About this visualisation
 

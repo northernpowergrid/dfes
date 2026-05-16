@@ -513,6 +513,20 @@ OI.ready(function(){
 });
 
 
+// Wire the "Save map as PNG" link without an inline onclick attribute
+// (inline event-handler attributes are blocked by Content-Security-Policy
+// script-src 'self' unless 'unsafe-inline' or 'unsafe-hashes' is granted,
+// which we deliberately don't want).
+OI.ready(function(){
+	var link = document.getElementById('save-png-link');
+	if(link){
+		link.addEventListener('click', function(e){
+			e.preventDefault();
+			saveDOMImage(document.getElementById('screenshot'));
+		});
+	}
+});
+
 function saveDOMImage(el,opt){
 	if(!opt) opt = {};
 	if(!opt.src) opt.src = "map.png";
@@ -526,7 +540,7 @@ function saveDOMImage(el,opt){
 		el.style.setProperty('height',(opt.height)+'px');
 	}
 	el.classList.add('capture');
-	domtoimage.toPng(el,opt).then(function(dataUrl){
+	htmlToImage.toPng(el,opt).then(function(dataUrl){
 		var link = document.createElement('a');
 		link.download = opt.src;
 		link.href = dataUrl;

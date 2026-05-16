@@ -850,7 +850,7 @@
 
 				// CartoDB map
 				L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
-					attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+					attribution: 'Tiles: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CartoDB</a>',
 					subdomains: 'abcd',
 					maxZoom: 19
 				}).addTo(this.map);
@@ -1202,20 +1202,34 @@
 		if(!param) param = this.options.parameter;
 		if(this.parameters[param]){
 			let units = this.parameters[param].units;
-			let format;
 			// Do we need to round it?
 			if(typeof this.parameters[param].dp==="number") v = parseFloat(v.toFixed(this.parameters[param].dp));
-			if(this.parameters[param].format){
-				try {
-					format = eval('('+this.parameters[param].format+')');
-				}catch(e){ }
-				return format.call(this,v,units);
-			}else{
-				return v.toLocaleString()+(units ? '&thinsp;'+units : '');
+			let f = this.parameters[param].format;
+			if(f){
+				// Structured format spec: { scale, dp, prefix, suffix, locale }.
+				// Replaces an earlier eval()-based design that ran arbitrary JS
+				// from parameters.json. If you need a format not expressible here,
+				// add a named entry to FES.formatters below rather than re-introducing eval.
+				if(typeof f === 'object' && f !== null){
+					let val = v;
+					if(typeof f.scale === 'number') val = val / f.scale;
+					if(typeof f.dp === 'number') val = parseFloat(val.toFixed(f.dp));
+					let formatted = (f.locale === false ? String(val) : val.toLocaleString());
+					let suffix = (f.suffix !== undefined ? f.suffix : (units ? '&thinsp;'+units : ''));
+					return (f.prefix||'') + formatted + suffix;
+				}
+				if(typeof f === 'string' && FES.formatters && typeof FES.formatters[f] === 'function'){
+					return FES.formatters[f].call(this,v,units);
+				}
+				this.log('WARNING','Unsupported format spec for '+param+'; falling back to default. Use a structured object or a name registered in FES.formatters.');
 			}
+			return v.toLocaleString()+(units ? '&thinsp;'+units : '');
 		}
 		return '?';
 	};
+	// Named formatter registry. Empty by default. Add entries here rather than
+	// putting JS source strings into parameters.json.
+	FES.formatters = {};
 
 	FES.prototype.makeScaleBar = function(grad,attr){
 		let gap,i,v,c,str;
@@ -1413,6 +1427,7 @@
 	}
 
 	root.FES = function(config){ return new FES(config); };
+	root.FES.formatters = FES.formatters;  // expose the named-formatter registry so callers can register custom formatters
 
 
 	/* ============== */
