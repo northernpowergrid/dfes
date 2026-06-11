@@ -42,7 +42,7 @@
 .g-tabs {
   background: var(--black-100);
   position: sticky;
-  top: 64px;
+  top: 76px; /* matches .site-header .holder height; smaller values clip the tabs under it */
   z-index: 40;
   border-bottom: 1px solid var(--navy-25);
 }
@@ -94,6 +94,9 @@
   font-weight: 600;
 }
 .g-tab.active .g-tab-count { background: var(--red-100); color: var(--white); }
+
+/* Keep anchor targets clear of the sticky header + tabs (76px + ~60px) */
+.g-panel, .g-figure { scroll-margin-top: 150px; }
 
 /* ===================================================================
    Section panels; only the active one is shown
@@ -320,7 +323,6 @@
    Responsive
    =================================================================== */
 @media (max-width: 840px) {
-  .g-tabs { top: 56px; }
   .g-tab { padding: 14px 14px; gap: 8px; }
   .g-tab-label { font-size: 13px; }
   .g-tab-count { display: none; }
