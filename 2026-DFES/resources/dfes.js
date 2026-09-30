@@ -847,15 +847,17 @@
 				this.map.getPane('labels').style.zIndex = 650;
 				this.map.getPane('labels').style.pointerEvents = 'none';
 
-				L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+				// CARTO basemaps need an API key (since Sept 2026); without one every tile is watermarked
+				let cartoKey = (this.options.map && this.options.map.cartoKey ? '?key='+encodeURIComponent(this.options.map.cartoKey) : '');
+
+				L.tileLayer('https://basemaps.cartocdn.com/rastertiles/light_only_labels/{z}/{x}/{y}.png'+cartoKey, {
 					attribution: '',
 					pane: 'labels'
 				}).addTo(this.map);
 
-				// CartoDB map
-				L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
-					attribution: 'Tiles: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CartoDB</a>',
-					subdomains: 'abcd',
+				// CARTO map
+				L.tileLayer('https://basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}.png'+cartoKey, {
+					attribution: 'Tiles: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
 					maxZoom: 19
 				}).addTo(this.map);
 			}

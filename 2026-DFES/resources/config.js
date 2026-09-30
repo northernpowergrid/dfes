@@ -34,6 +34,11 @@ OI.ready(function(){
 				// exact union of the loaded polygon layers once data
 				// is in, so this just needs to be close.
 				"bounds": [[52.75,-3.0],[55.95,0.7]],
+				// CARTO basemaps API key (https://carto.com/basemaps/apikey/).
+				// It is visible to anyone viewing the page, so it must be
+				// restricted to northernpowergrid.github.io in the CARTO
+				// dashboard. Leave empty and the map tiles are watermarked.
+				"cartoKey": "cb1_44r5_1_21dedf065ed34a2816754c2d",
 				"attribution": "Vis: <a href=\"https://open-innovations.org/projects/\">Open Innovations</a>, Data: NPG/Element Energy"
 			}
 		},
